@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="#66BCD4E6" 
+    android:layout_width="fill_parent"
+    android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/grp_child"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/list_item_text_child"
+        android:layout_toRightOf="@+id/imageViewpix"
+        android:focusable="false"
+        android:paddingLeft="5dp"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:textStyle="normal" />
+	
+	   <ImageView
+	       android:id="@+id/imageViewpix"
+	       android:layout_width="52dp"
+	       android:layout_height="58dp"
+	       android:layout_alignParentLeft="true"
+	       android:layout_centerVertical="true"
+	       android:layout_marginLeft="2dp"
+	       android:paddingLeft="2dp"
+	       android:src="@drawable/person1" />
+	
+	    <CheckedTextView
+	        android:id="@+id/list_item_text_child"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginRight="2dp"
+	        android:checked="false"
+	        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+	        android:gravity="center_vertical|clip_vertical"
+	        android:text="asasas"
+	        android:textColor="#00703C" />
+
+</RelativeLayout>

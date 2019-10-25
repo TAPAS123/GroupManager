@@ -1,0 +1,1766 @@
+[
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_person1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\person1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_down.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\arrow_down.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_quiz_scoresheet_list.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\quiz_scoresheet_list.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_lme_rates.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\list_lme_rates.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dir2.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\dir2.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_newsmain2.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\newsmain2.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_down.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\down.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_cust_dialog_box.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\cust_dialog_box.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_summary_btn.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\summary_btn.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_listheaderlayout.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\listheaderlayout.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_educ.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\educ.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bride.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\bride.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_mainperson.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\mainperson.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menuitems.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\menuitems.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blood1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\blood1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_anni1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\anni1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\menu_booking_menu.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\menu\\booking_menu.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_booking.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\list_item_booking.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_reportmain.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\reportmain.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circleimg.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\circleimg.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_song.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\song.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundcornershape.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\roundcornershape.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_cpe_program_2.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\list_item_cpe_program_2.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_direct_contact.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\direct_contact.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vision.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\vision.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_family_icon1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\family_icon1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_tranparent_listbackgroud.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\rounded_tranparent_listbackgroud.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mediclaim.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\mediclaim.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_yearchg.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\yearchg.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_email.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\email.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings_list_item_parent.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\settings_list_item_parent.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_childborderdrwable.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\childborderdrwable.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_create_group.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\create_group.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mobileicon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\mobileicon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calendar_button_selector.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\calendar_button_selector.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_registration.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\registration.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_blue.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\search_blue.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_up.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\up.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_check.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\check.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_quiz_icon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\quiz_icon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_reportnext.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\reportnext.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_cpe_show1.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\cpe_show1.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_gallery.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\gallery.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_crossicon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\crossicon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_voting_report.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\activity_voting_report.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_iosicon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\iosicon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_wedding_filter_details.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\wedding_filter_details.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\bg.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_main.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\dialog_main.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_setddate.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\setddate.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\red.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_marriage_purpose_details.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\marriage_purpose_details.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phone1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\phone1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_splashscreen.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\splashscreen.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrowicon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\arrowicon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_event.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\add_event.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_location_white.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\location_white.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_snooze.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\snooze.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red_button.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\red_button.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\4f9f8ce8ba3d6adf558e9dea2c2d6ade\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_suggestion.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\suggestion.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_impcontact.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\impcontact.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_runningappallow_dialog.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\runningappallow_dialog.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_news_add.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\news_add.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_send_msg_button.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\send_msg_button.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_sugesstion_with_photo.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\sugesstion_with_photo.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_display_zoomimage.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\display_zoomimage.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_personaldetailicon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\personaldetailicon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\edit.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\raw_notify.mp3.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\raw\\notify.mp3"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sendbook.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\sendbook.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sync.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\sync.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_more.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\more.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue_back.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\blue_back.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_careers_icon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\careers_icon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_rowitem_judgement_rating.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\rowitem_judgement_rating.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_addressicon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\addressicon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_famly.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\famly.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_prof.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\prof.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_set_poll_location.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\set_poll_location.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_uncheck.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\uncheck.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_settings.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\settings.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_newsletterheaderlist.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\newsletterheaderlist.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_fulladvertisement.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\fulladvertisement.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_newsletterchildlist.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\newsletterchildlist.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tobicon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\tobicon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_wedding2.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\wedding2.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_eventcalendar.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\eventcalendar.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_group.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\select_group.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_menu.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\list_item_menu.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_adv.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\adv.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_grid1.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\row_grid1.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_aboutus.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\aboutus.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_black.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\arrow_black.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_next2.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\next2.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_calenderviewpg.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\calenderviewpg.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\blue.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_event_directors.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\add_event_directors.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_showpastpressecretary.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\showpastpressecretary.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_club_photoupload1.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\club_photoupload1.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add3.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\add3.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ledger_icon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\ledger_icon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_green.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\green.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings_list_item_child.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\settings_list_item_child.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\arrow.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_safety.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\safety.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_commitee_club_info.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\commitee_club_info.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_line1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\line1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_relation1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\relation1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_messagedesk.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\messagedesk.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_remarkedittextbox.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\remarkedittextbox.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_judgement.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\activity_judgement.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\bg1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_grp.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\add_grp.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newsletterheaderlist.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\newsletterheaderlist.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_login.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_close.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\close.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\setting.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_opinionpoll_answerlistrow.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\opinionpoll_answerlistrow.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_running_apps_check.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\running_apps_check.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_values.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\values.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_listmulti_combo.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\listmulti_combo.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_wedding3.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\wedding3.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cpe.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\cpe.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_addnew.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\addnew.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ageicon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\ageicon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_moredetail.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\moredetail.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottomline.jpg.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\bottomline.jpg"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_call_screen_setting.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\call_screen_setting.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_showaffiliation.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\showaffiliation.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_dir_tab_personal.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\dir_tab_personal.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\menu_sms_menu.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\menu\\sms_menu.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_judgement_report2.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\activity_judgement_report2.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_voting.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\activity_voting.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_search_layout.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\search_layout.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_pastpresisecretary.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\pastpresisecretary.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_share.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\share.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_multi_grp.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\list_item_multi_grp.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btndrawable.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\btndrawable.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rep.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\rep.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_report.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\list_report.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_menupage.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\menupage.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_listcell_multigrp.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\listcell_multigrp.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_opinion.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\opinion.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_familydetail.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\familydetail.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_height.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\dialog_height.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_play.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\play.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_listchildlayout.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\listchildlayout.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_rowitem_debtorledger.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\rowitem_debtorledger.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_directory_new_listview.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\directory_new_listview.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_greencircle.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\greencircle.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bback.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\bback.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_msg.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\msg.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_list_bg.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\list_bg.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_changepassword.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\changepassword.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_judgement_report.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\activity_judgement_report.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_affiliationlist.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\affiliationlist.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_cpe_program_2.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\cpe_program_2.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_spouse_details.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\spouse_details.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_governlist.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\governlist.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\4f9f8ce8ba3d6adf558e9dea2c2d6ade\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_opinion_poll__question_answer.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\activity_opinion_poll__question_answer.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_updateprofile_additional.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\updateprofile_additional.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_cpe_program_1.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\cpe_program_1.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_itemlistss.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\itemlistss.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_defaultperson.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\defaultperson.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\4f9f8ce8ba3d6adf558e9dea2c2d6ade\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_pend_sms.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\select_pend_sms.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calender.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\calender.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ring.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\ring.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_addmemberviewbox.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\addmemberviewbox.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_directory.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\directory.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_splashscreen1.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\splashscreen1.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_newsmainlist.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\newsmainlist.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_next.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\next.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_familydetailicon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\familydetailicon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_addcontact.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\addcontact.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_delete.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\delete.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sms.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\sms.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dir_imp.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\dir_imp.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notatts.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\notatts.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_location.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\location.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_upload_pics.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\upload_pics.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_listitem_additionaldata.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\listitem_additionaldata.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sugg.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\sugg.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue_button.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\blue_button.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_judgement_report3.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\activity_judgement_report3.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_updateprofile.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\updateprofile.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_br_an_layout.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\br_an_layout.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mother.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\mother.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_poll_new.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\poll_new.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_close1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\close1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search_results.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\activity_search_results.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_r1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\r1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clock_icon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\clock_icon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_textcust_layout.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\textcust_layout.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_customize_layout.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\customize_layout.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_member_spouse_list.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\member_spouse_list.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\menu_govern_menu.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\menu\\govern_menu.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bday1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\bday1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_judgement_rating.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\activity_judgement_rating.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_website.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\website.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_opinion_poll_scoresheet.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\opinion_poll_scoresheet.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_arrow.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\back_arrow.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_call.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\call.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gendericon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\gendericon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_contactus.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\contactus.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_next1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\next1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newcornershape_calling.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\newcornershape_calling.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_filtericon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\filtericon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dir1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\dir1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tt.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\tt.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blood2.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\blood2.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_smssend.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\smssend.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_tabs.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\fragment_tabs.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_email1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\email1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_update.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\update.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_relation.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\relation.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_club_photoupload2.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\club_photoupload2.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_download.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\download.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\4f9f8ce8ba3d6adf558e9dea2c2d6ade\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gender.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\gender.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dir_dd.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\dir_dd.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_do_nt.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\do_nt.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_com32x32.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\com32x32.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dobicon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\dobicon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\login.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\4f9f8ce8ba3d6adf558e9dea2c2d6ade\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_listpending.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\listpending.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_up.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\arrow_up.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phone_icon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\phone_icon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_father.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\father.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_clubsync.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\clubsync.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lion_internation_logo.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\lion_internation_logo.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pobicon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\pobicon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_binocular.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\binocular.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_line.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\line.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_adds.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\adds.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_directory_singlerecord.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\directory_singlerecord.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_event_reminder_alertdialog.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\event_reminder_alertdialog.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cust_layout.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\cust_layout.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tv.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\tv.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_close_white.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\close_white.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tabblue.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\tabblue.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\setting1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_change_password.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\change_password.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dollar.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\dollar.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_searchnw.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\searchnw.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jayc.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\jayc.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wedd_anni.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\wedd_anni.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dd.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\dd.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_quiz_icon_new.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\quiz_icon_new.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cam.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\cam.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mainbg.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\mainbg.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_grid.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\row_grid.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_whiteroundcorner.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\whiteroundcorner.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\search.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_sms_pending.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\sms_pending.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mobile_green.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\mobile_green.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_wedding1.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\wedding1.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\4f9f8ce8ba3d6adf558e9dea2c2d6ade\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_committee_list.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\committee_list.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notattq.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\notattq.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_president.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\president.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialogfilter.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\dialogfilter.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ledgerboxheader.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\ledgerboxheader.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_tab.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\btn_tab.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ocean_button.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\ocean_button.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_green_button.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\green_button.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sync1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\sync1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_utilities.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\utilities.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_screen_gridcell.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\screen_gridcell.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cake_birthday.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\cake_birthday.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cpe_prog.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\cpe_prog.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_addrr.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\addrr.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_new_icon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\new_icon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_poll.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\poll.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gallery.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\gallery.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_judgement_headerbg.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\judgement_headerbg.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_zoomimage.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\zoomimage.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mob22.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\mob22.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_listrow.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\listrow.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_news.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\news.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_opinionpoll_member_correct_ans.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\activity_opinionpoll_member_correct_ans.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_quiz_scoresheet_listitem.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\quiz_scoresheet_listitem.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_news_edit.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\news_edit.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_categ.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\categ.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_updatememberprofile.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\updatememberprofile.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_insert.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\insert.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_evntlist.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\evntlist.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_grpnoti.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\grpnoti.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_booking.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\booking.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_bookingcawnporclub.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\bookingcawnporclub.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_settime.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\settime.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_prev.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\prev.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_landline_icon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\landline_icon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_resend_notification.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\resend_notification.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_srchcrit.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\srchcrit.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_o1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\o1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_submit.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\submit.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_circle_transparent.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\bg_circle_transparent.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_prev1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\prev1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tm.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\tm.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tree.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\tree.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dot.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\dot.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_familylist1.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\familylist1.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_group_row.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\group_row.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mob10.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\mob10.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_event.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\event.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_memno.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\memno.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_district_song.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\district_song.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rate.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\rate.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_text.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\text.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_rowitem_judgement.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\rowitem_judgement.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_family.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\family.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_cpe_show3.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\list_item_cpe_show3.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_newslist.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\newslist.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_prev2.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\prev2.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_visioniocl.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\visioniocl.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_smssubmenu.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\smssubmenu.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_guest_registration.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\guest_registration.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_aboutus.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\aboutus.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_occupationicon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\occupationicon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_listpend.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\listpend.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pollsmall.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\pollsmall.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_brown_button.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\brown_button.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_govrn.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\govrn.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_groupmanagerlist_items.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\groupmanagerlist_items.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_opinionpoll_mainquestionlistrow.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\opinionpoll_mainquestionlistrow.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_opinion_poll__main_screen.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\activity_opinion_poll__main_screen.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_cpe_login.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\cpe_login.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_isettings.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\isettings.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_listtextrow.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\listtextrow.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_text_transparent_new.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\edit_text_transparent_new.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_unmark.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\unmark.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setstroke.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\setstroke.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_newsmain.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\newsmain.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_orange_button.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\orange_button.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\4f9f8ce8ba3d6adf558e9dea2c2d6ade\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dbexport.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\dbexport.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_headerbg.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\headerbg.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_bloodgroup.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\bloodgroup.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_familylist.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\familylist.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_dialog_box.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\view_dialog_box.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_opinionpoll_memberlist.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\list_opinionpoll_memberlist.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_send_sms.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\send_sms.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\4f9f8ce8ba3d6adf558e9dea2c2d6ade\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_time.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\time.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_opinionpoll_mainbg.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\opinionpoll_mainbg.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setsingleborder.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\setsingleborder.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ad.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\ad.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_syncy.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\syncy.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_utilities.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\utilities.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user_add.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\user_add.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background.jpg.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\background.jpg"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_debtor_ledger.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\activity_debtor_ledger.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newsletterchildborder.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\newsletterchildborder.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_filter.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\filter.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_listalertdialog.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\listalertdialog.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spouse.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\spouse.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\profile.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittextstyle.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\edittextstyle.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_committee_list_items.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\committee_list_items.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hstry.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\hstry.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_additional_data.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\additional_data.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_remak.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\remak.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_up.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\anim\\slide_up.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_newsletter.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\activity_newsletter.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_sms_bal_enquiry.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\sms_bal_enquiry.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_date1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\date1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ledgerboxchild.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\ledgerboxchild.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_addr1.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\addr1.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_date.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\date.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_listdialog.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\listdialog.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_rowitem_voting.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\rowitem_voting.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\4f9f8ce8ba3d6adf558e9dea2c2d6ade\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dismiss.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\dismiss.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_down.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\anim\\slide_down.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_androidicon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\androidicon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_multirow.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\list_item_multirow.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_groom.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\groom.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\menu_action_menu.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\menu\\action_menu.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_runningapps_listitem.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\runningapps_listitem.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notatt.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\notatt.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fax_icon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\fax_icon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gotraicon.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\gotraicon.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_upp.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\upp.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_photobackground.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\photobackground.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_showbigimage.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\showbigimage.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_admineventlist.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\admineventlist.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_information.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\information.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_adm.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\adm.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_eventdescription.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\eventdescription.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_menu2.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\list_item_menu2.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_allow.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\allow.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_cpe_show1.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\list_item_cpe_show1.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phone.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\phone.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\info.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_cpe_program_1.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\list_item_cpe_program_1.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_child_row.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\child_row.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\drawable_branch.png.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\drawable\\branch.png"
+    },
+    {
+        "merged": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\res\\merged\\debug\\layout_directory_new_list_cell.xml.flat",
+        "source": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\src\\main\\res\\layout\\directory_new_list_cell.xml"
+    }
+]

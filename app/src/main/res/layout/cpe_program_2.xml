@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical" >
+    
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:layout_marginBottom="8dp"
+         android:background="#80000000" >
+      
+         <TextView
+             android:id="@+id/tvCpe_Prog_Name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_centerVertical="true"
+             android:layout_margin="5dp"
+             android:text="CPE"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#FFFF00"
+             android:textSize="20dp"
+             android:textStyle="bold" />
+         
+      </RelativeLayout>
+      
+     
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="5dp" >
+         
+         
+          <TextView
+            android:id="@+id/txtdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:text="Date:"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+         
+         
+          <TextView
+            android:id="@+id/txtCpe_LDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txtdate"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#000000"
+            android:textSize="17dp" />
+        
+          
+          
+       <TextView
+            android:id="@+id/txtTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/txtCpe_LTime"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Time:"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+          
+       <TextView
+            android:id="@+id/txtCpe_LTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:textColor="#000000"
+            android:textSize="17dp" />
+         
+         
+     </RelativeLayout>
+     
+    
+     
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="5dp" >
+       
+         
+      <TextView android:id="@+id/txtVenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:text="Venue:"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+         
+         
+          <TextView
+            android:id="@+id/txtCpe_LVenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txtVenue"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#000000"
+            android:textSize="17dp" />
+         
+     </RelativeLayout>
+     
+     <RelativeLayout
+         android:id="@+id/RL_CpeCreditFees"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="5dp" >
+       
+       <TextView android:id="@+id/txtcpeCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:text="CPE Credit:"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+         
+         
+          <TextView
+            android:id="@+id/txtCpe_LHrs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txtcpeCredit"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#000000"
+            android:textSize="17dp" />
+         
+        
+       <TextView android:id="@+id/txtcpeFees"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/txtCpe_LFees"
+            android:layout_margin="5dp"
+            android:text="Fees:"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+         
+         
+          <TextView
+            android:id="@+id/txtCpe_LFees"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#000000"
+            android:textSize="17dp" />
+         
+         
+     </RelativeLayout>
+     
+     
+     
+      <ListView
+          android:id="@+id/Lv"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:divider="#00000000"
+          android:dividerHeight="1dp" />
+      
+
+      
+      <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="5dp" >
+         
+          <TextView
+              android:id="@+id/txtCpe_LOrgBy"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="5dp"
+              android:layout_marginRight="5dp"
+              android:layout_marginTop="5dp"
+              android:textColor="#000000"
+              android:textSize="17dp" />
+         
+     </RelativeLayout>
+     
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="10dp" >
+       
+       <TextView
+           android:id="@+id/txtCpe_LRemarks"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_margin="5dp"
+           android:text="Remarks:"
+           android:textColor="#000000"
+           android:textSize="17dp" />
+         
+     </RelativeLayout>
+
+      <ImageView
+          android:id="@+id/imgVw_Ad"
+          android:layout_width="match_parent"
+          android:layout_height="45dp"
+          android:layout_marginBottom="2dp"
+          android:scaleType="fitXY"
+          android:src="@drawable/person1"
+          android:visibility="gone" />
+      
+</LinearLayout>

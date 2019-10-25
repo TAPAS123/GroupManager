@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/customize_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="65dp">
+    
+    <!--  android:background="#66cdaa7d" -->
+   
+     <TextView android:id="@+id/row_name"
+         android:paddingLeft="5dp"
+         android:textSize="17dp"
+         android:textColor="#062A78"
+         android:layout_toRightOf="@+id/imageView1"
+         android:layout_toLeftOf="@+id/row_N"
+         android:textStyle="bold"
+         android:layout_centerVertical="true"
+         android:text="ahshjadjhakjfshx jhhkhj hhjkhdg gfdhdgdgaddas adajdhadh adkjadh qhde wqkehsd"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+         
+        <TextView 
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textSize="17dp"
+        android:textColor="#062A78"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content" 
+        android:id="@+id/row_N" 
+        android:layout_height="wrap_content" 
+        android:text="17890"/>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_marginLeft="5dp"
+            android:layout_width="20dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/down" />
+
+</RelativeLayout>
+

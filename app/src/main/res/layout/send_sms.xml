@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80000000"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="Send SMS"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFF00"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#80ffffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginBottom="5dp"
+                android:text="Message"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ETMsg"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:background="@drawable/edittextstyle"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:maxLength="300" />
+            
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            
+             <TextView
+                 android:id="@+id/tvMsg"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_toLeftOf="@+id/tvMsgCount"
+                 android:gravity="right"
+                 android:padding="2dp"
+                 android:text="Msg: "
+                 android:textSize="15dp" />
+                
+            <TextView
+                android:id="@+id/tvMsgCount"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_toLeftOf="@+id/tvleft"
+                android:background="#93FCD3"
+                android:gravity="center_horizontal"
+                android:padding="2dp"
+                android:text="0"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+                
+            <TextView
+                android:id="@+id/tvleft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@+id/tVcount"
+                android:gravity="right"
+                android:padding="2dp"
+                android:text="Left: "
+                android:textSize="15dp" />
+                
+            <TextView
+                android:id="@+id/tVcount"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="2dp"
+                android:background="#93FCD3"
+                android:gravity="center_horizontal"
+                android:padding="2dp"
+                android:text="158"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+            
+            </RelativeLayout>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:orientation="vertical"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Select Group"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TVGroup"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/edittextstyle"
+                android:gravity="top"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="3dp"
+           android:layout_marginRight="3dp"
+           android:layout_marginTop="5dp"
+           android:orientation="horizontal"
+           android:paddingLeft="3dp"
+           android:paddingRight="3dp" >
+
+            <CheckBox
+                android:id="@+id/chkWithOutApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Only to those without App" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#B4C6EE"
+                android:padding="3dp"
+                android:text="Send SMS" />
+
+        </LinearLayout>
+       
+       
+
+    </LinearLayout>
+
+</LinearLayout>

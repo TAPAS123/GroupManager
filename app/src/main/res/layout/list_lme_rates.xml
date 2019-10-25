@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/setsingleborder"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:gravity="center_vertical"
+            android:text="txt1"
+            android:textColor="#0a457c"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/txt2"
+            android:src="@drawable/dollar" />
+        
+         <TextView
+             android:id="@+id/txt2"
+             android:layout_width="80dp"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="3dp"
+             android:gravity="center_vertical|right"
+             android:text="12345.00"
+             android:textColor="#0a457c"
+             android:textSize="17dp"
+             android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

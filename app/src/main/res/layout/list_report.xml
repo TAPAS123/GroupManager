@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+     
+       	<TextView
+         android:id="@+id/txtMenuName"
+         android:layout_marginLeft="5dp"
+       	 android:layout_marginRight="5dp"
+         android:visibility="gone"
+         android:padding="6dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:paddingBottom="1dp"
+         android:text="A123"
+         android:textColor="#0000ff"
+         android:textSize="20dp"
+         android:textStyle="bold" />
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:id="@+id/llsubval"
+              android:layout_marginLeft="10dp"
+       	 	  android:layout_marginRight="5dp"
+              android:layout_height="wrap_content"
+              android:orientation="vertical" >
+              
+               <RelativeLayout
+              	android:layout_width="match_parent"
+              	android:layout_height="wrap_content" >
+
+                   <TextView
+                       android:id="@+id/textViewdate"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentLeft="true"
+					   android:layout_centerVertical="true"
+                       android:text="Medium Text"
+                       android:textStyle="bold"
+                       android:textColor="#000000"
+                       android:textAppearance="?android:attr/textAppearanceMedium" />
+                   
+                    <RelativeLayout
+		              	android:layout_width="match_parent"
+		              	android:layout_toRightOf="@+id/textViewdate"
+		              	android:layout_marginLeft="5dp"
+		              	android:layout_alignParentRight="true"
+		              	android:layout_height="wrap_content" >
+
+		                  <TextView
+	                       android:id="@+id/textViewslot"
+	                       android:layout_alignParentRight="true"
+	                       android:layout_marginLeft="5dp"
+	                       android:layout_width="wrap_content"
+	                       android:layout_centerVertical="true"
+	                       android:layout_height="wrap_content"
+	                       android:text="Medium Text"
+	                       android:textColor="#000000"
+	                       android:textAppearance="?android:attr/textAppearanceMedium" />
+		                   
+              		</RelativeLayout>
+          	   </RelativeLayout>
+          	   
+               
+                <TextView
+                android:id="@+id/textViewname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medium"
+                android:textColor="#000000"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                
+               <RelativeLayout
+              	android:layout_width="match_parent"
+              	android:layout_height="wrap_content" >
+
+                   <TextView
+                       android:id="@+id/textViewmemno"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignParentLeft="true"
+                       android:layout_centerVertical="true"
+                       android:text="0987654"
+                       android:textColor="#000000"
+                       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                   <TextView
+                       android:id="@+id/textViewstatus"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_centerVertical="true"
+                       android:layout_alignParentRight="true"
+                       android:text="tno confiem"
+                      android:textColor="#000000"
+                       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                   
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:gravity="center_horizontal"
+                       android:layout_toLeftOf="@+id/textViewstatus"
+                       android:layout_toRightOf="@+id/textViewmemno"
+                       android:layout_centerVertical="true" >
+		                  
+                       <TextView
+                       android:id="@+id/textViewmobile"
+                       android:gravity="center_horizontal"
+                       android:layout_marginLeft="5dp"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="09876543212"
+                       android:textColor="#008000"
+                       android:textAppearance="?android:attr/textAppearanceMedium" />
+                       
+                   </LinearLayout>
+              
+          	   </RelativeLayout>
+          </LinearLayout>
+    
+</LinearLayout>

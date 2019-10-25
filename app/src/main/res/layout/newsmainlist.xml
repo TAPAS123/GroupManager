@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="@drawable/rounded_tranparent_listbackgroud" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:orientation="horizontal" >
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/calender" />
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView1"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="Date"
+            android:textColor="#1348B3"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txtDate"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:text="Title"
+                android:textColor="#724A26"
+                android:textSize="18dp" />
+            
+          </RelativeLayout>
+            
+          <ImageView
+              android:id="@+id/imageView2"
+              android:layout_width="22dp"
+              android:layout_height="22dp"
+              android:layout_gravity="center"
+              android:padding="2dp"
+              android:src="@drawable/arrow_black" />
+    
+        </LinearLayout>
+
+</RelativeLayout>

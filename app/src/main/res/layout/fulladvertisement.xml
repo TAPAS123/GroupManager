@@ -1,0 +1,1565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical" >
+    
+	 <RelativeLayout
+	     android:id="@+id/RRTop"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentTop="true">
+	     
+	     <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/idtop"
+            android:layout_height="wrap_content">
+             
+	         <ScrollView
+	              android:id="@+id/scrollView1"
+	              android:layout_width="match_parent"
+	              android:layout_height="wrap_content" >
+
+	              <LinearLayout
+	                  android:layout_width="match_parent"
+	                  android:layout_height="wrap_content"
+	                  android:orientation="vertical" >
+	                  
+	             	   <LinearLayout
+		                  android:layout_width="match_parent"
+		                  android:layout_height="wrap_content"
+		                  android:id="@+id/layeng"
+		                  android:orientation="vertical" >  
+		                  
+	             	     <RelativeLayout
+	                       android:layout_width="match_parent"
+	                       android:layout_height="wrap_content" >
+	                       
+	                       <TextView
+					         android:id="@+id/txttop"
+					         android:layout_width="wrap_content"
+					         android:layout_height="wrap_content"
+					         android:layout_centerVertical="true"
+					         android:layout_gravity="left"
+					         android:padding="5dp"
+					         android:text=""
+					         android:textAppearance="?android:attr/textAppearanceMedium"
+					         android:textColor="#000000"
+					         android:textSize="22sp"
+					         android:textStyle="bold" />
+
+	                      <Button
+	                          android:id="@+id/btnlanghindi"
+	                          android:layout_width="90dp"
+	                          android:layout_height="wrap_content"
+	                          android:layout_alignParentRight="true"
+	                          android:layout_alignParentTop="true"
+	                          android:text="Hindi" />
+	                      
+	                      <Button
+	                          android:id="@+id/btnlanghenglish"
+	                          android:layout_width="90dp"
+	                          android:layout_height="wrap_content"
+	                          android:layout_alignParentRight="true"
+	                          android:layout_alignParentTop="true"
+	                          android:text="English" />
+
+	                  </RelativeLayout>
+	                  
+	                    
+			           
+			           <TextView
+				         android:id="@+id/txttop2"
+				         android:layout_width="wrap_content"
+				         android:layout_height="wrap_content"
+				         android:layout_alignParentTop="true"
+				         android:layout_gravity="left"
+				         android:padding="5dp"
+				         android:text=""
+				         android:textAppearance="?android:attr/textAppearanceMedium"
+				         android:textColor="#000000"
+				         android:textSize="21sp" />
+
+			           <RelativeLayout
+			               android:layout_width="match_parent"
+			               android:layout_height="wrap_content" >
+
+			               <TextView
+			                   android:id="@+id/textViewb1"
+			                   android:layout_marginLeft="5dp"
+			                   android:layout_width="17dp"
+			                   android:layout_height="wrap_content"
+			                   android:layout_alignParentLeft="true"
+			                   android:layout_alignParentTop="true"
+			                   android:text="- "
+			                   android:textColor="#000000"
+				         	   android:textSize="18sp"
+			                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			               <TextView
+			                   android:id="@+id/txttop3b1"
+			                   android:layout_width="wrap_content"
+			                   android:layout_height="wrap_content"
+			                   android:layout_alignParentTop="true"
+			                   android:layout_toRightOf="@+id/textViewb1"
+			                   android:text=""
+			                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			           </RelativeLayout>
+			           
+			           	<RelativeLayout
+			           	    android:id="@+id/RL2_LL1"
+			           	    android:layout_width="match_parent"
+			           	    android:layout_height="wrap_content" >
+
+			               <TextView
+			                   android:id="@+id/textViewb2"
+			                   android:layout_marginLeft="5dp"
+			                   android:layout_width="17dp"
+			                   android:layout_height="wrap_content"
+			                   android:layout_alignParentLeft="true"
+			                   android:layout_alignParentTop="true"
+			                   android:text="- "
+			                   android:textColor="#000000"
+				         	   android:textSize="18sp"
+			                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			               <TextView
+			                   android:id="@+id/txttop3b2"
+			                   android:layout_width="wrap_content"
+			                   android:layout_height="wrap_content"
+			                   android:layout_alignParentTop="true"
+			                   android:layout_toRightOf="@+id/textViewb2"
+			                   android:text=""
+			                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			           </RelativeLayout>
+			           			           
+			           <RelativeLayout
+			               android:id="@+id/RL3_LL1"
+			               android:layout_width="match_parent"
+			               android:layout_height="wrap_content" >
+
+			               <TextView
+			                   android:id="@+id/textViewb3"
+			                   android:layout_marginLeft="5dp"
+			                   android:layout_width="17dp"
+			                   android:layout_height="wrap_content"
+			                   android:layout_alignParentLeft="true"
+			                   android:layout_alignParentTop="true"
+			                   android:text="- "
+			                   android:textColor="#000000"
+				         	   android:textSize="18sp"
+			                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			               <TextView
+			                   android:id="@+id/txttop3b3"
+			                   android:layout_width="wrap_content"
+			                   android:layout_height="wrap_content"
+			                   android:layout_alignParentTop="true"
+			                   android:layout_toRightOf="@+id/textViewb3"
+			                   android:text=""
+			                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			           </RelativeLayout>
+			           
+			           <RelativeLayout
+			               android:id="@+id/RL4_LL1"
+			               android:layout_width="match_parent"
+			               android:layout_height="wrap_content" >
+
+			               <TextView
+			                   android:id="@+id/textViewb4"
+			                   android:layout_marginLeft="5dp"
+			                   android:layout_width="17dp"
+			                   android:layout_height="wrap_content"
+			                   android:layout_alignParentLeft="true"
+			                   android:layout_alignParentTop="true"
+			                   android:text="- "
+			                   android:textColor="#000000"
+				         	   android:textSize="18sp"
+			                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			               <TextView
+			                   android:id="@+id/txttop3b4"
+			                   android:layout_width="wrap_content"
+			                   android:layout_height="wrap_content"
+			                   android:layout_alignParentTop="true"
+			                   android:layout_toRightOf="@+id/textViewb4"
+			                   android:text=""
+			                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			           </RelativeLayout>
+			           
+			           <RelativeLayout
+			               android:id="@+id/RL5_LL1"
+			               android:layout_width="match_parent"
+			               android:layout_height="wrap_content" >
+
+			               <TextView
+			                   android:id="@+id/textViewb5"
+			                   android:layout_marginLeft="5dp"
+			                   android:layout_width="17dp"
+			                   android:layout_height="wrap_content"
+			                   android:layout_alignParentLeft="true"
+			                   android:layout_alignParentTop="true"
+			                   android:text="- "
+			                   android:textColor="#000000"
+				         	   android:textSize="18sp"
+			                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			               <TextView
+			                   android:id="@+id/txttop3b5"
+			                   android:layout_width="wrap_content"
+			                   android:layout_height="wrap_content"
+			                   android:layout_alignParentTop="true"
+			                   android:layout_toRightOf="@+id/textViewb5"
+			                   android:text=""
+			                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			           </RelativeLayout>
+			          			           
+			           <RelativeLayout
+			               android:id="@+id/RL6_LL1"
+			               android:layout_width="match_parent"
+			               android:layout_height="wrap_content" >
+
+			               <TextView
+			                   android:id="@+id/textViewb6"
+			                   android:layout_marginLeft="5dp"
+			                   android:layout_width="17dp"
+			                   android:layout_height="wrap_content"
+			                   android:layout_alignParentLeft="true"
+			                   android:layout_alignParentTop="true"
+			                   android:text="- "
+			                   android:textColor="#000000"
+				         	   android:textSize="18sp"
+			                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			               <TextView
+			                   android:id="@+id/txttop3b6"
+			                   android:layout_width="wrap_content"
+			                   android:layout_height="wrap_content"
+			                   android:layout_alignParentTop="true"
+			                   android:layout_toRightOf="@+id/textViewb6"
+			                   android:text=""
+			                   android:textAppearance="?android:attr/textAppearanceMedium" />
+
+			           </RelativeLayout>
+			           			          
+			           <TextView
+				         android:id="@+id/txttop4"
+				         android:layout_width="wrap_content"
+				         android:layout_height="wrap_content"
+				         android:layout_marginRight="5dp"
+				         android:layout_gravity="right"
+				         android:padding="5dp"
+				         android:text=""
+				         android:textAppearance="?android:attr/textAppearanceMedium"
+				         android:textColor="#000000"
+				         android:textSize="15sp" />
+	             	        
+		                </LinearLayout>
+		             	                  		           
+	              </LinearLayout>
+	          </ScrollView>
+	          
+	         
+	         
+         </LinearLayout>
+	    
+	          
+	          
+	       <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/idtop2"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+             
+	         <ScrollView
+	              android:id="@+id/scrollView2"
+	              android:layout_width="match_parent"
+	              android:layout_height="match_parent" >
+
+	              <LinearLayout
+	                  android:layout_width="match_parent"
+	                  android:layout_margin="5dp"
+	                  android:layout_height="match_parent"
+	                  android:orientation="vertical" >
+
+	                  <TextView
+	                      android:id="@+id/textView1"
+	                      android:layout_marginTop="4dp"
+	                      android:layout_gravity="center_horizontal"
+	                      android:layout_width="wrap_content"
+	                      android:layout_height="wrap_content"
+	                      android:text="Values"
+	                      android:textColor="#0000FF"
+	                      android:textSize="22dp"
+	                      android:textStyle="bold"
+	                      android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textView2"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="7dp"
+					     android:textSize="16dp"
+					     android:text="IndianOil nurtures the core values of Care, Innovation, Passion and Trust across the organization in order to deliver value to its stakeholders."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textView3"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="12dp"
+					     android:textStyle="bold"
+					     android:textSize="17dp"
+					     android:text="Care Stands for"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textView4"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="15dp"
+					     android:textSize="17dp"
+					     android:text="- Concern"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textView5"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Empathy"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textView6"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Understanding"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textView7"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Co-operation"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textView8"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Empowerment"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textView9"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="12dp"
+					     android:textStyle="bold"
+					     android:textSize="17dp"
+					     android:text="Innovation Stands for"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textView10"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="15dp"
+					     android:textSize="17dp"
+					     android:text="- Creativity"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textView11"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Ability to learn"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textView12"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Flexibility"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textView13"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Change"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textView14"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="12dp"
+					     android:textStyle="bold"
+					     android:textSize="17dp"
+					     android:text="Passion Stands for"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textView15"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="15dp"
+					     android:textSize="17dp"
+					     android:text="- Commitment"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textView16"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Dedication"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textView17"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Pride"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textView18"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Inspiration"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textView19"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Ownership"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textView20"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Zeal and Zest"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textView21"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="12dp"
+					     android:textStyle="bold"
+					     android:textSize="17dp"
+					     android:text="Trust Stands for"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textView22"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="15dp"
+					     android:textSize="17dp"
+					     android:text="- Delivered promises"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textView23"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Reliability"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textView24"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Dependability"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textView25"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Integrity"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textView26"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Truthfulness"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textView27"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="15dp"
+					     android:layout_marginTop="2dp"
+					     android:textSize="17dp"
+					     android:text="- Transparency"
+					     android:layout_marginBottom="15dp"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	             </LinearLayout>
+		           
+	          </ScrollView>
+	          
+	      </LinearLayout>
+	      
+	        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/idtop3"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+             
+	         <ScrollView
+	              android:id="@+id/scrollView3"
+	              android:layout_width="match_parent"
+	              android:layout_height="match_parent" >
+
+	              <LinearLayout
+	                  android:layout_width="match_parent"
+	                  android:layout_margin="5dp"
+	                  android:layout_height="match_parent"
+	                  android:orientation="vertical" >
+
+	                  <TextView
+					     android:id="@+id/textViewtt1"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="12dp"
+					     android:textStyle="bold"
+					     android:textColor="#0000FF"
+	                      android:textSize="22dp"
+					     android:text="Procedure for unloading of  TT at RO"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewtt2"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Park TT on horizontal surface for setting for about 10 minutes."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewtt3"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Ensure that ignition switch is in OFF position."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textViewtt4"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Connect the earthing wire with TT."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewtt5"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Check the compartment and button manifold and the safety valve compartment are securely locked with tamper proof security locks."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewtt6"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Check the dip rod, proof level and the product height marking with the mentioned in the valid calibration certificate available with the tank lorry driver with a standard measuring tape having graduations in mm."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewtt7"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Check if the dip rod is carrying the seal and validity of stamping at the bottom, proof level and at the product level."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textViewtt8"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Check the product loaded in the compartments with challan. "
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewtt9"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Open the safety valve and check dip of each compartment."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewtt10"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- In case of shortage, top up each compartment up to the product level indicated on the dip rod through a calibrated measure."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewtt11"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Record the shortage on the challan and obtain acknowledgement from the driver on all copies, including the location copy."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textViewtt12"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Draw composite samples from the manifold and check foe density."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewtt13"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- In case density matches within allowable limits, position the tank truck to unload the product near the corresponding tank."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewtt14"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Ensure that there is no traffic in the vicinity of the truck to unload the product near the corresponding tank."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewtt15"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Place the fire safety buckets and fire Extinguishers in readiness before commencement of unloading at the retail outlet."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textViewtt16"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Ensure proper bonding of the truck with the unloading pipe."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewtt17"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:layout_marginBottom="10dp"
+					     android:textSize="17dp"
+					     android:text="- Use cam lock coupling to connect the underground pipe with the tank truck manifold."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	             </LinearLayout>
+		           
+	          </ScrollView>
+	          
+	      </LinearLayout>
+	      
+	        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/idtop4"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+             
+	         <ScrollView
+	              android:id="@+id/scrollView4"
+	              android:layout_width="match_parent"
+	              android:layout_height="match_parent" >
+
+	              <LinearLayout
+	                  android:layout_width="match_parent"
+	                  android:layout_margin="5dp"
+	                  android:layout_height="match_parent"
+	                  android:orientation="vertical" >
+
+	                  <TextView
+					     android:id="@+id/textViewsr1"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="12dp"
+					     android:textStyle="bold"
+					     android:textColor="#0000FF"
+	                      android:textSize="22dp"
+					     android:text="Safety At Retails Outlets"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewsr2"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="Safety measures at Retail Outlets assume important because petroleum products are directly exposed to public. This increases danger due  to the presence of varying conditions and can cause serious damage to public life and property in case of accident for smooth end use of the products .it is therefore, essential that safety points are properly followed at hte retails outlets .Safety precautions to be observed by outlets are listed below."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewsr3"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Adequate number of 10 kg and 4.5 kg CO2 Fire Extinguishers to be provided. Each dispencing unit at RO should be covered with atleast 2 numbers of 10 kg DCP fire extinguishers placed within 3 meter radius."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textViewsr4"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Two Nos 4.5 kg Co2 fire Extinguishers near panel room."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewsr5"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Regular checking of all fire Extinguishers. i.e. every quarter."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewsr6"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- All pump attendants and managers to be fully aware about the operations of Fire Extinguishers."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewsr7"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Adequate number of sand buckets with dry and clean sand to be available  with a lid/Canopy."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textViewsr8"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- keep tank farm free from oil spillage and dry grass. "
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewsr9"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- TT decantation through cam lock coupling."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewsr10"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Use of electrically continuous rubber hose . Plastic hose not  to be used under any circumstances."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewsr11"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Before decantation ensure filling to check list and adhering to safe decantation of TT as per procuder."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textViewsr12"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Display of Explosive  Licence  Number."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewsr13"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Display of NO SMOKING and 'SWITCH OFF YOUR MOBILE' Baord."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewsr14"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Display of emergency numbers-like Fire Brigade ,Police, Ambulance, etc."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewsr15"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Pump island to be cleaned of any spillage or litter."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textViewsr16"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Space under dispending pumps to be filled with dry sand."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewsr17"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- No loose wire connections inside the dispendsing pumps."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                    <TextView
+					     android:id="@+id/textViewsr18"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- No Un-authorized work to be carried out at the retails outlets."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewsr19"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Yard area and drive way to be cleaned of litter and rubbish like paper scrap, cigarette butts, etc."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewsr20"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="-In monsoons, all areas like tank farm, pump island to be especially kapt clean of spilled or stagant oil to avoid escape of oil rain water to public areas."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textViewsr21"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Underground  space tank to be kept to 2/3 full to avoid ploating especially in areas prone to water logging."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewsr22"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:layout_marginBottom="10dp"
+					     android:text="- Additional care is required during festive seasons where hazards from crackers and fire works could threaten safetly at RO."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	             </LinearLayout>
+		           
+	          </ScrollView>
+	          
+	      </LinearLayout>
+	      
+	         <LinearLayout
+	             android:id="@+id/idtop5"
+	             android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:visibility="gone" >
+             
+	         <ScrollView
+	              android:id="@+id/scrollView5"
+	              android:layout_width="match_parent"
+	              android:layout_height="match_parent" >
+
+	              <LinearLayout
+	                  android:layout_width="match_parent"
+	                  android:layout_margin="5dp"
+	                  android:layout_height="match_parent"
+	                  android:orientation="vertical" >
+
+	                  <TextView
+					     android:id="@+id/textViewdn1"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="12dp"
+					     android:textStyle="bold"
+					     android:textColor="#0000FF"
+	                     android:textSize="22dp"
+					     android:text="Do's and Don'ts for Retails Outlets"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewHdn1"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="10dp"
+					     android:textStyle="bold"
+					     android:textSize="17dp"
+					     android:text="To be displayed-at Etrance:"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewdn3"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="1dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- No smoking, NO maked flames inside RO."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textViewdn4"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Switch off your Mobile Telephone. "
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewHdn2"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="10dp"
+					     android:textStyle="bold"
+					     android:textSize="17dp"
+					     android:text="To be Displayed at Pump island/Drive Way:"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewHdn3"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="3dp"
+					     android:textStyle="bold"
+					     android:textSize="17dp"
+					     android:text="Do's"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewdn5"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- No Smoking."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewdn6"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Switch off Mobile Telephone."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewdn7"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Stop Engine before refuling"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textViewdn8"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- 2/3 Wheeler to drag their vehicle from Pump Island without starting engine. "
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewdn9"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Remove delivery hose from the vehicle after refueling."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewHdn4"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="3dp"
+					     android:textStyle="bold"
+					     android:textSize="17dp"
+					     android:text="Don'ts"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  
+	                   <TextView
+					     android:id="@+id/textViewdn10"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Don't allow leakage/spillage."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewdn11"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Don't litter  in the area."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textViewdn12"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Don't use Non Flameproof lights near DU/Tank area."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewdn13"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Don't move the vehicle while refueling is on. "
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                    
+	                  <TextView
+					     android:id="@+id/textViewHdn5"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="10dp"
+					     android:textStyle="bold"
+					     android:textSize="17dp"
+					     android:text="To be displayed at Ug Tank Area:"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewHdn6"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="3dp"
+					     android:textStyle="bold"
+					     android:textSize="17dp"
+					     android:text="Do's"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewdn14"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- No Smoking."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewdn15"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Keep all the opening of UG tank lightly closed."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textViewdn16"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Keep Air vent free from clogging. "
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewdn17"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Ensure Seated Decantation -of TT through electrically continuous hose."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                    <TextView
+					     android:id="@+id/textViewdn18"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Ensure proper earthing of TT While Unloading."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewdn19"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Use bonded Metallic Bucket Sampling."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewdn20"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Position of 10 kg DCP Fire Extinguisher before start of unloading of TT."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textViewdn21"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Ensure Good Hose Keeping."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewHdn7"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="3dp"
+					     android:textStyle="bold"
+					     android:textSize="17dp"
+					     android:text="Don'ts"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewdn22"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Don't Smoke Or Use Maked flame."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewdn23"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Don't Use Mobile Telephone."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                    <TextView
+					     android:id="@+id/textViewdn24"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Don't use Plastic Bucket or-containers for product sampling."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewdn25"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Don't use plastic hose for TT Decantation."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewdn26"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Don't use serial lights (used for decoration during festivities)"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  <TextView
+					     android:id="@+id/textViewdn27"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Don't allow the entry of the vehicles at decantation area."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewHdn8"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="10dp"
+					     android:textStyle="bold"
+					     android:textSize="17dp"
+					     android:text="To be displayed at Meter Room/Electrical Pannel: "
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewHdn9"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="3dp"
+					     android:textStyle="bold"
+					     android:textSize="17dp"
+					     android:text="Do's"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewdn28"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Test before you touch."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                 
+	                  <TextView
+					     android:id="@+id/textViewdn29"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Display 'Danger' Sing on pannel."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewdn30"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Use correct rating of HRC fuse ."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                    <TextView
+					     android:id="@+id/textViewdn31"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Keep the pannel room clean, tidy and well Ventilated."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewdn32"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Ensure the availability, of 4.5 kg CO2 Fire Extinguisher."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  
+	                  
+	                  <TextView
+					     android:id="@+id/textViewHdn10"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="2dp"
+					     android:layout_marginTop="3dp"
+					     android:textStyle="bold"
+					     android:textSize="17dp"
+					     android:text="Don'ts"
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewdn33"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Don't allow loose wiring/temporary connection in Panel."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewdn34"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Don't Keep any POL Containers in Panel Room."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                    <TextView
+					     android:id="@+id/textViewdn35"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Don't Keep the door of Panel Board Open."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                    
+	                     <TextView
+					     android:id="@+id/textViewdn36"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Don't operate any switch until authorised."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                   <TextView
+					     android:id="@+id/textViewdn37"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:textSize="17dp"
+					     android:text="- Don't allow unauthorized person of carry out electrical job."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  <TextView
+					     android:id="@+id/textViewdn38"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginLeft="10dp"
+					     android:layout_marginTop="10dp"
+					     android:layout_marginBottom="10dp"
+					     android:textSize="17dp"
+					     android:text="- Don't use Water or Foam for Extinguishing the Electrical Fire."
+					     android:textAppearance="?android:attr/textAppearanceMedium" />
+	                  
+	                  
+	             </LinearLayout>
+		           
+	          </ScrollView>
+	          
+	      </LinearLayout>
+	      
+	       <LinearLayout
+	             android:id="@+id/idtop6"
+	             android:layout_width="match_parent"
+	             android:layout_height="wrap_content"
+	             android:visibility="gone" >
+             
+	         <ScrollView
+	              android:layout_width="match_parent"
+	              android:layout_height="match_parent" >
+
+	              <LinearLayout
+	                  android:layout_width="match_parent"
+	                  android:layout_margin="5dp"
+	                  android:layout_height="match_parent"
+	                  android:orientation="vertical" >
+
+	                  <TextView
+					     android:id="@+id/txt1"
+					     android:layout_width="wrap_content"
+					     android:layout_height="wrap_content"
+					     android:layout_marginTop="12dp"
+					     android:textColor="#0000FF"
+	                     android:textSize="18dp"/>
+	                      
+	                </LinearLayout>  
+	                  
+	             </ScrollView>
+	          
+	      </LinearLayout>     
+	                  
+	                  
+	    </RelativeLayout>
+
+	 <RelativeLayout
+	     android:id="@+id/rrbottom"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentBottom="true" >
+	     
+	     <TextView
+	         android:id="@+id/txt111"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_alignParentTop="true"
+	         android:layout_centerHorizontal="true"
+	         android:padding="5dp"
+	         android:text=""
+	         android:textAppearance="?android:attr/textAppearanceMedium"
+	         android:textColor="#000000"
+	         android:textSize="20sp"
+	         android:textStyle="bold" />
+
+	 </RelativeLayout>
+
+	 <ImageView
+	     android:id="@+id/imageViewADVErtisement"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_above="@+id/rrbottom"
+	     android:layout_below="@+id/RRTop"
+	     android:layout_margin="5dp"
+	     android:scaleType="fitXY" />
+
+	 
+   
+</RelativeLayout>

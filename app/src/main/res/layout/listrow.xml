@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center_vertical"
+        android:padding="5dp">
+
+        <ImageView
+
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView"
+            android:layout_marginLeft="8dp"/>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:paddingTop="25dp"
+            android:paddingLeft="10dp"
+            android:layout_toLeftOf="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView">
+
+            <TextView
+                android:id="@+id/tvname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mr. mudit"
+                android:textColor="#0267f5"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvcfathername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Father: "
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginTop="3dp"
+                android:layout_below="@id/tvname"/>
+
+            <TextView
+                android:id="@+id/tvfathername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvname"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@id/tvcfathername"
+                android:text="Mr ramesh"
+                android:textColor="#5c5e5d"
+                android:textSize="14dp" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/arrow"
+                android:id="@+id/imageView2"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+     </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/relativeLayout1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvcage"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:drawableLeft="@drawable/ageicon"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/tvage"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="23"
+            android:textColor="#219c0d" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvcmobile"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/mobileicon"
+            android:drawablePadding="1dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/tvmobile"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="2dp"
+            android:text="9898777898"
+            android:textColor="#f25856" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+</RelativeLayout>

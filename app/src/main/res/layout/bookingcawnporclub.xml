@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:id="@+id/rrmain"
+    android:background="@drawable/bg1"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+         <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rrupper"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rrm1"
+        android:layout_alignParentTop="true" >
+
+          <TextView
+              android:id="@+id/tvHeadCard"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="8dp"
+              android:text="Booking"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#000000"
+              android:textSize="22dp"
+              android:textStyle="bold" />
+
+     </RelativeLayout>
+     
+          <LinearLayout
+         android:layout_width="match_parent"
+         android:id="@+id/llaymonth"
+         android:visibility="gone"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_below="@+id/rrupper">
+          
+         <TextView
+             android:id="@+id/tv1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="8dp"
+             android:text="Select month and year:"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#000000"
+             android:textStyle="bold" />
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:background="@drawable/textcust_layout"
+             android:layout_height="wrap_content" >
+
+             <Spinner
+                 android:id="@+id/spinnermonth"
+                 android:layout_width="150dp"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true" />
+
+             <Spinner
+                 android:id="@+id/spinneryear"
+                 android:layout_width="120dp"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentRight="true"
+                 android:layout_alignParentTop="true"/>
+
+         </RelativeLayout>
+         
+     </LinearLayout>
+   
+	    <ListView
+             android:id="@+id/lVMenus"
+             android:layout_below="@+id/llaymonth"
+	         android:layout_above="@+id/rrlower"
+	         android:layout_marginBottom="12dp"
+	         android:layout_marginLeft="5dp"
+	         android:layout_marginRight="5dp"
+	         android:layout_marginTop="12dp"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:divider="#00000000"
+             android:dividerHeight="1dp" >
+         </ListView>
+    
+	   <RelativeLayout
+	       android:id="@+id/rrlower"
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:layout_alignParentBottom="true"
+	       android:layout_alignParentLeft="true"
+	       android:layout_marginBottom="2dp" >
+
+	     <Button
+	         android:id="@+id/btnBookingTermCond"
+	         android:layout_width="wrap_content"
+	         android:layout_height="50dp"
+	         android:layout_alignParentTop="true"
+	         android:layout_centerHorizontal="true"
+	         android:background="@drawable/red_button"
+	         android:text="Booking Terms and Condition"
+	         android:textColor="#ffffff"
+	         android:textStyle="bold"
+	         android:visibility="gone" />
+	       
+       <ImageView
+           android:id="@+id/imgVwSynchCard"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="5dp"
+           android:visibility="gone"
+           android:layout_centerVertical="true"
+           android:layout_alignParentRight="true"
+           android:src="@drawable/sync" />
+
+    </RelativeLayout>
+
+    
+     
+<!-- android:visibility="gone" -->
+    
+    
+  </RelativeLayout> 
+       
+</RelativeLayout>

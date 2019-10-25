@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "19919627481",
+    "firebase_url": "https://group-manager-api.firebaseio.com",
+    "project_id": "group-manager-api",
+    "storage_bucket": "group-manager-api.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19919627481:android:aa2650c1feeebd57",
+        "android_client_info": {
+          "package_name": "group.manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19919627481-tqv5fjr9t4b3dnbqtt8qi338tpm7rufs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyqG7yPnc-45DiW9o2GDGHNy-oGbjHzLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19919627481-sfoc21em555jh6a7l7cm7nvtpg9s3a0q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "19919627481-l4vdt0165nfstt7636f8befa8uj2ok7l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "MDA.Group.Manager.GroupManager"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

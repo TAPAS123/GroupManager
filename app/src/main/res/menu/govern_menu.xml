@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/governfile"
+        android:title="More" 
+         android:icon="@drawable/setting"
+         android:showAsAction="always">
+        <!-- "file" submenu -->
+    
+   <menu>
+    <item android:id="@+id/changyear"
+          android:icon="@drawable/yearchg"
+          android:title="Change Year"
+          android:showAsAction="always"/>"
+   </menu>
+    
+    </item>
+    
+</menu>

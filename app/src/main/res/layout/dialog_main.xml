@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/newcornershape_calling" >
+    
+     <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+    
+    <RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVGrpName"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/imgPerson"
+        android:text="Nm"
+        android:textColor="#0c966f"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+    
+    <ImageView
+        android:id="@+id/imgClose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/close1" />
+    
+     <ImageView
+         android:id="@+id/imgLoc"
+         android:layout_width="24dp"
+         android:layout_height="24dp"
+         android:layout_below="@+id/textView"
+         android:layout_marginRight="2dp"
+         android:layout_marginTop="4dp"
+         android:scaleType="fitXY"
+         android:src="@drawable/location" />
+    
+     <TextView
+         android:id="@+id/txtCity"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/textView"
+         android:layout_marginRight="2dp"
+         android:layout_marginTop="6dp"
+         android:layout_toLeftOf="@+id/imgPerson"
+         android:layout_toRightOf="@+id/imgLoc"
+         android:text="City"
+         android:textColor="#000000"
+         android:textSize="16dp"
+         android:typeface="normal" />
+    
+    <TextView
+        android:id="@+id/TVGrpName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/imgClose"
+        android:layout_toRightOf="@+id/imgVwLogo"
+        android:text="Grp"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <ImageView
+        android:id="@+id/imgVwLogo"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginRight="4dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/close"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imgPerson"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imgClose"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_tranparent_listbackgroud"
+        android:padding="6dp"
+        android:src="@drawable/person1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imgPerson"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:text="MDA AAPPS"
+        android:textColor="#000000"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+    
+     <ImageView
+         android:id="@+id/imgVw_Ad"
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+         android:layout_below="@+id/textView1"
+         android:scaleType="fitXY"
+         android:src="@drawable/person1"
+         android:visibility="gone" />
+     
+     </RelativeLayout>
+     
+    </LinearLayout>
+
+    </FrameLayout>
+    
+</FrameLayout>
+
+
+

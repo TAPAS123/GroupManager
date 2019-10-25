@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Group Manager</string>
+
+<string name="jaycee">जेयसी पंथ </string>
+<string name="jaycee1">हमारा विश्वास है –</string>
+<string name="jaycee2">कि ईश्वर में आस्था मानव जीवन को सार्थकता एवं उद्देश्य प्रदान करती है।</string>
+<string name="jaycee3">कि मानव की बंधुत्व भावना राष्ट्रों की प्रभुसत्ता से परे है।</string>
+<string name="jaycee4">कि आर्थिक न्याय की सर्वोत्तम उपलब्धि स्वतंत्र मानव के स्वतंत्र उद्यम द्वारा हो सकती है।</string>
+<string name="jaycee5">कि शासन व्यक्ति का नहीं वरन् विधि का होना चाहिए।</string>
+<string name="jaycee6">कि वसुधा की महान् निधि मानव व्यक्तित्व में निहित है।</string>
+<string name="jaycee7">कि मानवता की सेवा जीवन का सर्वोत्तम कार्य है।</string>
+<string name="jaycee8">- ब्रोवनफ़ीएल्ड</string>
+
+<!-- PUSH NOTIFICATION -->
+<string name="gcm_registered">From GCM: device successfully registered!</string>
+<string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+<string name="gcm_message">From GCM: you got message!</string>
+<string name="gcm_error">From GCM: error (%1$s).</string>
+<string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+<string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+<string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+<string name="server_registered">From Demo Server: successfully added device!</string>
+<string name="server_unregistered">From Demo Server: successfully removed device!</string>
+<string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+<string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+
+
+<string name="register"><u><b>FORTHCOMING EVENT</b></u></string>
+<string name="governing">Name \u0026 Mobile</string>
+<string name="date">Date \u0026 Time</string>
+<string name="gpcty">Group \u0026 City</string>
+<string name="event">Venue,Date Time \u0026 Description</string>
+<string name="action_settings">Settings</string>
+<string name="str_spr_countries">Countries</string>
+<string name="str_spr_states">States</string>
+<string name="str_spr_cities">Cities</string>
+<string name="str_spr_bloodgrp">Blood Group</string>
+<string name="hello_world">Hello world!</string>
+<string name="action_home">action_home</string>
+<string name="runtime_permissions_txt">Please enable ALL permissions from app settings.</string>
+  
+  <style name="MyTheme" parent="@android:style/Theme.Dialog">
+      <item name="android:textSize">18sp</item>
+    <item name="android:textColorPrimary">#1974D2</item>
+  </style>
+  
+   <style name="ButtonText">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_margin">3dp</item>
+    <item name="android:textSize">20dp</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+  
+</resources>

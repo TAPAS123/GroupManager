@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageView1"
+        android:src="@drawable/personaldetailicon"/>
+
+    <TextView
+        android:id="@+id/tvheader"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Personal Details"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:paddingLeft="5dp"
+        android:textColor="#6F6F6F"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:layout_toRightOf="@id/imageView1"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageView2"
+        android:padding="15dp"
+        android:src="@drawable/up"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>

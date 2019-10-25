@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="group.manager"
+    android:versionCode="239"
+    android:versionName="3.40" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="27" />
+
+    <!-- Calendar Read Write Permission -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <!-- Network State Permissions to detect Internet status -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- GCM connects to Internet Services. -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- ADDED on 25-10-2017 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- ADDED on 09-01-2018 -->
+    <!-- <uses-permission android:name="android.permission.READ_CALL_LOG"/> -->
+    <!-- ADDED on 09-03-2019 for Read Incoming Number only for Android Pie(sdk 28) -->
+
+
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="group.manager.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="group.manager.permission.C2D_MESSAGE" /> <!-- Creates a custom permission so only this app can receive its messages. -->
+    <!--
+<permission
+        android:name="group.manager.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+   <uses-permission android:name="group.manager.permission.C2D_MESSAGE" />
+    -->
+    <!-- This app has permission to register and receive data message. -->
+    <!-- <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> -->
+    <application
+        android:name="group.manager.Controller"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="group.manager.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="group.manager.SplashScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.SplashScreen1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.MenuPage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.SwipeScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.ClubSync"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.SearchDisplay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.GoverningBody"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.AffiliationAPP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.ShowAffiliation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Sug_Comp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.ListSuggestion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.UpdateProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.EventCalendar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Guest_Registration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.CPE_Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.CPE_Show1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.CPE_Show2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.CPE_Show3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.App_Settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.PastPresi_Secretary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.ShowPastPresSec"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.CPE_Program_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.CPE_Program_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.ShowBirthadayNotification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.MessageDesk"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.FullAdvertisement"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Add_News"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.ShowBloodGroup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.FamilyDetailvalue"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.UpdateMemberProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.EventDetailValue"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.ShowAnniversary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.ImportantContact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.UlilitiesList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.SwipeScreenContact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.SearchDisplayContact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.AdminEventList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Registration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Advisory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Committee"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Directory_SingleRecord"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Running_Apps_Check"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.News_EventReadUnread"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.GroupManagement"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Create_Group"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.SMS_Balance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Send_SMS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.SMS_Pending"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Gallery"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Information"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Wedding1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Wedding2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Wedding3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.WeddingFilterDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Resend_Notification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Global_Search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.NewsMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.NewsMain2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="group.manager.Add_Event"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 29-03-2017 -->
+        <activity
+            android:name="group.manager.OpinionPoll_MainScreen"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 11-04-2017 -->
+        <activity
+            android:name="group.manager.OpinionPoll_QuestionAnswer"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 11-04-2017 -->
+        <activity
+            android:name="group.manager.Quiz_ScoreSheet"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 15-04-2017 -->
+        <activity
+            android:name="group.manager.OpinionPoll_MemberList"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 25-04-2017 -->
+        <activity
+            android:name="group.manager.Quiz_Summary"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 26-04-2017 -->
+        <activity
+            android:name="group.manager.OpinionPoll_ScoreSheet"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 27-04-2017 -->
+        <activity
+            android:name="group.manager.LME_Rates"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 04-05-2017 -->
+        <activity
+            android:name="group.manager.Newsletter"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 08-05-2017 -->
+        <activity
+            android:name="group.manager.BookingCawnporClub"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 24-05-2017 -->
+        <activity
+            android:name="group.manager.BookingsubCate"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 24-05-2017 -->
+        <activity
+            android:name="group.manager.Timeslot"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 24-05-2017 -->
+        <activity
+            android:name="group.manager.CalendarviewPg"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 24-05-2017 -->
+        <activity
+            android:name="group.manager.ShowBookHistory"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 25-05-2017 -->
+        <activity
+            android:name="group.manager.ReportMain"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 25-05-2017 -->
+        <activity
+            android:name="group.manager.ReportNext"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 25-05-2017 -->
+        <activity
+            android:name="group.manager.Exchange_Rates"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 29-05-2017 -->
+        <activity
+            android:name="group.manager.Judgement"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 05-06-02017 -->
+        <activity
+            android:name="group.manager.JudgementRating"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 05-06-2017 -->
+        <activity
+            android:name="group.manager.ChangePassword"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 05-06-2017 -->
+        <activity
+            android:name="group.manager.JudgementReport"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 08-06-2017 -->
+        <activity
+            android:name="group.manager.JudgementReport2"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 08-06-2017 -->
+        <activity
+            android:name="group.manager.JudgementReport3"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 08-06-2017 -->
+        <activity
+            android:name="group.manager.Voting"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 08-06-2017 -->
+        <activity
+            android:name="group.manager.VotingReport"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 10-06-2017 -->
+        <activity
+            android:name="group.manager.DebtorLedger"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 14-06-2017 -->
+        <activity
+            android:name="group.manager.MCX_Rates"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 28-06-2017 -->
+        <activity
+            android:name="group.manager.ContactUs"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 11-07-2017 -->
+        <activity
+            android:name="group.manager.AboutUs"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 11-07-2017 -->
+        <activity
+            android:name="group.manager.District_Song"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 23-07-2017 -->
+        <activity
+            android:name="group.manager.Directory_New_ListView"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 02-02-2018 -->
+        <activity
+            android:name="group.manager.Directory_New_ListView_Search"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 02-02-2018 -->
+        <activity
+            android:name="group.manager.Suggesstion_with_photo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 31-03-2018 -->
+        <activity
+            android:name="group.manager.Add_Poll_Location"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 16-05-2018 -->
+        <activity
+            android:name="group.manager.MultiRow"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 02-08-2018 -->
+        <activity
+            android:name="group.manager.Club_PhotoUpload1"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 04-08-2018 -->
+        <activity
+            android:name="group.manager.Club_PhotoUpload2"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 04-08-2018 -->
+        <activity
+            android:name="group.manager.Club_PhotoUpload_Display"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 04-08-2018 -->
+        <activity
+            android:name="group.manager.FamilyTree"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 05-09-2018 -->
+
+
+        <!-- GCM BROADCAST RECEIVER For PUSH NOTIFICATION -->
+        <!--
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="group.manager" />
+            </intent-filter>
+        </receiver>
+        -->
+
+
+        <!-- Service For PUSH NOTIFICATION -->
+        <!-- <service android:name="group.manager.GCMIntentService" /> -->
+
+        <service android:name="group.manager.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="group.manager.MyFirebaseInstanceIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- Service For Group Manager Pogrammes -->
+        <service android:name="group.manager.Service_Call_New" />
+
+        <receiver
+            android:name="group.manager.BroadCastRec_Grp"
+            android:enabled="true" >
+            <intent-filter android:priority="1000000" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter android:priority="1000000" >
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="group.manager.AlarmReceiver"
+            android:enabled="true" >
+
+            <!--
+           <intent-filter>
+		      <action android:name="android.intent.action.BOOT_COMPLETED" />
+		   </intent-filter>
+            -->
+        </receiver>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="group.manager.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="group.manager" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="group.manager.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

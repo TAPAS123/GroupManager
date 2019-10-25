@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#A9E2F3">
+
+    <ImageView
+        android:id="@+id/imageViewbook"
+        android:layout_width="45dp"
+        android:layout_margin="5dp"
+        android:layout_height="45dp"
+        android:src="@drawable/booking" />
+
+<TextView
+    android:id="@+id/txtDiaTitle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Connection Alert    "
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:padding="5dp"
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<!--  <View
+    android:layout_width="match_parent"
+    android:layout_height="1dip"
+    android:background="#2E9AFE"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"/>
+
+<TextView
+    android:id="@+id/txtDiaMsg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="5dp"
+    android:text="No Internet Connection"
+    android:textColor="#000000" />
+
+<Button
+    android:id="@+id/btnOk"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="OK"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:padding="5dp" 
+    android:layout_margin="5dp"
+    android:background="#ffffff"/>-->
+    
+      </LinearLayout>

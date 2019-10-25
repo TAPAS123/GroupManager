@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#66cdaa7d"
+    android:layout_margin="3dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewGovern"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_margin="3dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/person1" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+      
+        <TextView
+            android:id="@+id/tvGovnName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="7dp"
+            android:text="Name"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="Desig"
+            android:textSize="17dp" />
+        
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="1dip"
+              android:layout_marginLeft="3dp"
+              android:layout_marginRight="3dp"
+              android:layout_marginTop="5dp"
+              android:background="#2E9AFE" />
+
+          <TextView
+              android:id="@+id/tvGovrnMobile"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="3dp"
+              android:layout_marginTop="5dp"
+              android:text="Mob"
+              android:textSize="17dp" />
+
+          <TextView
+              android:id="@+id/tvGovrnEmail"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="7dp"
+              android:layout_marginLeft="3dp"
+              android:text="email"
+              android:textSize="17dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

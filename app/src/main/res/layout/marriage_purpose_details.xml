@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true" >
+
+    <RelativeLayout
+        android:id="@+id/rrm1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rrlower"
+        android:layout_below="@+id/rrupper"
+        android:layout_margin="1dp"
+        android:padding="2dp" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/lLmove1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:background="#95ffffff"
+                    android:orientation="vertical"
+                    android:padding="3dp" >
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#036E88"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="- - Personal Details - -"
+                        android:textColor="#ffffff"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:typeface="monospace" />
+                    
+                    <TextView
+                        android:id="@+id/TvGotra"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Gotra *"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/EtGotra"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                        android:hint="Gotra"
+                        android:maxLength="60"
+                        android:textColor="#000000"
+                        android:textColorHint="#848482"
+                        android:textSize="15dp"
+                        android:typeface="serif" />
+                    
+                     <TextView
+                        android:id="@+id/TvBirthTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Time of Birth *"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/EtBirthTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:hint="Time of Birth"
+                        android:inputType="time"
+                        android:textColor="#000000"
+                        android:textColorHint="#848482"
+                        android:textSize="15dp"
+                        android:typeface="serif" />
+                    
+                     <TextView
+                        android:id="@+id/TvBirthPlace"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Place of Birth *"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/EtBirthPlace"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:hint="Place of Birth"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                        android:maxLength="100"
+                        android:textColor="#000000"
+                        android:textColorHint="#848482"
+                        android:textSize="15dp"
+                        android:typeface="serif" />
+                    
+                     <TextView
+                        android:id="@+id/TvNativePlace"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Native Place"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/EtNativePlace"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:hint="Native Place"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                        android:maxLength="100"
+                        android:textColor="#000000"
+                        android:textColorHint="#848482"
+                        android:textSize="15dp"
+                        android:typeface="serif" />
+                    
+                     <TextView
+                        android:id="@+id/TvHeight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Height *"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                     
+                     <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">"
+                     
+                    <Spinner
+                        android:id="@+id/Sp_HeightFeet"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog" />
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="6dp"
+                        android:text="feet"
+                        android:textSize="14dp" />
+                    
+                    <Spinner
+                        android:id="@+id/Sp_HeightInch"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog" />
+                     
+                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:text="inch"
+                        android:textSize="14dp" />
+                    
+                    </LinearLayout>
+                    
+                    <TextView
+                        android:id="@+id/TvManglik"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Manglik *"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/Sp_Manglik"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog" />
+                    
+                    <TextView
+                        android:id="@+id/TvAnnualIncome"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Annual Income"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                     <Spinner
+                        android:id="@+id/Sp_AnnualIncome"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog" />
+                    
+                    
+                    <LinearLayout
+                    android:id="@+id/LLWorkAfterMarriage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical">
+                    
+                    <TextView
+                        android:id="@+id/TvWorkAfterMarriage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="Work after Marriage"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                   <Spinner
+                        android:id="@+id/Sp_WorkAfterMarriage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog" />
+                   
+                   </LinearLayout>
+                    
+                    <TextView
+                        android:id="@+id/TvDiet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Diet"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                   <Spinner
+                        android:id="@+id/Sp_Diet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog" />
+                    
+                </LinearLayout>
+
+                
+                
+                <LinearLayout
+                    android:id="@+id/lLmove2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="#95ffffff"
+                    android:orientation="vertical"
+                    android:padding="3dp" >
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#036E88"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text=" - - Family Details - -"
+                        android:textColor="#ffffff"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:typeface="monospace" />
+                    
+                    <TextView
+                        android:id="@+id/TvFatherStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Father's Status *"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                   <Spinner
+                        android:id="@+id/Sp_FatherStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog" />
+                    
+                     <TextView
+                        android:id="@+id/TvMotherStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Mother's Status *"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/Sp_MotherStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog" />
+                    
+                    
+                    <LinearLayout
+                    android:id="@+id/LLBrothers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    
+                     <TextView
+                        android:id="@+id/TvTotalBrothers"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="No. of brothers *"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/Sp_TotalBrothers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog" />
+                    
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                    android:id="@+id/LLMarriedBrothers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal">
+                    
+                    <TextView
+                        android:id="@+id/TvTotalMarriedBrothers"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="of which married *"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/Sp_TotalMarriedBrothers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog" />
+                    
+                    </LinearLayout>
+                    
+                     <TextView
+                        android:id="@+id/Tvdetails_about_brothers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Details about brothers"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/Etdetails_about_brothers"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/edittextstyle"
+                        android:gravity="top"
+                        android:hint="Details about brothers"
+                        android:inputType="textMultiLine"
+                        android:textColor="#000000"
+                        android:textColorHint="#848482"
+                        android:textSize="15dp"
+                        android:typeface="serif" />
+                    
+                    
+                    <LinearLayout
+                    android:id="@+id/LLSister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    
+                     <TextView
+                        android:id="@+id/TvTotalSisters"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="No. of sisters *"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                   <Spinner
+                        android:id="@+id/Sp_TotalSisters"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog" />
+                   
+                   </LinearLayout>
+                   
+                   <LinearLayout
+                    android:id="@+id/LLMarriedSister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal">
+                   
+                   <TextView
+                        android:id="@+id/TvTotalMarriedSisters"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="of which married *"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/Sp_TotalMarriedSisters"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dialog" />
+                    
+                    </LinearLayout>
+                    
+                    <TextView
+                        android:id="@+id/Tvdetails_about_sisters"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="4dp"
+                        android:text="Details about sisters"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/Etdetails_about_sisters"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/edittextstyle"
+                        android:gravity="top"
+                        android:hint="Details about sisters"
+                        android:inputType="textMultiLine"
+                        android:textColor="#000000"
+                        android:textColorHint="#848482"
+                        android:textSize="15dp"
+                        android:typeface="serif" />
+                    
+                    <TextView
+                        android:id="@+id/TvAddInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Additional Information"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/EtAddInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_gravity="top"
+                        android:background="@drawable/edittextstyle"
+                        android:gravity="top"
+                        android:hint="Write about your personality, family background and what you are looking for in your partner..."
+                        android:inputType="textMultiLine"
+                        android:textColor="#000000"
+                        android:textColorHint="#848482"
+                        android:textSize="15dp"
+                        android:typeface="serif" />
+
+                </LinearLayout>
+                
+
+               
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+   
+
+    <RelativeLayout
+        android:id="@+id/rrlower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp" >
+
+       <Button
+           android:id="@+id/btnBack"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="3dp"
+           android:layout_marginTop="3dp"
+           android:background="@drawable/customize_layout"
+           android:text="Back"
+           android:textColor="#000000"
+           android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rrupper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rrm1"
+        android:layout_alignParentTop="true" >
+    </RelativeLayout>
+
+</RelativeLayout>

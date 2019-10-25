@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageSerchMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="11dp"
+        android:layout_toLeftOf="@+id/imageSetting"
+        android:src="@drawable/searchnw" />
+
+    <ImageView
+        android:id="@+id/imageSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/filter" />
+
+    <ImageView
+        android:id="@+id/imagesearchcritri"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/imageSerchMenu"
+        android:src="@drawable/srchcrit" />
+
+   
+</RelativeLayout>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llhd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/tvnameofeventslist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="t1"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llhd"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical" >
+
+		<android.support.v4.widget.NestedScrollView
+			android:id="@+id/scrollView1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="10dp"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:id="@+id/lldate"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="3dp"
+					android:layout_marginRight="3dp"
+					android:layout_marginTop="5dp"
+					android:orientation="horizontal">
+
+					<ImageView
+						android:layout_width="22dp"
+						android:layout_height="22dp"
+						android:layout_marginLeft="2dp"
+						android:layout_marginRight="4dp"
+						android:scaleType="fitXY"
+						android:src="@drawable/calender" />
+
+					<TextView
+						android:id="@+id/tvdateval"
+						android:layout_width="100dp"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="1dp"
+						android:text="Date"
+						android:textColor="#1348B3"
+						android:textSize="18dp" />
+
+					<View
+						android:layout_width="1dip"
+						android:layout_height="match_parent"
+						android:layout_marginLeft="6dp"
+						android:layout_marginRight="6dp"
+						android:background="#1348B3" />
+
+					<ImageView
+						android:layout_width="22dp"
+						android:layout_height="22dp"
+						android:layout_marginLeft="8dp"
+						android:layout_marginRight="3dp"
+						android:scaleType="fitXY"
+						android:src="@drawable/time" />
+
+					<TextView
+						android:id="@+id/txtevtTime"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="1dp"
+						android:text="Time"
+						android:textColor="#1348B3"
+						android:textSize="18dp" />
+
+				</LinearLayout>
+
+				<TextView
+					android:id="@+id/tvDeseventlist"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="3dp"
+					android:layout_marginRight="3dp"
+					android:layout_marginTop="8dp"
+					android:text="Event Desc"
+					android:textColor="#724826"
+					android:textSize="17dp" />
+
+				<LinearLayout
+					android:id="@+id/llvenue"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="3dp"
+					android:layout_marginRight="3dp"
+					android:layout_marginTop="10dp"
+					android:orientation="horizontal">
+
+					<ImageView
+						android:layout_width="24dp"
+						android:layout_height="24dp"
+						android:layout_marginRight="2dp"
+						android:src="@drawable/location" />
+
+					<TextView
+						android:id="@+id/tvvenueval"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:text="Location"
+						android:textColor="#1348B3"
+						android:textSize="17dp" />
+
+				</LinearLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/llattain"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="3dp"
+					android:layout_marginRight="3dp"
+					android:layout_marginTop="10dp"
+					android:background="@drawable/rounded_tranparent_listbackgroud"
+					android:orientation="vertical">
+
+					<TextView
+						android:id="@+id/textView1at"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_alignParentTop="true"
+						android:layout_centerHorizontal="true"
+						android:layout_marginTop="5dp"
+						android:text="Please confirm:"
+						android:textSize="16dp"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/tvattain"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_below="@+id/textView1at"
+						android:layout_centerHorizontal="true"
+						android:text="Are you attending the event"
+						android:textSize="16dp"
+						android:textStyle="bold" />
+
+					<LinearLayout
+						android:id="@+id/llattain2nd"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:layout_below="@+id/tvattain"
+						android:layout_centerHorizontal="true">
+
+						<CheckBox
+							android:id="@+id/checkBoxattain1"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Yes"
+							android:textColor="#008000"
+							android:textStyle="bold" />
+
+						<CheckBox
+							android:id="@+id/checkBoxattain2"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="No"
+							android:textColor="#E8000D"
+							android:textStyle="bold" />
+					</LinearLayout>
+
+
+				</RelativeLayout>
+
+				<LinearLayout
+					android:id="@+id/lllist"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_alignParentBottom="false"
+					android:layout_alignParentLeft="true"
+					android:layout_below="@+id/txt1"
+					android:layout_marginBottom="5dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:orientation="vertical">
+
+					<View
+						android:layout_width="match_parent"
+						android:layout_height="1dip"
+						android:layout_marginBottom="5dp"
+						android:layout_marginLeft="5dp"
+						android:layout_marginRight="5dp"
+						android:layout_marginTop="5dp"
+						android:background="#1348B3" />
+
+					<RelativeLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+
+						<TextView
+							android:id="@+id/tv11"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_alignParentLeft="true"
+							android:layout_centerVertical="true"
+							android:layout_gravity="left"
+							android:layout_marginLeft="3dp"
+							android:text="Event Directors"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							android:textSize="18dp"
+							android:textStyle="bold" />
+
+						<ImageView
+							android:id="@+id/imageViewlistshow"
+							android:layout_width="wrap_content"
+							android:layout_height="17dp"
+							android:layout_alignParentRight="true"
+							android:layout_centerVertical="true"
+							android:layout_marginRight="5dp"
+							android:src="@drawable/arrow_down" />
+
+					</RelativeLayout>
+
+					<View
+						android:layout_width="match_parent"
+						android:layout_height="1dip"
+						android:layout_marginBottom="5dp"
+						android:layout_marginLeft="5dp"
+						android:layout_marginRight="5dp"
+						android:layout_marginTop="5dp"
+						android:background="#1348B3" />
+
+					<ListView
+						android:id="@+id/listVieweventlist"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_margin="5dp"
+						android:divider="#00000000"
+						android:dividerHeight="1dp"
+						android:visibility="gone" />
+
+					<ImageView
+						android:id="@+id/imgVw_Ad"
+						android:layout_width="match_parent"
+						android:layout_height="50dp"
+						android:scaleType="fitXY"
+						android:src="@drawable/person1"
+						android:visibility="gone" />
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</android.support.v4.widget.NestedScrollView>
+
+
+
+	</LinearLayout>
+
+</RelativeLayout>

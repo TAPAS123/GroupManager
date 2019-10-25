@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="@drawable/rounded_tranparent_listbackgroud"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp" >
+
+        <TextView
+            android:id="@+id/txtDatenews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="2dp"
+            android:layout_toLeftOf="@+id/textViewmob"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="txt1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#724826"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtnewsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txtDatenews"
+                android:layout_marginRight="2dp"
+                android:layout_toLeftOf="@+id/textViewmob"
+                android:padding="5dp"
+                android:text="txt2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#1348B3"
+                android:textSize="16dp" />
+            
+             <TextView
+                 android:id="@+id/txtEmail"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/txtnewsTitle"
+                 android:layout_marginLeft="4dp"
+                 android:layout_marginRight="2dp"
+                 android:padding="1dp"
+                 android:text="Email"
+                 android:textColor="#1348B3"
+                 android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textViewmob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="4dp"
+                android:drawableLeft="@drawable/mobile_green"
+                android:drawablePadding="3dp"
+                android:gravity="center"
+                android:text="Mob"
+                android:textColor="#1348B3"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/file"
+        android:title="More" 
+         android:icon="@drawable/isettings"
+         android:showAsAction="always">
+        <!-- "file" submenu -->
+    
+   <menu>
+    <item android:id="@+id/Add_More_Group"
+          android:icon="@drawable/add_grp"
+          android:title="Add More Group"
+          android:showAsAction="ifRoom"/>
+   
+    <item android:id="@+id/Sync"
+          android:icon="@drawable/sync1"
+          android:title="Sync" 
+          android:showAsAction="ifRoom"/>
+    
+     <item android:id="@+id/Settings"
+          android:icon="@drawable/settings"
+          android:title="Settings" 
+          android:showAsAction="ifRoom"/>
+     
+      <item android:id="@+id/birthdaygrp"
+          android:icon="@drawable/cake_birthday"
+          android:title="Birthday" 
+          android:visible="false"
+          android:showAsAction="ifRoom"/>
+      
+        <item android:id="@+id/bloodgroup"
+          android:icon="@drawable/blood1"
+          android:title="Blood Group" 
+          android:showAsAction="ifRoom"/>
+        
+        <item android:id="@+id/anniver"
+          android:icon="@drawable/wedd_anni"
+          android:title="Anniversary" 
+          android:visible="false"
+          android:showAsAction="ifRoom"/>
+        
+         <item android:id="@+id/changepass"
+          android:icon="@drawable/change_password"
+          android:title="Change Password" 
+          android:showAsAction="ifRoom"/>
+         
+          <!--  <item android:id="@+id/contactus"
+          android:icon="@drawable/mobile_green"
+          android:title="Contact Us" 
+          android:showAsAction="ifRoom"/>-->
+      
+   </menu>
+    
+    </item>
+    
+</menu>

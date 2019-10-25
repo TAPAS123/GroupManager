@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1" >
+
+    <RelativeLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#80000000" >
+
+        <RelativeLayout
+            android:id="@+id/rrlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/txtevnthead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="5dp"
+                android:text=" welcome"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFF00"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edCitysechaff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/imgSerchAff"
+                android:layout_toRightOf="@+id/txtevnthead"
+                android:focusable="true"
+                android:inputType="text"
+                android:textColor="#ffffff"
+                android:visibility="gone" >
+
+                <requestFocus />
+            </EditText>
+
+            <ImageView
+                android:id="@+id/imgSerchAff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/search_blue"
+                android:visibility="gone" />
+            
+            <CheckBox
+                android:id="@+id/chkShowAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:text="Show All"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+            
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rrlay1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/rrlay"
+            android:layout_margin="6dp"
+            android:visibility="gone" >
+
+            <Spinner
+                android:id="@+id/spinnchangeyear"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dp"
+                android:background="#E0F8F7" />
+
+            <Button
+                android:id="@+id/btnChangeYear"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:background="#E0F8F7"
+                android:text="Change Year" />
+
+        </RelativeLayout>
+        
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayoutBootom"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical" >
+        
+        <ExpandableListView
+            android:id="@+id/expandableListViewat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout1"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:groupIndicator="@null" >
+
+    	</ExpandableListView>
+
+        <ListView
+            android:id="@+id/listViewEvnt"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="#00000000"
+            android:dividerHeight="1dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/linearLayoutBootom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <ImageView
+            android:id="@+id/ivupdateMember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/addnew"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    
+
+</RelativeLayout>

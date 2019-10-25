@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/llhd"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:background="#80000000" >
+
+        <TextView
+            android:id="@+id/tvnameofeventsadm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFF00"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        
+    </LinearLayout>
+
+    
+
+      <LinearLayout
+          android:id="@+id/lllist"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/llhd"
+          android:layout_alignParentBottom="true"
+          android:layout_margin="5dp"
+          android:background="#80ffffff"
+          android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/tvvenuadm"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#1560BD"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/tvdateadm"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#1560BD"
+            android:textSize="15dp"/>
+        
+        <GridView
+            android:id="@+id/gridView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:numColumns="3"
+            android:stretchMode="columnWidth" >
+
+    	</GridView>
+
+        
+ 			<TextView
+            android:id="@+id/tvhadm"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#1560BD"
+            android:textSize="15dp"/>
+ 			
+ 			<RelativeLayout
+    			android:layout_width="match_parent"
+   			    android:layout_height="wrap_content">
+ 					<Button
+                       android:id="@+id/btnattSubmit"
+                       android:visibility="gone"
+                       android:layout_marginRight="5dp"
+			           android:layout_alignParentRight="true"
+			           style="@style/ButtonText" 
+			           android:textSize="16dp" 
+			           android:background="@drawable/green_button" 
+                       android:layout_centerVertical="true"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Submit" />
+ 			</RelativeLayout>
+ 			
+        <ListView
+            android:id="@+id/listVieweventadm"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:divider="#00000000"
+		    android:dividerHeight="1.5dp"/>
+          
+      </LinearLayout>
+
+</RelativeLayout>

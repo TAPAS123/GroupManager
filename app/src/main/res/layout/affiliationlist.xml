@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#66cdaa7d"
+    android:layout_margin="3dp"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:padding="10dp">
+        
+         <TextView
+            android:id="@+id/txtcityaffiliation"
+            android:textColor="#ee7600"
+            android:layout_width="125dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:text="Medium Text"
+            android:textSize="17dp" />
+
+            <TextView
+            android:id="@+id/txtClubAffiliation"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/txtcityaffiliation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium"
+            android:textSize="17dp" />
+        
+    </RelativeLayout>
+    
+       
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mda.groupmanager.OpinionPollMemberCorrectAns"
+    android:id="@+id/activity_opinionpoll_member_correct_ans"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainbg">
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Head"
+        android:textSize="18dp"
+        android:gravity="center_vertical|center"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/lvmembercorrectAns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:dividerHeight="1dp" >
+
+    </ListView>
+
+</LinearLayout>

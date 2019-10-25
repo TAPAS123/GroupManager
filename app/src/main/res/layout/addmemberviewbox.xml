@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/llAddbox"
+android:orientation="vertical" 
+android:background="#E3DAC9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/llay1111"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <ScrollView
+               android:id="@+id/scrollView1"
+               android:layout_centerHorizontal="true"
+        	   android:layout_centerVertical="true"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="#ffffff"
+        	   android:layout_margin="10dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical" >
+                   
+                    <RelativeLayout
+		            android:layout_width="match_parent"
+		            android:id="@+id/rr1"
+		             android:background="@drawable/headerbg"
+		            android:layout_height="50dp"
+		            android:layout_alignParentLeft="true"
+		            android:layout_alignParentTop="true">
+		
+		            <ImageView
+		                android:id="@+id/imageView1"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                 />
+		
+		            <TextView
+		                android:id="@+id/textView1"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_alignParentBottom="true"
+		                android:layout_alignParentRight="true"
+		                android:textColor="#062A78"
+		                android:text="Club Manager"
+		                android:layout_marginRight="5dp"
+		                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		             </RelativeLayout>
+		                   
+		              <EditText
+		                android:layout_marginLeft="5dp"
+		                android:layout_marginRight="5dp"
+		                android:layout_marginBottom="5dp"
+		                android:layout_marginTop="10dp"
+		                android:padding="6dp"
+		                android:inputType="text"
+		                android:hint="Club Code"
+		                android:textColor="#000000"
+		                android:id="@+id/etclubcodead"
+		                android:background="@drawable/edittextstyle"
+		                android:layout_width="match_parent"
+		                android:layout_height="wrap_content">
+		               <requestFocus/>
+		              </EditText>
+		
+		              <EditText
+		               android:layout_margin="5dp"
+		               android:maxLength="10"
+		               android:hint="Member's Mobile no."
+		               android:background="@drawable/edittextstyle"
+		               android:padding="6dp"
+		               android:id="@+id/etmobilead"
+		               android:inputType="number"
+		               android:layout_below="@+id/etclubcodead"
+		               android:layout_width="match_parent"
+		               android:layout_height="wrap_content"
+		               android:layout_alignParentLeft="true"/>
+		
+		              <EditText
+		               android:layout_margin="5dp"
+		               android:background="@drawable/edittextstyle"
+		               android:padding="6dp"
+		               android:hint="Password"
+		               android:inputType="textPassword"
+		               android:layout_below="@+id/etmobilead"
+		               android:id="@+id/etPasswordad"
+		               android:layout_width="match_parent"
+		               android:layout_height="wrap_content"/>
+		
+		              <ImageView
+		               android:id="@+id/iVLoginad"
+		               android:layout_marginTop="5dp"
+		               android:layout_marginBottom="6dp"
+		               android:layout_width="wrap_content"
+		               android:layout_height="wrap_content"
+		               android:layout_below="@+id/etPasswordad"
+		               android:layout_gravity="center_horizontal"
+		               android:src="@drawable/login" />
+                   
+               </LinearLayout>
+           </ScrollView>
+        
+    </LinearLayout>
+    
+    
+
+      </LinearLayout>

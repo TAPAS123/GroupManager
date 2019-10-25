@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Mar 08 14:07:42 IST 2019
+0.baseType=DIRECTORY
+0.base=D\:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\assets\\debug
+0.path=fonts/Hel_med.ttf
+0.set=ASSET
+count=1

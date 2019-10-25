@@ -1,0 +1,11 @@
+*****Always remember these points****
+
+(*** IMP NOTE ***) Could not Copy Uncommon Properties and Config file if already Exists
+1.Make new project
+2.copy from group manager a) all classes 
+                          b) All xml
+			  			  c) all values
+3.Copy uses permission and add all activity and services and broadcasts.
+4.change uncommon properties variables.
+5.change app_name string from string.xml
+6.change config.java app product key and all for Push Notification

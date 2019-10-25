@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <item 
+         android:id="@+id/action_back"
+          android:icon="@drawable/hstry"
+          android:title="History"
+          android:showAsAction="always"/>
+     
+    <item 
+         android:id="@+id/action_report"
+          android:icon="@drawable/rep"
+          android:title="Report"
+          android:showAsAction="always"/>
+ 
+</menu>
