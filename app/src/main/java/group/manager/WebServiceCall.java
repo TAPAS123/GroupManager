@@ -3090,11 +3090,17 @@ public class WebServiceCall {
   	 }
 
 
-    ////  Committee ClubInfo  Added on 08-03-2019
-    public String Committee_ClubInfo(String ClubCode,String TType,String TVal)
+    ////  Committee ClubInfo  Updated on 20-02-2020
+    public String Committee_ClubInfo(String ClubCode,String TType,String TVal,int PType)
     {
-        SOAP_ACTION= "http://www.easy-sms.in/Club_ClubInfo";
-        METHOD_NAME="Club_ClubInfo";
+        String t1="";
+        if(PType==1)
+            t1="Club_ClubInfo";
+        else if(PType==2)
+            t1="Club_ClubComm";
+
+        SOAP_ACTION= "http://www.easy-sms.in/"+t1;
+        METHOD_NAME=t1;
 
         SoapObject request = new SoapObject(NAMESPACE, METHOD_NAME);
 
@@ -3138,5 +3144,69 @@ public class WebServiceCall {
             return "Error";
         }
     }
+
+
+
+    ////  Committee Club Program & Club DG Program  Added on 20-02-2020
+    public String Committee_ClubProg(String ClubCode,String TType,String TVal,int OldID,int PType)
+    {
+        String t1="";
+        if(PType==3)
+            t1="Club_ClubProg";
+        else if(PType==4)
+            t1="Club_DGProg";
+
+        SOAP_ACTION= "http://www.easy-sms.in/"+t1;
+        METHOD_NAME=t1;
+
+        SoapObject request = new SoapObject(NAMESPACE, METHOD_NAME);
+
+        PropertyInfo PI;
+        PI =new PropertyInfo();
+        PI.setName("Tempclient");
+        PI.setValue(ClubCode);
+        PI.setType(String.class);
+        request.addProperty(PI);
+
+        PI =new PropertyInfo();
+        PI.setName("TempSCode");
+        PI.setValue("Club_12981");
+        PI.setType(String.class);
+        request.addProperty(PI);
+
+        PI =new PropertyInfo();
+        PI.setName("TempClub");
+        PI.setValue(TType);
+        PI.setType(String.class);
+        request.addProperty(PI);
+
+        PI =new PropertyInfo();
+        PI.setName("TempValue");
+        PI.setValue(TVal);
+        PI.setType(String.class);
+        request.addProperty(PI);
+
+        PI =new PropertyInfo();
+        PI.setName("TempOldID");
+        PI.setValue(OldID);
+        PI.setType(String.class);
+        request.addProperty(PI);
+
+        SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
+        envelope.dotNet = true;
+        envelope.setOutputSoapObject(request);
+        HttpTransportSE aHttpTransport = new HttpTransportSE(URL);
+
+        try {
+            aHttpTransport.call(SOAP_ACTION, envelope);
+            SoapPrimitive response = (SoapPrimitive)envelope.getResponse();
+            return response.toString();
+        }
+        catch(Exception ex)
+        {
+            return "Error";
+        }
+    }
+
         
 }

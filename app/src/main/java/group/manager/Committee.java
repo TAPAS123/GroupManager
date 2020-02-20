@@ -50,11 +50,12 @@ public class Committee extends Activity {
     TextView txtHead;
     List<RowEnvt> rowItems;
     RowEnvt item;
-    String ItemName = "", PgName, CCBYear = "",UserType="";
+    String ItemName = "", PgName, CCBYear = "",UserType="",WebResult="";
     Button btnClubInfo;
     SQLiteDatabase dbObj;
     ProgressDialog Progsdial;
     private boolean InternetPresent;
+    int OldMid=0;
     //boolean HasSingleData=false;
 
     public void onCreate(Bundle savedInstanceState) {
@@ -86,6 +87,8 @@ public class Committee extends Activity {
 
         Get_SharedPref_Values();// Get Stored Shared Pref Values of Login
 
+        //UserType="ADMIN";
+
         Set_App_Logo_Title(); // Set App Logo and Title
 
         txtHead.setText(MTitle);// Set Head Title
@@ -105,7 +108,7 @@ public class Committee extends Activity {
                     MainBtnIntent.putExtra("ItemName", txtName);
                     MainBtnIntent.putExtra("CCBYear", CCBYear);
                 }
-                else if(PNo==3 && Chk_Committe_ClubInfo().length() > 0)//this condition only for group Rotary Club Bareilly South ClientID--> RI31101920
+                else if(PNo==3 && PgName.equals("ICAI_CPE") &&  Chk_Committe_ClubInfo().length() > 0)//this condition only for group Rotary Club Bareilly South ClientID--> RI31101920
                 {
                     ///// Added on 19-02-2020 /// Check Commmittee ClubInfo Data (Recently used in group Rotary Club Bareilly South ClientID--> RI31101920)
                     String t1 = rowItems.get(position).getEvtName();
@@ -222,7 +225,7 @@ public class Committee extends Activity {
                     txtHead.setText(ItemName);
 
                 ///// updated on 19-02-2020 /// Check Commmittee ClubInfo Data (Recently used in group Rotary Club Bareilly South ClientID--> RI31101920)
-                if (PNo == 3 && Chk_Committe_ClubInfo().length() > 0) {
+                if (PNo == 3 && PgName.equals("ICAI_CPE") && Chk_Committe_ClubInfo().length() > 0) {
                     //btnClubInfo.setVisibility(View.VISIBLE);
                     String[] Arr1={"1. Club Officers","2. Committees","3. Club Programs","4. Club Information"};
 
@@ -348,13 +351,21 @@ public class Committee extends Activity {
         return Val.trim();
     }
 
-    ////Get ClubInfo Data (ICAI_CPE!Clubs) ADDED on 08-03-2019  which is used in PNo==3 (Recently used in group Rotary Club Bareilly South ClientID--> RI31101920)
-    private String Get_Committe_ClubInfo()
+    ////Get ClubInfo Data (ICAI_CPE!Clubs) Updated on 20-02-2019  which is used in PNo==3 (Recently used in group Rotary Club Bareilly South ClientID--> RI31101920)
+    private String Get_Committe_ClubInfo(int PType)
     {
         String Val="";
+
+        String RType="";
+
+        if(PType==1)
+            RType="COMM_CINFO";// Club Information
+        else if(PType==2)
+            RType="COMM_CCOMM";// Club Commitee
+
         dbObj = openOrCreateDatabase("MDA_Club", SQLiteDatabase.CREATE_IF_NECESSARY, null);
 
-        String sql = "Select Text2 from " + Table4Name + " Where Rtype='COMM_CINFO' AND Text1='"+ItemName.trim()+"'";
+        String sql = "Select Text2 from " + Table4Name + " Where Rtype='"+RType+"' AND Text1='"+ItemName.trim()+"'";
         Cursor cursorT = dbObj.rawQuery(sql, null);
         if (cursorT.moveToFirst()) {
             Val = ChkVal(cursorT.getString(0));
@@ -365,6 +376,44 @@ public class Committee extends Activity {
         return Val.trim();
     }
 
+
+    ////Get ClubProgram Data (ICAI_CPE!Clubs) Added on 20-02-2019  which is used in PNo==3 (Recently used in group Rotary Club Bareilly South ClientID--> RI31101920)
+    private List<RowEnvt> Get_Committe_ClubProg_List(int PType)
+    {
+        String RType="";
+
+        if(PType==3)
+            RType="COMM_CPROG"; // Club Program
+        else if(PType==4)
+            RType="COMM_DGPROG"; // Club DG Program
+
+        String sql = "Select M_ID,Text2 from " + Table4Name + " Where Rtype='"+RType+"' AND Text1='"+ItemName.trim()+"'";
+
+        dbObj = openOrCreateDatabase("MDA_Club", SQLiteDatabase.CREATE_IF_NECESSARY, null);
+        Cursor cursorT = dbObj.rawQuery(sql, null);
+
+        List<RowEnvt> ListItems = new ArrayList<RowEnvt>();
+        if (cursorT.moveToFirst()) {
+            do {
+                String MID =ChkVal(cursorT.getString(0));
+                String Val = ChkVal(cursorT.getString(1));
+                String DDate="",Title="";
+                if(Val.contains("#")){
+                    Val=Val+" ";
+                    String[] Arr1=Val.split("#");
+                    DDate=Arr1[0].trim();
+                    Title=Arr1[1].trim();
+                }
+                item = new RowEnvt(Title,DDate,MID+"#"+Val,"");
+                ListItems.add(item);
+            } while (cursorT.moveToNext());
+        }
+
+        cursorT.close();
+        dbObj.close();//Close Databse
+
+        return ListItems;
+    }
 
     // ADDED on 19-02-2020 (ICAI_CPE!Clubs) which is used in PNo==3 (Recently used in group Rotary Club Bareilly South ClientID--> RI31101920)
     private void Show_Dialog_ClubProg1()
@@ -382,22 +431,23 @@ public class Committee extends Activity {
         txtHead.setText("Club Programs\n("+ItemName+")");
 
         if(!UserType.equalsIgnoreCase("ADMIN")){///UPDATE
-            //ed_Trea_Name.setEnabled(false);/// Disabled EditText
-            //btnAdd.setText("CLOSE");
+            btnAdd.setText("CLOSE");
         }
 
-        /*String Data=Get_Committe_ClubInfo();///Get ClubInfo
-        if(Data.contains("#")){
-            Data=Data+" ";
-            String[] Arr1=Data.split("#");
-            txtNumberOfMem.setText(Arr1[0].trim());//Set Number Of Members
-            txt_installation_dt.setText(Arr1[1].trim());//Set Installation date
-            txt_governer_dt.setText(Arr1[2].trim());//Set Governors Visit date
-            txt_international_dt_1.setText(Arr1[3].trim());//Set International Dues Paid date 1
-            txt_international_dt_2.setText(Arr1[4].trim());//Set International Dues Paid date 2
-            txt_district_dues_dt.setText(Arr1[5].trim());//Set District Dues Paid date
-            txt_rotary_news_dt.setText(Arr1[6].trim());//Set Rotery News Trust Paid date
-        }*/
+        final List<RowEnvt> ListItems=Get_Committe_ClubProg_List(3);///Get Committee Club Program List
+        Adapter_NewsMain Adp1 = new Adapter_NewsMain(context,R.layout.newsmainlist, ListItems);
+        LV1.setAdapter(Adp1);
+
+        //ListView Click Event
+        LV1.setOnItemClickListener(new OnItemClickListener()
+        {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id){
+
+                dialog.dismiss();
+                String Val=ListItems.get(position).getEvtdate();
+                Show_Dialog_ClubProg2(Val);
+            }
+        });
 
 
         btnAdd.setOnClickListener(new View.OnClickListener() {
@@ -407,35 +457,14 @@ public class Committee extends Activity {
 
                 if(UserType.equalsIgnoreCase("ADMIN"))///UPDATE
                 {
-                    /*String t1=txtNumberOfMem.getText().toString().trim();
-                    String t2=txt_installation_dt.getText().toString().trim();
-                    String t3=txt_governer_dt.getText().toString().trim();
-                    String t4=txt_international_dt_1.getText().toString().trim();
-                    String t5=txt_international_dt_2.getText().toString().trim();
-                    String t6=txt_district_dues_dt.getText().toString().trim();
-                    String t7=txt_rotary_news_dt.getText().toString().trim();
-
-                    String RData=t1+"#"+t2+"#"+t3+"#"+t4+"#"+t5+"#"+t6+"#"+t7+"";
-
-                    Chkconnection chkconn=new Chkconnection();//Intialise Chkconnection Object
-                    InternetPresent =chkconn.isConnectingToInternet(context);
-                    if(InternetPresent==true)
-                    {
-                        Update_ClubInfo_Server(ItemName,RData);
-                    }
-                    else {
-                        AlertDisplay("Internet Connection","No Internet Connection !");
-                    }*/
+                    Show_Dialog_ClubProg2("");
                 }
-
-                Show_Dialog_ClubProg2();
-
             }
         });
     }
 
     // ADDED on 19-02-2020 (ICAI_CPE!Clubs) which is used in PNo==3 (Recently used in group Rotary Club Bareilly South ClientID--> RI31101920)
-    private void Show_Dialog_ClubProg2()
+    private void Show_Dialog_ClubProg2(String Data)
     {
         final Dialog dialog = new Dialog(context);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);// For Hide the title of the dialog box
@@ -451,30 +480,29 @@ public class Committee extends Activity {
 
         txtHead.setText("Club Programs\n("+ItemName+")");
 
-        if(!UserType.equalsIgnoreCase("ADMIN")){///UPDATE
-            //ed_Title.setEnabled(false);/// Disabled EditText
-            //ed_Desc.setEnabled(false);/// Disabled EditText
-            btnUpdate.setText("CLOSE");
+        OldMid = 0;//Default Val
+
+        btnUpdate.setText("ADD");
+        if (Data.contains("#")) {
+            Data = Data + " ";
+            String[] Arr1 = Data.split("#");
+            OldMid = Integer.parseInt(Arr1[0].trim());// MID
+            txt_Date.setText(Arr1[1].trim());//Set Date
+            ed_Title.setText(Arr1[2].trim());//Set Title
+            ed_Desc.setText(Arr1[3].trim());//Set Desc
+            btnUpdate.setText("UPDATE");
         }
 
-        /*String Data=Get_Committe_ClubInfo();///Get ClubInfo
-        if(Data.contains("#")){
-            Data=Data+" ";
-            String[] Arr1=Data.split("#");
-            txtNumberOfMem.setText(Arr1[0].trim());//Set Number Of Members
-            txt_installation_dt.setText(Arr1[1].trim());//Set Installation date
-            txt_governer_dt.setText(Arr1[2].trim());//Set Governors Visit date
-            txt_international_dt_1.setText(Arr1[3].trim());//Set International Dues Paid date 1
-            txt_international_dt_2.setText(Arr1[4].trim());//Set International Dues Paid date 2
-            txt_district_dues_dt.setText(Arr1[5].trim());//Set District Dues Paid date
-            txt_rotary_news_dt.setText(Arr1[6].trim());//Set Rotery News Trust Paid date
-        }*/
-
+        if(!UserType.equalsIgnoreCase("ADMIN")){///UPDATE
+            ed_Title.setEnabled(false);/// Disabled EditText
+            ed_Desc.setEnabled(false);/// Disabled EditText
+            btnUpdate.setText("CLOSE");
+        }
 
         txt_Date.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //if(UserType.equalsIgnoreCase("ADMIN"))///UPDATE
+                if(UserType.equalsIgnoreCase("ADMIN"))///UPDATE
                     Show_Date_Dialog(txt_Date);//Set Date
             }
         });
@@ -492,15 +520,15 @@ public class Committee extends Activity {
 
                     String RData=t1+"#"+t2+"#"+t3+"";
 
-                    /*Chkconnection chkconn=new Chkconnection();//Intialise Chkconnection Object
+                    Chkconnection chkconn=new Chkconnection();//Intialise Chkconnection Object
                     InternetPresent =chkconn.isConnectingToInternet(context);
                     if(InternetPresent==true)
                     {
-                        Update_ClubInfo_Server(ItemName,RData);
+                        Update_ClubInfo_Prog_Server(ItemName,RData,OldMid,3);//Committee Club Program
                     }
                     else {
                         AlertDisplay("Internet Connection","No Internet Connection !");
-                    }*/
+                    }
                 }
 
             }
@@ -538,35 +566,42 @@ public class Committee extends Activity {
         txtHead.setText("Committees\n("+ItemName+")");
 
         if(!UserType.equalsIgnoreCase("ADMIN")){///UPDATE
-            //ed_Trea_Name.setEnabled(false);/// Disabled EditText
-            //ed_Trea_Mob.setEnabled(false);/// Disabled EditText
-            //ed_Lit_Name.setEnabled(false);/// Disabled EditText
-            //ed_Lit_Mob.setEnabled(false);/// Disabled EditText
-            //ed_Found_Name.setEnabled(false);/// Disabled EditText
-            //ed_Found_Mob.setEnabled(false);/// Disabled EditText
-            //ed_Memship_Name.setEnabled(false);/// Disabled EditText
-            //ed_Memship_Mob.setEnabled(false);/// Disabled EditText
-            //ed_PR_Name.setEnabled(false);/// Disabled EditText
-            //ed_PR_Mob.setEnabled(false);/// Disabled EditText
-            //ed_Grant_Name.setEnabled(false);/// Disabled EditText
-            //ed_Grant_Mob.setEnabled(false);/// Disabled EditText
-            //ed_Wash_Name.setEnabled(false);/// Disabled EditText
-            //ed_Wash_Mob.setEnabled(false);/// Disabled EditText
+            ed_Trea_Name.setEnabled(false);/// Disabled EditText
+            ed_Trea_Mob.setEnabled(false);/// Disabled EditText
+            ed_Lit_Name.setEnabled(false);/// Disabled EditText
+            ed_Lit_Mob.setEnabled(false);/// Disabled EditText
+            ed_Found_Name.setEnabled(false);/// Disabled EditText
+            ed_Found_Mob.setEnabled(false);/// Disabled EditText
+            ed_Memship_Name.setEnabled(false);/// Disabled EditText
+            ed_Memship_Mob.setEnabled(false);/// Disabled EditText
+            ed_PR_Name.setEnabled(false);/// Disabled EditText
+            ed_PR_Mob.setEnabled(false);/// Disabled EditText
+            ed_Grant_Name.setEnabled(false);/// Disabled EditText
+            ed_Grant_Mob.setEnabled(false);/// Disabled EditText
+            ed_Wash_Name.setEnabled(false);/// Disabled EditText
+            ed_Wash_Mob.setEnabled(false);/// Disabled EditText
             btnUpdate.setText("CLOSE");
         }
 
-        /*String Data=Get_Committe_ClubInfo();///Get ClubInfo
+        String Data=Get_Committe_ClubInfo(2);///Get Committee ClubInfo1 (Club Committee)
         if(Data.contains("#")){
             Data=Data+" ";
             String[] Arr1=Data.split("#");
-            txtNumberOfMem.setText(Arr1[0].trim());//Set Number Of Members
-            txt_installation_dt.setText(Arr1[1].trim());//Set Installation date
-            txt_governer_dt.setText(Arr1[2].trim());//Set Governors Visit date
-            txt_international_dt_1.setText(Arr1[3].trim());//Set International Dues Paid date 1
-            txt_international_dt_2.setText(Arr1[4].trim());//Set International Dues Paid date 2
-            txt_district_dues_dt.setText(Arr1[5].trim());//Set District Dues Paid date
-            txt_rotary_news_dt.setText(Arr1[6].trim());//Set Rotery News Trust Paid date
-        }*/
+            ed_Trea_Name.setText(Arr1[0].trim());
+            ed_Trea_Mob.setText(Arr1[1].trim());
+            ed_Lit_Name.setText(Arr1[2].trim());
+            ed_Lit_Mob.setText(Arr1[3].trim());
+            ed_Found_Name.setText(Arr1[4].trim());
+            ed_Found_Mob.setText(Arr1[5].trim());
+            ed_Memship_Name.setText(Arr1[6].trim());
+            ed_Memship_Mob.setText(Arr1[7].trim());
+            ed_PR_Name.setText(Arr1[8].trim());
+            ed_PR_Mob.setText(Arr1[9].trim());
+            ed_Grant_Name.setText(Arr1[10].trim());
+            ed_Grant_Mob.setText(Arr1[11].trim());
+            ed_Wash_Name.setText(Arr1[12].trim());
+            ed_Wash_Mob.setText(Arr1[13].trim());
+        }
 
 
         btnUpdate.setOnClickListener(new View.OnClickListener() {
@@ -592,17 +627,18 @@ public class Committee extends Activity {
                     String Wash_Mob=ed_Wash_Mob.getText().toString().trim();
 
                     String RData=Trea_Name+"#"+Trea_Mob+"#"+Lit_Name+"#"+Lit_Mob+"#"+Found_Name+"#"+Found_Mob+"#"+
-                            Memship_Name+"";
+                            Memship_Name+"#"+Memship_Mob+"#"+PR_Name+"#"+PR_Mob+"#"+Grant_Name+"#"+Grant_Mob+"#"+
+                            Wash_Name+"#"+Wash_Mob+"";
 
-                    /*Chkconnection chkconn=new Chkconnection();//Intialise Chkconnection Object
+                    Chkconnection chkconn=new Chkconnection();//Intialise Chkconnection Object
                     InternetPresent =chkconn.isConnectingToInternet(context);
                     if(InternetPresent==true)
                     {
-                        Update_ClubInfo_Server(ItemName,RData);
+                        Update_ClubInfo_Prog_Server(ItemName,RData,0,2);//Committee Club info1 (Club Committee)
                     }
                     else {
                         AlertDisplay("Internet Connection","No Internet Connection !");
-                    }*/
+                    }
                 }
             }
         });
@@ -636,7 +672,7 @@ public class Committee extends Activity {
             btnUpdate.setText("CLOSE");
         }
 
-        String Data=Get_Committe_ClubInfo();///Get ClubInfo
+        String Data=Get_Committe_ClubInfo(1);///Get Committee Club Information
         if(Data.contains("#")){
             Data=Data+" ";
             String[] Arr1=Data.split("#");
@@ -720,7 +756,7 @@ public class Committee extends Activity {
                     InternetPresent =chkconn.isConnectingToInternet(context);
                     if(InternetPresent==true)
                     {
-                        Update_ClubInfo_Server(ItemName,RData);
+                        Update_ClubInfo_Prog_Server(ItemName,RData,0,1);//Committee Club information
                     }
                     else {
                         AlertDisplay("Internet Connection","No Internet Connection !");
@@ -776,8 +812,8 @@ public class Committee extends Activity {
     }
 
 
-    //Update ClubInfo from Mobile to sever (Addec on 08-03-2019)
-    public void Update_ClubInfo_Server(final String TType,final String TVal)
+    //Update (ClubInfo & Club Info1) OR (Club Program & Club DG Program) from Mobile to sever (updated on 20-02-2020)
+    public void Update_ClubInfo_Prog_Server(final String TType, final String TVal, final int OldId, final int PType)
     {
         progressdial();
         Thread T2 = new Thread() {
@@ -785,7 +821,11 @@ public class Committee extends Activity {
             public void run() {
                 try {
                     WebServiceCall webcall=new WebServiceCall();
-                    final String WebResult=webcall.Committee_ClubInfo(Str_user,TType,TVal);
+
+                    if(PType==1 || PType==2)
+                        WebResult=webcall.Committee_ClubInfo(Str_user,TType,TVal,PType);/// Committee Club Info1 & Club Info2
+                    else if(PType==3 || PType==4)
+                        WebResult=webcall.Committee_ClubProg(Str_user,TType,TVal,OldId,PType);/// Committee Club Program & Club DG Program from Mobile to sever (Added on 20-02-2020)
 
                     runOnUiThread(new Runnable()
                     {
@@ -793,7 +833,11 @@ public class Committee extends Activity {
                         {
                             if(WebResult.contains("Saved"))
                             {
-                                AlertDisplay("Result","Updated Successfully !");
+                                String R1="Updated Successfully !";
+                                if((PType==3 || PType==4) && OldId==0)
+                                    R1="Added Successfully !";
+
+                                AlertDisplay("Result",R1);
                             }
                             else{
                                 AlertDisplay("","Something went wrong !");
@@ -810,6 +854,8 @@ public class Committee extends Activity {
         };
         T2.start();
     }
+
+
 
 
     protected void progressdial()

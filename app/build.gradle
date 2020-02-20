@@ -8,8 +8,8 @@ android {
         applicationId "group.manager"
         minSdkVersion 16
         targetSdkVersion 27
-        versionCode 239
-        versionName "3.40"
+        versionCode 240
+        versionName "3.41"
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_7
             targetCompatibility JavaVersion.VERSION_1_7
