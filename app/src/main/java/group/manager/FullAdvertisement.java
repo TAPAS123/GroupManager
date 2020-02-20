@@ -412,9 +412,7 @@ public class FullAdvertisement extends Activity implements SimpleGestureListener
 		       startActivity(menuIntent);
 		       finish();	
 	   		}
-	   		
-		   
-	   		
+
 	   	    return true;
 	   	 }
 	   	return super.onKeyDown(keyCode, event);
