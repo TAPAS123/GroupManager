@@ -92,10 +92,6 @@ public class CalendarviewPg extends Activity{
 				year=Integer.parseInt(Stryear);
 				month=Integer.parseInt(Strmonth);
 				
-		        //calc = Calendar.getInstance(Locale.getDefault());
-		        //month = calc.get(Calendar.MONTH) + 1;
-		        //year = calc.get(Calendar.YEAR);
-				
 		        System.out.println(month+" "+year+"  "+logid);
 		        webcall=new WebServiceCall();//Call a Webservice
 				chkconn=new Chkconnection();

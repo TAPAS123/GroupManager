@@ -367,6 +367,12 @@ public class Adapter_Menu extends ArrayAdapter<RowItem_Menu>  {
 	       holder.txtMenuName.setText(arr[1].toString());
 		   holder.ImgMenu.setImageResource(R.drawable.cam);/// Added 28-07-2018
 	    }
+		else if(rowItem.getMenuName().contains("DGCAL"))//DG Calendar Added on 21-02-2020
+		{
+			String [] arr=rowItem.getMenuName().split("!");
+			holder.txtMenuName.setText(arr[1].toString());
+			holder.ImgMenu.setImageResource(R.drawable.president);
+		}
 	    else if(rowItem.getMenuName().contains("MULTIROW"))// MULTIROW Added on 02-08-2018
 	    {
 	       String [] arr=rowItem.getMenuName().split("!");

@@ -154,6 +154,7 @@
 		<activity android:name="Club_PhotoUpload2" android:screenOrientation="portrait"/><!-- ADDED ON 04-08-2018 -->
 		<activity android:name="Club_PhotoUpload_Display" android:screenOrientation="portrait"/><!-- ADDED ON 04-08-2018 -->
 		<activity android:name="FamilyTree" android:screenOrientation="portrait"/><!-- ADDED ON 05-09-2018 -->
+		<activity android:name="DGCalendar" android:screenOrientation="portrait"/><!-- ADDED ON 21-02-2020 -->
 		
         <!-- GCM BROADCAST RECEIVER For PUSH NOTIFICATION-->
 		<!--<receiver

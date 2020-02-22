@@ -360,6 +360,10 @@ public class MenuPage extends Activity{
 				{
 					EventConfirmation(); //Event confirmation
 				}
+				else if(MenuName.contains("DGCAL"))//Added on 21-02-2020
+				{
+					DG_Calendar(); //DG Calendar
+				}
 	        }
 	     });
 
@@ -633,7 +637,7 @@ public class MenuPage extends Activity{
 		//System.out.println("2: "+Menu1);
 		
 		//System.out.println("3: "+Menu2+" "+Menu2.length());
-		//Menu1=Menu1+"#SUGG_PHOTO";
+		Menu1=Menu1+"#DGCAL!DG Calendar";
         sp=Menu1.split("#");
         rowItems_Menu = new ArrayList<RowItem_Menu>();
         for(int i=0;i<sp.length;i++)
@@ -979,6 +983,19 @@ public class MenuPage extends Activity{
 		
 		nextactivty();
 	}
+
+
+	//DG Calendar or Program New Menu Added on 21-02-2020
+	private void DG_Calendar()
+	{
+		menuIntent= new Intent(getBaseContext(),DGCalendar.class);
+		menuIntent.putExtra("Clt_Log",Logname);
+		menuIntent.putExtra("Clt_LogID",Logclubid);
+		menuIntent.putExtra("Clt_ClubName",LogclubName);
+		menuIntent.putExtra("UserClubName",ClientID);
+		menuIntent.putExtra("AppLogo", AppLogo);
+		startActivity(menuIntent);
+	}
 	
 	private void Matrimony()
 	{
@@ -1038,8 +1055,7 @@ public class MenuPage extends Activity{
   		menuIntent= new Intent(getBaseContext(),ChangePassword.class);
   		nextactivty();
   	}
-    
-  	
+
   	
     //Goto Contact Us (Added on 10-07-2017)
   	private void ContactUs()

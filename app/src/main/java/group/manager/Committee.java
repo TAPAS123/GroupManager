@@ -87,8 +87,6 @@ public class Committee extends Activity {
 
         Get_SharedPref_Values();// Get Stored Shared Pref Values of Login
 
-        //UserType="ADMIN";
-
         Set_App_Logo_Title(); // Set App Logo and Title
 
         txtHead.setText(MTitle);// Set Head Title
@@ -378,16 +376,9 @@ public class Committee extends Activity {
 
 
     ////Get ClubProgram Data (ICAI_CPE!Clubs) Added on 20-02-2019  which is used in PNo==3 (Recently used in group Rotary Club Bareilly South ClientID--> RI31101920)
-    private List<RowEnvt> Get_Committe_ClubProg_List(int PType)
+    private List<RowEnvt> Get_Committe_ClubProg_List()
     {
-        String RType="";
-
-        if(PType==3)
-            RType="COMM_CPROG"; // Club Program
-        else if(PType==4)
-            RType="COMM_DGPROG"; // Club DG Program
-
-        String sql = "Select M_ID,Text2 from " + Table4Name + " Where Rtype='"+RType+"' AND Text1='"+ItemName.trim()+"'";
+        String sql = "Select M_ID,Text2 from " + Table4Name + " Where Rtype='COMM_CPROG' AND Text1='"+ItemName.trim()+"'";
 
         dbObj = openOrCreateDatabase("MDA_Club", SQLiteDatabase.CREATE_IF_NECESSARY, null);
         Cursor cursorT = dbObj.rawQuery(sql, null);
@@ -434,7 +425,7 @@ public class Committee extends Activity {
             btnAdd.setText("CLOSE");
         }
 
-        final List<RowEnvt> ListItems=Get_Committe_ClubProg_List(3);///Get Committee Club Program List
+        final List<RowEnvt> ListItems=Get_Committe_ClubProg_List();///Get Committee Club Program List
         Adapter_NewsMain Adp1 = new Adapter_NewsMain(context,R.layout.newsmainlist, ListItems);
         LV1.setAdapter(Adp1);
 
@@ -824,7 +815,7 @@ public class Committee extends Activity {
 
                     if(PType==1 || PType==2)
                         WebResult=webcall.Committee_ClubInfo(Str_user,TType,TVal,PType);/// Committee Club Info1 & Club Info2
-                    else if(PType==3 || PType==4)
+                    else if(PType==3)
                         WebResult=webcall.Committee_ClubProg(Str_user,TType,TVal,OldId,PType);/// Committee Club Program & Club DG Program from Mobile to sever (Added on 20-02-2020)
 
                     runOnUiThread(new Runnable()
@@ -854,8 +845,6 @@ public class Committee extends Activity {
         };
         T2.start();
     }
-
-
 
 
     protected void progressdial()
