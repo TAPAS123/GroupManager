@@ -56,6 +56,7 @@ public class Committee extends Activity {
     ProgressDialog Progsdial;
     private boolean InternetPresent;
     int OldMid=0;
+    String ClubPresidentMID="";//(Recently used in group Rotary Club Bareilly South ClientID--> RI31101920)
     //boolean HasSingleData=false;
 
     public void onCreate(Bundle savedInstanceState) {
@@ -234,6 +235,10 @@ public class Committee extends Activity {
                     }
                     Adapter_Committee adp1 = new Adapter_Committee(context, R.layout.committee_list_items, rowItems);
                     Lv.setAdapter(adp1);
+
+                    //Get Committee Club President MID
+                    ClubPresidentMID=Get_Committe_Club_President_MID(Text1)+"";
+
                     GOTO_Chk_SingleDirectory();
                     return;
                 }
@@ -333,6 +338,24 @@ public class Committee extends Activity {
     }
 
 
+    ////Get Committe Club President MID for Authorisation (ICAI_CPE!Clubs) ADDED on 22-02-2020  which is used in PNo==3 (Recently used in group Rotary Club Bareilly South ClientID--> RI31101920)
+    private int Get_Committe_Club_President_MID(String Text1)
+    {
+        int MID=0;
+        dbObj = openOrCreateDatabase("MDA_Club", SQLiteDatabase.CREATE_IF_NECESSARY, null);
+        String sql = "SELECT Num1 from " + Table4Name + " Where Upper(Text4)='PRESIDENT' " +
+                " AND Rtype='ICAI' AND Text1='" + Text1.trim() + "' AND Text2='" + ItemName.trim() + "' ";
+        Cursor cursorT = dbObj.rawQuery(sql, null);
+        if (cursorT.moveToFirst()) {
+            MID = cursorT.getInt(0);
+        }
+        cursorT.close();
+        dbObj.close();
+
+        return MID;
+    }
+
+
     ////Check ClubInfo (ICAI_CPE!Clubs) ADDED on 08-03-2019  which is used in PNo==3 (Recently used in group Rotary Club Bareilly South ClientID--> RI31101920)
     private String Chk_Committe_ClubInfo()
     {
@@ -421,7 +444,7 @@ public class Committee extends Activity {
 
         txtHead.setText("Club Programs\n("+ItemName+")");
 
-        if(!UserType.equalsIgnoreCase("ADMIN")){///UPDATE
+        if(!(UserType.equalsIgnoreCase("ADMIN") || logid.equals(ClubPresidentMID))){///UPDATE
             btnAdd.setText("CLOSE");
         }
 
@@ -446,7 +469,7 @@ public class Committee extends Activity {
             public void onClick(View v) {
                 dialog.dismiss();
 
-                if(UserType.equalsIgnoreCase("ADMIN"))///UPDATE
+                if(UserType.equalsIgnoreCase("ADMIN") || logid.equals(ClubPresidentMID))///UPDATE
                 {
                     Show_Dialog_ClubProg2("");
                 }
@@ -484,7 +507,7 @@ public class Committee extends Activity {
             btnUpdate.setText("UPDATE");
         }
 
-        if(!UserType.equalsIgnoreCase("ADMIN")){///UPDATE
+        if(!(UserType.equalsIgnoreCase("ADMIN") || logid.equals(ClubPresidentMID))){///UPDATE
             ed_Title.setEnabled(false);/// Disabled EditText
             ed_Desc.setEnabled(false);/// Disabled EditText
             btnUpdate.setText("CLOSE");
@@ -493,7 +516,7 @@ public class Committee extends Activity {
         txt_Date.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(UserType.equalsIgnoreCase("ADMIN"))///UPDATE
+                if(UserType.equalsIgnoreCase("ADMIN") || logid.equals(ClubPresidentMID))///UPDATE
                     Show_Date_Dialog(txt_Date);//Set Date
             }
         });
@@ -503,7 +526,7 @@ public class Committee extends Activity {
             public void onClick(View v) {
                 dialog.dismiss();
 
-                if(UserType.equalsIgnoreCase("ADMIN"))///UPDATE
+                if(UserType.equalsIgnoreCase("ADMIN") || logid.equals(ClubPresidentMID))///UPDATE
                 {
                     String t1=txt_Date.getText().toString().trim();
                     String t2=ed_Title.getText().toString().trim();
@@ -556,7 +579,7 @@ public class Committee extends Activity {
 
         txtHead.setText("Committees\n("+ItemName+")");
 
-        if(!UserType.equalsIgnoreCase("ADMIN")){///UPDATE
+        if(!(UserType.equalsIgnoreCase("ADMIN") || logid.equals(ClubPresidentMID))){///UPDATE
             ed_Trea_Name.setEnabled(false);/// Disabled EditText
             ed_Trea_Mob.setEnabled(false);/// Disabled EditText
             ed_Lit_Name.setEnabled(false);/// Disabled EditText
@@ -600,7 +623,7 @@ public class Committee extends Activity {
             public void onClick(View v) {
                 dialog.dismiss();
 
-                if(UserType.equalsIgnoreCase("ADMIN"))///UPDATE
+                if(UserType.equalsIgnoreCase("ADMIN") || logid.equals(ClubPresidentMID))///UPDATE
                 {
                     String Trea_Name=ed_Trea_Name.getText().toString().trim();
                     String Trea_Mob=ed_Trea_Mob.getText().toString().trim();
@@ -658,7 +681,7 @@ public class Committee extends Activity {
 
         txtHead.setText("Club Information\n("+ItemName+")");
 
-        if(!UserType.equalsIgnoreCase("ADMIN")){///UPDATE
+        if(!(UserType.equalsIgnoreCase("ADMIN") || logid.equals(ClubPresidentMID))){///UPDATE
             txtNumberOfMem.setEnabled(false);/// Disabled EditText
             btnUpdate.setText("CLOSE");
         }
@@ -680,7 +703,7 @@ public class Committee extends Activity {
         txt_installation_dt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(UserType.equalsIgnoreCase("ADMIN"))///UPDATE
+                if(UserType.equalsIgnoreCase("ADMIN") || logid.equals(ClubPresidentMID))///UPDATE
                     Show_Date_Dialog(txt_installation_dt);//Set Date
             }
         });
@@ -688,7 +711,7 @@ public class Committee extends Activity {
         txt_governer_dt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(UserType.equalsIgnoreCase("ADMIN"))///UPDATE
+                if(UserType.equalsIgnoreCase("ADMIN") || logid.equals(ClubPresidentMID))///UPDATE
                     Show_Date_Dialog(txt_governer_dt);//Set Date
             }
         });
@@ -696,7 +719,7 @@ public class Committee extends Activity {
         txt_international_dt_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(UserType.equalsIgnoreCase("ADMIN"))///UPDATE
+                if(UserType.equalsIgnoreCase("ADMIN") || logid.equals(ClubPresidentMID))///UPDATE
                     Show_Date_Dialog(txt_international_dt_1);//Set Date
             }
         });
@@ -704,7 +727,7 @@ public class Committee extends Activity {
         txt_international_dt_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(UserType.equalsIgnoreCase("ADMIN"))///UPDATE
+                if(UserType.equalsIgnoreCase("ADMIN") || logid.equals(ClubPresidentMID))///UPDATE
                     Show_Date_Dialog(txt_international_dt_2);//Set Date
             }
         });
@@ -712,7 +735,7 @@ public class Committee extends Activity {
         txt_district_dues_dt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(UserType.equalsIgnoreCase("ADMIN"))///UPDATE
+                if(UserType.equalsIgnoreCase("ADMIN") || logid.equals(ClubPresidentMID))///UPDATE
                     Show_Date_Dialog(txt_district_dues_dt);//Set Date
             }
         });
@@ -720,7 +743,7 @@ public class Committee extends Activity {
         txt_rotary_news_dt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(UserType.equalsIgnoreCase("ADMIN"))///UPDATE
+                if(UserType.equalsIgnoreCase("ADMIN") || logid.equals(ClubPresidentMID))///UPDATE
                     Show_Date_Dialog(txt_rotary_news_dt);//Set Date
             }
         });
@@ -731,7 +754,7 @@ public class Committee extends Activity {
             public void onClick(View v) {
                 dialog.dismiss();
 
-                if(UserType.equalsIgnoreCase("ADMIN"))///UPDATE
+                if(UserType.equalsIgnoreCase("ADMIN") || logid.equals(ClubPresidentMID))///UPDATE
                 {
                     String t1=txtNumberOfMem.getText().toString().trim();
                     String t2=txt_installation_dt.getText().toString().trim();
@@ -829,6 +852,8 @@ public class Committee extends Activity {
                                     R1="Added Successfully !";
 
                                 AlertDisplay("Result",R1);
+
+                                Service_Call_Sync_Tab4();//Sync Table 4 from Server To Moblie
                             }
                             else{
                                 AlertDisplay("","Something went wrong !");
@@ -856,6 +881,15 @@ public class Committee extends Activity {
         Progsdial.getWindow().setGravity(Gravity.DISPLAY_CLIP_VERTICAL);
         Progsdial.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
         Progsdial.show();
+    }
+
+
+    // Start a service Service_Call_Sync_Tab4 for Sync Table4
+    private void Service_Call_Sync_Tab4()
+    {
+        Intent intent = new Intent(context,Service_Call_Sync_Tab4.class);
+        intent.putExtra("ClientID",Str_user);
+        startService(intent);
     }
 
 

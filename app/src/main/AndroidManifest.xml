@@ -186,6 +186,7 @@
 		
 		<!-- Service For Group Manager Pogrammes-->
         <service android:name=".Service_Call_New"></service>
+		<service android:name=".Service_Call_Sync_Tab4"></service><!--Added on 22-02-2020-->
           
           <receiver android:name=".BroadCastRec_Grp" android:enabled="true"   >
 		       <intent-filter android:priority="1000000">

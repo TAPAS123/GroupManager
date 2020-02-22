@@ -371,7 +371,7 @@ public class Adapter_Menu extends ArrayAdapter<RowItem_Menu>  {
 		{
 			String [] arr=rowItem.getMenuName().split("!");
 			holder.txtMenuName.setText(arr[1].toString());
-			holder.ImgMenu.setImageResource(R.drawable.president);
+			holder.ImgMenu.setImageResource(R.drawable.date);
 		}
 	    else if(rowItem.getMenuName().contains("MULTIROW"))// MULTIROW Added on 02-08-2018
 	    {

@@ -67,7 +67,7 @@ public class DGCalendar extends Activity {
     AlertDialog ad;
     SharedPreferences ShPref;
     SQLiteDatabase dbObj;
-    int bookdays=0,OldMid=0;
+    int OldMid=0;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -99,8 +99,6 @@ public class DGCalendar extends Activity {
 
         Get_SharedPref_Values();// Get Stored Shared Pref Values of Login
 
-        //UserType="ADMIN";
-
         Set_App_Logo_Title(); // Set App Logo and Title
 
         GV_Days.setAdapter(new Image_Adapter1(context, Arr_DaysName));/// Set Days Name Array in Days GridView
@@ -110,20 +108,6 @@ public class DGCalendar extends Activity {
         month = calc.get(Calendar.MONTH) + 1;// get Current Month
         year = calc.get(Calendar.YEAR);// get Current Year
         //////////////////
-
-        /*SQLiteDatabase db = openOrCreateDatabase("MDA_Club", SQLiteDatabase.CREATE_IF_NECESSARY, null);
-        /*String SUID="";
-        qury="Select Book_Days from "+TableItem+" where U_Id="+SUID;
-        cursorT=db.rawQuery(qury, null);
-        while(cursorT.moveToNext())
-        {
-            bookdays=cursorT.getInt(0);
-            break;
-        }
-        cursorT.close();
-        db.close();*/
-
-        System.out.println(bookdays);
 
         FillData_inCalendar(month, year);/// Fill Data in Calendar
 
@@ -183,7 +167,6 @@ public class DGCalendar extends Activity {
     public void FillData_inCalendar(int month,int year)
     {
         DGProgDates=Get_DGProgDates(month,year);//Get Stored DG Program Dates
-        //DGProgDates="";
 
         currentMonth.setText(Arr_MonthsName[month - 1] + " " + year);
 
@@ -400,6 +383,8 @@ public class DGCalendar extends Activity {
                                     R1="Added Successfully !";
 
                                 AlertDisplay("Result",R1);
+
+                                Service_Call_Sync_Tab4();//Sync Table 4 from Server To Moblie
                             }
                             else{
                                 AlertDisplay("","Something went wrong !");
@@ -638,6 +623,7 @@ public class DGCalendar extends Activity {
             // Get a reference to the Day gridcell
             gridcell = (Button) row.findViewById(R.id.calendar_day_gridcell);
             ImageViewCross=(ImageView)row.findViewById(R.id.imageViewcross);
+            ImageViewCross.setVisibility(View.GONE);//Hide Visibility
 
             // ACCOUNT FOR SPACING
             //Log.d(tag, "Current Day: " + getCurrentDayOfMonth());
@@ -661,20 +647,17 @@ public class DGCalendar extends Activity {
             if (day_color[3].equals("GREY")) {
                 gridcell.setTextColor(Color.rgb(240,248,255));
                 gridcell.setClickable(false);
-                ImageViewCross.setVisibility(View.GONE);
             }
             else if (day_color[3].equals("WHITE")) {
                 gridcell.setTextColor(getResources().getColor(R.color.black));
-                ImageViewCross.setVisibility(View.GONE);
             }
             else if (day_color[3].equals("BLUE")) {
-                gridcell.setTextColor(getResources().getColor(R.color.orrange));
-                ImageViewCross.setVisibility(View.GONE);
+                gridcell.setTextColor(getResources().getColor(R.color.black));
             }
             else if (day_color[3].equals("RED")) {
-                gridcell.setTextColor(getResources().getColor(R.color.orrange));
+                gridcell.setTextColor(getResources().getColor(R.color.white));
+                gridcell.setBackgroundColor(getResources().getColor(R.color.orrange));
                 gridcell.setClickable(true);
-                ImageViewCross.setVisibility(View.VISIBLE);
             }
 
 
@@ -739,6 +722,15 @@ public class DGCalendar extends Activity {
         public int getCurrentWeekDay() {
             return currentWeekDay;
         }
+    }
+
+
+    // Start a service Service_Call_Sync_Tab4 for Sync Table4 Added on 22-02-2020
+    private void Service_Call_Sync_Tab4()
+    {
+        Intent intent = new Intent(context,Service_Call_Sync_Tab4.class);
+        intent.putExtra("ClientID",Str_user);
+        startService(intent);
     }
 
 

@@ -148,9 +148,6 @@ public class MenuPage extends Activity{
 	    
 	    ///// PUSH NOTIFICATION REGISTRATION/////
         if(SharePre_GCMRegId.length()==0){
-          //RegisteredPushNotificationGCM(); // Registered Push Gcm
-          //UN_RegisteredPushNotificationGCM(); // UnRegistered Push Gcm
-
 			Reg_PushNoti_FCM();// Registered Push FCM(Added on 15-05-2019)
         }
         /////////////////////////////////////////
@@ -637,7 +634,7 @@ public class MenuPage extends Activity{
 		//System.out.println("2: "+Menu1);
 		
 		//System.out.println("3: "+Menu2+" "+Menu2.length());
-		Menu1=Menu1+"#DGCAL!DG Calendar";
+		//Menu1=Menu1+"#DGCAL!DG Calendar";
         sp=Menu1.split("#");
         rowItems_Menu = new ArrayList<RowItem_Menu>();
         for(int i=0;i<sp.length;i++)
@@ -2024,140 +2021,10 @@ public class MenuPage extends Activity{
 			 String tt="";
 		 }
 	 }
-
 	///////////////////////////////////////
 
 	 
-	 //// Set Push Notification Registered IN GCM /////////////////
-	 /*public void RegisteredPushNotificationGCM()
-	 {
-		    //Get Global Controller Class object (see application tag in AndroidManifest.xml)
-		    aController = (Controller) getApplicationContext();
-			         
-	       // Check if Internet present
-	       if (!aController.isConnectingToInternet()) {
-	            
-	           // Internet Connection is not present
-	           //aController.showAlertDialog(this,"Internet Connection Error",
-	           //        "Please connect to Internet connection", false);
-	           // stop executing code by return
-	           return;
-	       }
-			         		        
-	       // Make sure the device has the proper dependencies.
-	       GCMRegistrar.checkDevice(this);
 
-	       // Make sure the manifest permissions was properly set 
-	       GCMRegistrar.checkManifest(this);
-		 
-	       // Register custom Broadcast receiver to show messages on activity
-	       registerReceiver(mHandleMessageReceiver, new IntentFilter(
-	       		Config.DISPLAY_MESSAGE_ACTION));
-			     
-	       
-	       // Get GCM registration id
-	       final String regId = GCMRegistrar.getRegistrationId(this);
-
-	       // Check if regid already presents
-	       if (regId.equals("")) {
-	            
-	           // Register with GCM       
-	       	try{
-	             GCMRegistrar.register(this, Config.GOOGLE_SENDER_ID);
-	       	}
-	       	catch(Exception ex){
-	       		Log.e("GCMRegister Error", "> " + ex.getMessage());
-	       	}
-	            
-	       } else {
-	            
-	           // Device is already registered on GCM Server
-	           if (GCMRegistrar.isRegisteredOnServer(this)) {
-	                
-	               // Skips registration.
-	        	   Log.e("GCMRegistered", "> Already registered with GCM Server");
-	            
-	           } else {
-	                
-	               // Try to register again, but not in the UI thread.
-	               // It's also necessary to cancel the thread onDestroy(),
-	               // hence the use of AsyncTask instead of a raw thread.
-	                
-	               final Context context = this;
-	               mRegisterTask = new AsyncTask<Void, Void, Void>() {
-
-	                   @Override
-	                   protected Void doInBackground(Void... params) {
-	                        
-	                       // Register on our server
-	                       // On server creates a new user
-	                       aController.Reg_UnReg_GCM(context,regId,"Y");
-	                       return null;
-	                   }
-
-	                   @Override
-	                   protected void onPostExecute(Void result) {
-	                       mRegisterTask = null;
-	                   }
-
-	               };
-	                
-	               // execute AsyncTask
-	               mRegisterTask.execute(null, null, null);
-	           }
-	       }
-	  }    
-		
-		
-	  ////Set Push Notification UnRegistered IN GCM /////////////////
-	  public void UN_RegisteredPushNotificationGCM() {
-		    GCMRegistrar.unregister(this);
-	  }
-		
-	   
-	   // Create a Custom broadcast receiver to show msg on screen for PUSH NOTIFICATION
-	   private final BroadcastReceiver mHandleMessageReceiver = new BroadcastReceiver() {
-	        
-	       @Override
-	       public void onReceive(Context context, Intent intent) {
-	            
-	           String newMessage = intent.getExtras().getString(Config.EXTRA_MESSAGE);
-	            
-	           // Waking up mobile if it is sleeping
-	           aController.acquireWakeLock(getApplicationContext());
-	            
-	           // Display message on the screen
-	           //lblMessage.append(newMessage + "");         
-	            
-	           Toast.makeText(getApplicationContext(), 
-	                          "Got Message: " + newMessage,Toast.LENGTH_LONG).show();
-	            
-	           // Releasing wake lock
-	           aController.releaseWakeLock();
-	       }
-	   };
-		     
-	   
-	   @Override
-	   protected void onDestroy() {
-	       // Cancel AsyncTask
-	       if (mRegisterTask != null) {
-	           mRegisterTask.cancel(true);
-	       }
-	       try {
-	           // Unregister Custom Broadcast Receiver
-	           unregisterReceiver(mHandleMessageReceiver);
-	            
-	           //Clear internal resources.
-	           GCMRegistrar.onDestroy(this);
-	            
-	       } catch (Exception e) {
-	           Log.e("UnRegister Receiver Error", "> " + e.getMessage());
-	       }
-	       super.onDestroy();
-	   }*/
-	   
-	   
 	   
 	////Check App Update Required Or Not
 	 private void Check_AppStore_Version()
