@@ -1,16 +1,12 @@
 package group.manager;
 
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.nio.channels.FileChannel;
-import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
-//import com.google.android.gcm.GCMRegistrar;
-import com.google.firebase.FirebaseApp;
 import com.google.firebase.iid.FirebaseInstanceId;
 
 import android.app.Activity;
@@ -18,11 +14,9 @@ import android.app.AlarmManager;
 import android.app.AlertDialog;
 import android.app.PendingIntent;
 import android.app.ProgressDialog;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.content.pm.PackageManager.NameNotFoundException;
@@ -33,10 +27,8 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
-import android.telephony.TelephonyManager;
 import android.text.Html;
 import android.util.Log;
 import android.view.Gravity;
@@ -48,102 +40,96 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class MenuPage extends Activity{
-	Intent menuIntent,MenuBtnIntent;
-	TextView txtclub,txtname;//Txtcount;
-	String Logname,Logclubid,LogclubName,Str_IEMI,ClientID,s,Str_main,str_memid,Webevent,StrChkDT,personal,StrCount,
-	StrQry,Tab6Name,t2name,t2mob,t2add1,t2add2,t2add3,t2city,t2email,t2bg,t2day,t2mon,t2year,UserType,Ann_D,Ann_M,Ann_Y,Temp_M_S;
+
+	String Logname,Logclubid,LogclubName,Str_IEMI,ClientID,s,Webevent,Tab6Name,mid,t2name,t2mob,t2add1,
+            t2add2,t2add3,t2city,t2email,t2bg,t2day,t2mon,t2year,UserType,Ann_D,Ann_M,Ann_Y,Temp_M_S,bPic,MenuList;
+	String sqlSearch,Tab2Name,Tab4Name,TabMiscName,SyncImpData,TabFamilyName,TabOpinion1,TabOpinion2;
+	String Name,Relation,Father,Mother,Current_Loc,Mob_1,Mob_2,DOB_D,DOB_M,DOB_Y,EmailId,Age,Education,
+			Work_Profile,ShowBirth="",ShowAnni="",TableNameEvent,ChkSync="",ChkSync_OneTime="1",Birday_Noti_Time="";
+	String UID="",Full_AdditionalData_UpdatePro="",packageName="",SharePre_GCMRegId="",MemDir_View="1";
+
+	//String[] temp,arr1;
+	Integer i=0,j=0,TCount_Tab2=0;
+	int id,T2mid,s_count;
+	byte[] imgP,t2pic=null,AppLogo;
+	List<RowItem_Menu> rowItems_Menu,rowItems_Menu2;
+	ListView LVMenu,LVMenu2;
+
+	TextView txtClub,txtName;
+	ImageView ImgVwExport,ImgVwAdmin;
+
+	Intent menuIntent;
 	Context context=this;
-	Connection conn;
 	AlertDialog ad;
 	ProgressDialog Progsdial;
 	Thread networkThread;
 	WebServiceCall webcall;
-	TelephonyManager tm;
-	String [] temp;
-	int id,counting=0,T2mid,s_count,Maxid,Minsycid,Pendcount;
 	SQLiteDatabase db;
-	String sqlSearch,Tab2Name,Tab4Name,TabMiscName,SyncImpData,TabFamilyName;
 	Cursor cursorT;
 	Chkconnection chkconn;
 	boolean InternetPresent;
-	LinearLayout llaydialog;
-	SharedPreferences sharedpreferences,shrd;
-	Editor editr,edits;
-	Integer tempsize,i=0,j=0,TCount_Tab2=0;
-	String [] arr1,arr2,CodeArr;//,arr3;
-	String str1,str2,str3,Wepdata,mid,nottile,notdesc,notmid;
-	byte[] imgP,t2pic=null;
-	String bPic;
-	List<RowItem_Menu> rowItems_Menu,rowItems_Menu2;
-	ListView LVMenu,LVMenu2;
-	String MenuList;
-	byte[] AppLogo;
-	String UID="";
-	String Full_AdditionalData_UpdatePro="",packageName="";
-	ImageView ivexport,ivadmin;
-	String Name,Relation,Father,Mother,Current_Loc,Mob_1,Mob_2,DOB_D,DOB_M,DOB_Y,EmailId,Age,Education,Work_Profile,sHOWBirth="",
-			Showanni="",TableNameEvent,ChkSync="",ChkSync_OneTime="1",TabOpinion1,TabOpinion2,Birday_Noti_Time="";
-	AlertDialog.Builder alertDialogBuilder3;
-	UnCommonProperties objuncm;
-	
-	///PUSH NOTIFICATION////////////////////////
-	String SharePre_GCMRegId="";//For Shared Preference
+	SharedPreferences ShPref;
+	Editor editr;
 	Controller aController;
-	//AsyncTask<Void, Void, Void> mRegisterTask;// Asyntask
-	//////////////////////////////////////
-	String MemDir_View="1";
-	
+	UnCommonProperties objuncm;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.menupage);
-		
-		txtclub=(TextView)findViewById(R.id.tvClubname);
-		txtname=(TextView)findViewById(R.id.tvMebernName);
+
+		txtClub=(TextView)findViewById(R.id.tvClubname);
+		txtName=(TextView)findViewById(R.id.tvMebernName);
 		LVMenu = (ListView) findViewById(R.id.lVMenu);
 		LVMenu2 = (ListView) findViewById(R.id.lVMenu2);
-		ivexport = (ImageView) findViewById(R.id.imageViewExport);
-		ivadmin = (ImageView) findViewById(R.id.imageViewAdminshow);
+		ImgVwExport = (ImageView) findViewById(R.id.imageViewExport);
+		ImgVwAdmin = (ImageView) findViewById(R.id.imageViewAdminshow);
 		ImageView imgAppShare=(ImageView)findViewById(R.id.imgShareApp);
 		ImageView imgSearch=(ImageView)findViewById(R.id.imgSearch);
-		
-		ad=new AlertDialog.Builder(this).create();
-		alertDialogBuilder3 = new AlertDialog.Builder(context);
-		
-		objuncm=new UnCommonProperties();
-		
+
 		Get_SharedPref_Values();// Get Stored Shared Pref Values of Login
-		
+
 		//add more member(if call this button call button click event & call alert function.)
 		Set_App_Logo_Title(); // Set App Logo and Title
-		
-		txtname.setText(Logname);
-		
+
+        Tab2Name="C_"+ClientID+"_2";
+        Tab4Name="C_"+ClientID+"_4";
+        TabMiscName="C_"+ClientID+"_MISC";
+        TabFamilyName="C_"+ClientID+"_Family";
+        Tab6Name="C_"+ClientID+"_6";
+        TableNameEvent="C_"+ClientID+"_Event";
+        TabOpinion1="C_"+ClientID+"_OP1";//Table Opinion Poll 1
+        TabOpinion2="C_"+ClientID+"_OP2";//Table Opinion Poll 2
+
+        ad=new AlertDialog.Builder(this).create();
+        objuncm=new UnCommonProperties();
 		webcall=new WebServiceCall();//Intialise WebserviceCall Object
 		chkconn=new Chkconnection();
 		Str_IEMI = new CommonClass().getIMEINumber(context);//Added On 14-02-2019
-		
-		Tab2Name="C_"+ClientID+"_2";
-		Tab4Name="C_"+ClientID+"_4";
-		TabMiscName="C_"+ClientID+"_MISC";
-		TabFamilyName="C_"+ClientID+"_Family";
-		Tab6Name="C_"+ClientID+"_6";
-		TableNameEvent="C_"+ClientID+"_Event";
-		TabOpinion1="C_"+ClientID+"_OP1";//Table Opinion Poll 1
-		TabOpinion2="C_"+ClientID+"_OP2";//Table Opinion Poll 2
-		
+
         Set_Menu_items();// Set Menu Items
+
+		txtName.setText(Logname);
+
+
+		//Move to New MenuPage(MenuPage1) Added on 25-02-2020
+		if(MenuList.contains("DGCAL!")){
+			menuIntent= new Intent(context,MenuPage1.class);
+			menuIntent.putExtra("AppLogo", AppLogo);
+			startActivity(menuIntent);
+			finish();
+			return;
+		}
 		
 		if(UserType.equalsIgnoreCase("ADMIN")){
-			ivadmin.setVisibility(View.VISIBLE);	
+			ImgVwAdmin.setVisibility(View.VISIBLE);	// Visible Admin ImageView Button
 		}else{
-			ivadmin.setVisibility(View.GONE);	
+			ImgVwAdmin.setVisibility(View.GONE);
 		}
 	    
 	    ///// PUSH NOTIFICATION REGISTRATION/////
@@ -186,16 +172,17 @@ public class MenuPage extends Activity{
 		
 		Sync_FamilyMemberDetails();// Sync (M-S) FamilyMembers Records
 		
-	    //ivexport.setVisibility(View.VISIBLE);//VISIBLE or GONE
-	    
-	    ivexport.setOnClickListener(new OnClickListener(){ 
+	    //ImgVwExport.setVisibility(View.VISIBLE);//VISIBLE or GONE
+
+		///For DataBase Backup Import or Export Data
+		ImgVwExport.setOnClickListener(new OnClickListener(){
             public void onClick(View arg0){
-             alertDialogBuilder3
-       		 .setMessage("Do you want export data!")
+            	AlertDialog.Builder AdBuilder = new AlertDialog.Builder(context);
+				AdBuilder.setMessage("Do you want export data!")
 	                .setPositiveButton("Ok",new DialogInterface.OnClickListener() {
 	                    public void onClick(DialogInterface dialog,int id) {
 	                    	dialog.dismiss();
-	                    	exportDB();//exportDB();////////////export internal data of phone in download folder
+	                    	exportDB();//exportDB();//////export internal data of phone in download folder
 	                    }
 	                })
 	                .setNeutralButton("Cancel",new DialogInterface.OnClickListener() {
@@ -203,7 +190,7 @@ public class MenuPage extends Activity{
 	                     	dialog.dismiss();
 	                     }
 	                });
-       		 ad = alertDialogBuilder3.create();
+       		 ad = AdBuilder.create();
 	         ad.show();	
             }
 	    });
@@ -215,9 +202,9 @@ public class MenuPage extends Activity{
             	GlobalSearch(); // Show Global Search
             }
 	    });
-	    
-	    
-	    ivadmin.setOnClickListener(new OnClickListener(){ 
+
+	    /// Admin Options
+		ImgVwAdmin.setOnClickListener(new OnClickListener(){
             public void onClick(View arg0){
             	ShowUtility("2");
             }
@@ -413,7 +400,7 @@ public class MenuPage extends Activity{
 		 db.close();///Close Connection
 		  
 		 ////Update Value in SharedPreference ////
-		 editr = sharedpreferences.edit();
+		 editr = ShPref.edit();
 		 editr.putString("Birday_Noti_Time",Birday_Noti_Time); //Saved Birday_Noti_Time
 		 editr.commit();
 		 ////////////////////////
@@ -446,8 +433,7 @@ public class MenuPage extends Activity{
 		 ///////////////////////////////////////////
 	 }
 	
-	
-	
+
 	//Set App Logo and Title
 	private void Set_App_Logo_Title()
 	 {
@@ -466,32 +452,32 @@ public class MenuPage extends Activity{
 			getActionBar().setIcon(icon);
 		 }
 	 }
-	
+
+
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 	    MenuInflater inflater = getMenuInflater();
 	    inflater.inflate(R.menu.menu, menu);
 	    String Addgroup_orNot=objuncm.GET_Addgroup();
-	    MenuItem itemB = menu.findItem(R.id.birthdaygrp);
-	    MenuItem itemAn = menu.findItem(R.id.anniver);
-	    MenuItem itemgrMore = menu.findItem(R.id.Add_More_Group);
-	    if(Addgroup_orNot.equals("Yes")){
-	    	itemgrMore.setVisible(true);
-	    }else{
-	    	itemgrMore.setVisible(false);
+	    MenuItem itemBDay = menu.findItem(R.id.birthdaygrp);
+	    MenuItem itemAnni = menu.findItem(R.id.anniver);
+	    MenuItem itemAddMoreGrp = menu.findItem(R.id.Add_More_Group);
+
+        itemAddMoreGrp.setVisible(false);
+        itemBDay.setVisible(false);
+        itemAnni.setVisible(false);
+
+        if(Addgroup_orNot.equals("Yes")){
+            itemAddMoreGrp.setVisible(true);
+        }
+	    if(ShowBirth.equals("1")){
+            itemBDay.setVisible(true);
 	    }
-	    
-	    if(sHOWBirth.equals("1")){
-	    	itemB.setVisible(true);
-	    }else{
-	    	itemB.setVisible(false);
+	    if(ShowAnni.equals("1")){
+            itemAnni.setVisible(true);
 	    }
-	    if(Showanni.equals("1")){
-	    	itemAn.setVisible(true);	
-	    }else{
-	    	itemAn.setVisible(false);
-	    }
+
 	    return true;
 	}
 	
@@ -509,7 +495,7 @@ public class MenuPage extends Activity{
 	        	App_Settings(); // App Settings Here
 	            return true;
 	        case R.id.birthdaygrp:
-	        	Showbirthday(); // Show bithday Here
+	        	ShowBirthday(); // Show bithday Here
 	            return true;
 	        case R.id.bloodgroup:
 	        	ShowBloodgroup(); // Show blood group Here
@@ -532,68 +518,68 @@ public class MenuPage extends Activity{
 	//Get Data from Saved Shared Preference
 	private void Get_SharedPref_Values()
 	{
-		 sharedpreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
+		 ShPref = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
 		 
-		  if (sharedpreferences.contains("clientid"))
+		  if (ShPref.contains("clientid"))
 	      {
-			  ClientID=sharedpreferences.getString("clientid", "");
+			  ClientID=ShPref.getString("clientid", "");
 	      }
-		  if (sharedpreferences.contains("userid"))
+		  if (ShPref.contains("userid"))
 	      {
-			  UID=sharedpreferences.getString("userid", "");
+			  UID=ShPref.getString("userid", "");
 	      }
-	      if (sharedpreferences.contains("name"))
+	      if (ShPref.contains("name"))
 	      {
-	    	  Logname=sharedpreferences.getString("name", "");
+	    	  Logname=ShPref.getString("name", "");
           } 
-	      if (sharedpreferences.contains("cltid"))
+	      if (ShPref.contains("cltid"))
 	      {
-	    	  Logclubid=sharedpreferences.getString("cltid", "");
+	    	  Logclubid=ShPref.getString("cltid", "");
           } 
-	      if (sharedpreferences.contains("clubname"))
+	      if (ShPref.contains("clubname"))
 	      {
-	    	  LogclubName=sharedpreferences.getString("clubname", "");
+	    	  LogclubName=ShPref.getString("clubname", "");
           } 
-	      if (sharedpreferences.contains("MenuList"))
+	      if (ShPref.contains("MenuList"))
 	      {
-	    	  MenuList=sharedpreferences.getString("MenuList", "");
+	    	  MenuList=ShPref.getString("MenuList", "");
           } 
-	      if (sharedpreferences.contains("TCount_Tab2"))
+	      if (ShPref.contains("TCount_Tab2"))
 		  {
-			  String Tab2Count=sharedpreferences.getString("TCount_Tab2", "");// Tab2Count is the Total Records of Table 2
+			  String Tab2Count=ShPref.getString("TCount_Tab2", "");// Tab2Count is the Total Records of Table 2
 			  TCount_Tab2=Integer.parseInt(Tab2Count); // Here Tab2Count Takes Only Integer Value
 		  }
-	      if (sharedpreferences.contains("UserType"))
+	      if (ShPref.contains("UserType"))
 		  {
-			  UserType=sharedpreferences.getString("UserType", "");
+			  UserType=ShPref.getString("UserType", "");
 			  System.out.println("member: "+UserType);
 		  }
-	      if (sharedpreferences.contains("SharePre_GCMRegId"))
+	      if (ShPref.contains("SharePre_GCMRegId"))
 		  {
-		      SharePre_GCMRegId=sharedpreferences.getString("SharePre_GCMRegId", "");
+		      SharePre_GCMRegId=ShPref.getString("SharePre_GCMRegId", "");
 	      }
-	      if (sharedpreferences.contains("ChkSync"))
+	      if (ShPref.contains("ChkSync"))
 		  {
-	    	  ChkSync=sharedpreferences.getString("ChkSync", "");
+	    	  ChkSync=ShPref.getString("ChkSync", "");
 	      }
-	      if (sharedpreferences.contains("ChkSync_OneTime"))
+	      if (ShPref.contains("ChkSync_OneTime"))
 		  {
-	    	  ChkSync_OneTime=sharedpreferences.getString("ChkSync_OneTime", "");
+	    	  ChkSync_OneTime=ShPref.getString("ChkSync_OneTime", "");
 	      }
-	      if (sharedpreferences.contains("MemDir_View"))
+	      if (ShPref.contains("MemDir_View"))
 		  {
-	    	  MemDir_View=sharedpreferences.getString("MemDir_View", "");
+	    	  MemDir_View=ShPref.getString("MemDir_View", "");
 	      }
-	      if (sharedpreferences.contains("Birday_Noti_Time"))//Added on 29-08-2018
+	      if (ShPref.contains("Birday_Noti_Time"))//Added on 29-08-2018
 		  {
-	    	  Birday_Noti_Time=sharedpreferences.getString("Birday_Noti_Time", "");
+	    	  Birday_Noti_Time=ShPref.getString("Birday_Noti_Time", "");
 	      }
 	}
 	
 	//Set Data in SharedPref
 	private void Set_SharedPref_Values()
 	{
-		 editr = sharedpreferences.edit();
+		 editr = ShPref.edit();
 		 editr.putString("ChkSync_OneTime","2"); //Saved ChkSync_OneTime
 		 editr.commit();
 	}
@@ -602,7 +588,7 @@ public class MenuPage extends Activity{
 	// Set Menu Items Dynamically
 	private void Set_Menu_items()
 	{
-		sHOWBirth="";Showanni="";
+        ShowBirth="";ShowAnni="";
 		String Menu1="",Menu2="",BAVAlue="";
 		String[] sp,AB;
 		System.out.println(MenuList);
@@ -621,13 +607,13 @@ public class MenuPage extends Activity{
 			BAVAlue=MenuL[2];
 			BAVAlue=BAVAlue.replace("^", "#");
 			AB=BAVAlue.split("#");
-			
-			sHOWBirth=AB[0];
-			Showanni=AB[1];
-			if(sHOWBirth==null)
-				sHOWBirth="";
-			if(Showanni==null)
-				Showanni="";
+
+            ShowBirth=AB[0];
+            ShowAnni=AB[1];
+			if(ShowBirth==null)
+                ShowBirth="";
+			if(ShowAnni==null)
+                ShowAnni="";
 		}
 		
 		// Set Ist MenuList
@@ -635,6 +621,8 @@ public class MenuPage extends Activity{
 		
 		//System.out.println("3: "+Menu2+" "+Menu2.length());
 		//Menu1=Menu1+"#DGCAL!DG Calendar";
+
+        //Set 1st MenuList
         sp=Menu1.split("#");
         rowItems_Menu = new ArrayList<RowItem_Menu>();
         for(int i=0;i<sp.length;i++)
@@ -678,7 +666,7 @@ public class MenuPage extends Activity{
 	}
 	
 	
-	private void Showbirthday()
+	private void ShowBirthday()
 	{
 		menuIntent= new Intent(getBaseContext(),ShowBirthadayNotification.class);
 		menuIntent.putExtra("ClientID", ClientID);
@@ -788,7 +776,7 @@ public class MenuPage extends Activity{
 		  db.close();
 		  
 		  String Tab2Count=String.valueOf(count);
-		  editr = sharedpreferences.edit();
+		  editr = ShPref.edit();
 		  editr.putString("TCount_Tab2",Tab2Count); //TCount_Tab2 is the Total Records of Table 2
 		  editr.commit();
 		}
@@ -805,8 +793,9 @@ public class MenuPage extends Activity{
 	//Modified 01-07-2015 'Tapas'
 	private void Update_Profile()
 	{
-		String StrQ="",StrPend="";
-		db = openOrCreateDatabase("MDA_Club", SQLiteDatabase.CREATE_IF_NECESSARY, null); 
+		String StrQ="",StrPend="",RData="";
+		db = openOrCreateDatabase("MDA_Club", SQLiteDatabase.CREATE_IF_NECESSARY, null);
+
 		StrQ="select Count(M_id) from "+Tab4Name+" where Rtype='Pending'";
 		cursorT = db.rawQuery(StrQ, null);
 		if (cursorT.moveToFirst()) {
@@ -830,7 +819,7 @@ public class MenuPage extends Activity{
 		    if (cursorT1.moveToFirst()) {
 		    	try{
 		    		//System.out.println(StrQ);
-		    		personal= ChkVal(cursorT1.getString(0))+StrPend+"#"+ChkVal(cursorT1.getString(1))+"#"+ChkVal(cursorT1.getString(2))+"#"+
+                    RData= ChkVal(cursorT1.getString(0))+StrPend+"#"+ChkVal(cursorT1.getString(1))+"#"+ChkVal(cursorT1.getString(2))+"#"+
 			    			  ChkVal(cursorT1.getString(3))+"#"+ChkVal(cursorT1.getString(4))+"#"+ChkVal(cursorT1.getString(5))+"#"+
 			    			  ChkVal(cursorT1.getString(6))+"#"+ChkVal(cursorT1.getString(7))+"#"+ChkVal(cursorT1.getString(8))+"#"+
 			    			  ChkVal(cursorT1.getString(9))+"#"+ChkVal(cursorT1.getString(10))+"#"+ChkVal(cursorT1.getString(11))+"#"+
@@ -839,7 +828,7 @@ public class MenuPage extends Activity{
 				  	imgP=cursorT1.getBlob(19);//Image
 				  	
 				  	if(!UserType.equals("SPOUSE")){
-				  		personal=personal+"#"+ChkVal(cursorT1.getString(20))+"#"+ChkVal(cursorT1.getString(21))+"#"+ChkVal(cursorT1.getString(22))+"#"+ChkVal(cursorT1.getString(23));
+                        RData=RData+"#"+ChkVal(cursorT1.getString(20))+"#"+ChkVal(cursorT1.getString(21))+"#"+ChkVal(cursorT1.getString(22))+"#"+ChkVal(cursorT1.getString(23));
 				  	}
 				  	
 		    	}catch(Exception ex){
@@ -848,7 +837,7 @@ public class MenuPage extends Activity{
 		    }
 		    cursorT1.close();
 		    menuIntent= new Intent(getBaseContext(),UpdateProfile.class);
-			menuIntent.putExtra("WebPers",personal);
+			menuIntent.putExtra("WebPers",RData);
 			menuIntent.putExtra("WebPersIMG",imgP);
 			menuIntent.putExtra("UserType",UserType);
 			nextactivty();
@@ -1164,30 +1153,8 @@ public class MenuPage extends Activity{
     	menuIntent.putExtra("MTitle",MenuTitle);
 		nextactivty();
     }
-    
-    
-    ///Booking Added on 24-05-2017
-    private void Booking(String MenuTitle)
-    {
-    	 db = openOrCreateDatabase("MDA_Club", SQLiteDatabase.CREATE_IF_NECESSARY, null);
-		  //db.execSQL("DROP TABLE C_" + UserClubnames + "_Item");
-         db.execSQL("CREATE TABLE IF NOT EXISTS C_" + ClientID + "_Cate  (M_ID INTEGER PRIMARY KEY,U_ID  INTEGER,Name Text,Remark Text,SyncID INTEGER,SyncDT INTEGER,P_Order INTEGER,Image1 BLOB,Text1 Text,Float1 INTEGER)");
-         db.execSQL("CREATE TABLE IF NOT EXISTS C_" + ClientID + "_Item  (M_ID INTEGER PRIMARY KEY,U_ID  INTEGER,Name Text,Cate_ID INTEGER,Remark Text,S_Tag Text,Book_Days   INTEGER,Book_Date   INTEGER,SyncID INTEGER,SyncDT INTEGER,Text1 Text,Float1 INTEGER,P_Order INTEGER,Text2 Text,Text3 Text,Text4 Text,Image1 BLOB)");
-         db.execSQL("CREATE TABLE IF NOT EXISTS C_" + ClientID + "_Itemrate(M_ID INTEGER PRIMARY KEY,U_ID INTEGER,iTem_ID INTEGER,Rate INTEGER,wef Text,SyncID INTEGER,SyncDT INTEGER )");
-         db.execSQL("CREATE TABLE IF NOT EXISTS C_" + ClientID + "_TimeSlot(M_ID INTEGER PRIMARY KEY,U_ID INTEGER,Item_ID  INTEGER,Slot Text,SyncID INTEGER,SyncDT INTEGER,P_Order INTEGER)");
-         db.execSQL("CREATE TABLE IF NOT EXISTS C_" + ClientID + "_Exemtion(M_ID INTEGER PRIMARY KEY,U_ID INTEGER,Item_ID  INTEGER,Slot_ID  INTEGER,DOW  INTEGER,SyncID INTEGER,SyncDT INTEGER)");
-         db.close();
-         InternetPresent =chkconn.isConnectingToInternet(context);
-		 if(InternetPresent==true){
-			menuIntent = new Intent(getBaseContext(), BookingCawnporClub.class);
-	        menuIntent.putExtra("ValChk","1");
-	        nextactivty();
-		 }else{
-			 Toast.makeText(context, "No Internet", 1).show();
-		 }
-    }
-    
-	
+
+
 	//Add News (05-06-2015)
 	private void AddNews()
 	{
@@ -1195,8 +1162,8 @@ public class MenuPage extends Activity{
 		menuIntent.putExtra("addchk","1");
 		nextactivty();
 	}
-	
-	
+
+
 	//Add Global Search (16-12-2016)
 	private void GlobalSearch()
 	{
@@ -1205,7 +1172,44 @@ public class MenuPage extends Activity{
 		menuIntent.putExtra("CCBYear",CCBYear);//CCB Year Added 16-11-2018
 		nextactivty();
 	}
-	
+
+
+	// App Settings
+	private void App_Settings()
+	{
+		String HasCCB= Chk_YearSettingCCB();//Check Commitee,council,branch year wise setting enabled or not
+		menuIntent= new Intent(getBaseContext(),App_Settings.class);
+		menuIntent.putExtra("Clt_ClubName",LogclubName);
+		menuIntent.putExtra("HasCCB",HasCCB);
+		menuIntent.putExtra("AppLogo", AppLogo);
+		startActivity(menuIntent);
+		finish();
+	}
+    
+
+
+    ///Booking Added on 24-05-2017
+    private void Booking(String MenuTitle)
+    {
+    	 db = openOrCreateDatabase("MDA_Club", SQLiteDatabase.CREATE_IF_NECESSARY, null);
+         db.execSQL("CREATE TABLE IF NOT EXISTS C_" + ClientID + "_Cate  (M_ID INTEGER PRIMARY KEY,U_ID  INTEGER,Name Text,Remark Text,SyncID INTEGER,SyncDT INTEGER,P_Order INTEGER,Image1 BLOB,Text1 Text,Float1 INTEGER)");
+         db.execSQL("CREATE TABLE IF NOT EXISTS C_" + ClientID + "_Item  (M_ID INTEGER PRIMARY KEY,U_ID  INTEGER,Name Text,Cate_ID INTEGER,Remark Text,S_Tag Text,Book_Days   INTEGER,Book_Date   INTEGER,SyncID INTEGER,SyncDT INTEGER,Text1 Text,Float1 INTEGER,P_Order INTEGER,Text2 Text,Text3 Text,Text4 Text,Image1 BLOB)");
+         db.execSQL("CREATE TABLE IF NOT EXISTS C_" + ClientID + "_Itemrate(M_ID INTEGER PRIMARY KEY,U_ID INTEGER,iTem_ID INTEGER,Rate INTEGER,wef Text,SyncID INTEGER,SyncDT INTEGER )");
+         db.execSQL("CREATE TABLE IF NOT EXISTS C_" + ClientID + "_TimeSlot(M_ID INTEGER PRIMARY KEY,U_ID INTEGER,Item_ID  INTEGER,Slot Text,SyncID INTEGER,SyncDT INTEGER,P_Order INTEGER)");
+         db.execSQL("CREATE TABLE IF NOT EXISTS C_" + ClientID + "_Exemtion(M_ID INTEGER PRIMARY KEY,U_ID INTEGER,Item_ID  INTEGER,Slot_ID  INTEGER,DOW  INTEGER,SyncID INTEGER,SyncDT INTEGER)");
+         db.close();
+
+         InternetPresent =chkconn.isConnectingToInternet(context);
+		 if(InternetPresent==true){
+			menuIntent = new Intent(getBaseContext(), BookingCawnporClub.class);
+	        menuIntent.putExtra("ValChk","1");
+	        nextactivty();
+		 }else{
+			 Toast.makeText(context, "No Internet Connection", Toast.LENGTH_LONG).show();
+		 }
+    }
+    
+
 	private void Synchronisation()
 	{
 		InternetPresent = chkconn.isConnectingToInternet(context);
@@ -1224,9 +1228,10 @@ public class MenuPage extends Activity{
 		String value2 = "name"; 
 		String value3 = "cltid"; 
 		String value4 = "clubname"; 
-		String ValueMenuList = "MenuList"; 
+		String ValueMenuList = "MenuList";
+
 		// Set Shared Pref Saved Values Blank 
-		editr = sharedpreferences.edit();
+		editr = ShPref.edit();
 		editr.putString(cLid,"");
 		editr.putString(uid,"");
 		editr.putString(pass,"");
@@ -1247,19 +1252,7 @@ public class MenuPage extends Activity{
 		startActivity(intent);
 	    finish();
 	}
-	
-	// App Settings
-	private void App_Settings()
-	{
-		String HasCCB= Chk_YearSettingCCB();//Check Commitee,council,branch year wise setting enabled or not
-		menuIntent= new Intent(getBaseContext(),App_Settings.class);
-		menuIntent.putExtra("Clt_ClubName",LogclubName);
-		menuIntent.putExtra("HasCCB",HasCCB);
-		menuIntent.putExtra("AppLogo", AppLogo);
-	    startActivity(menuIntent);
-	    finish();
-	}
-	
+
 	
 	// Share App with friends and social networking
 	private void App_Sharing()
@@ -1268,7 +1261,7 @@ public class MenuPage extends Activity{
 		 String Apptitle=objuncm.GET_AppTitle();
 		 Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
   		 sharingIntent.setType("text/plain");
-  		 sharingIntent.putExtra(Intent.EXTRA_TEXT, "Click on this link to download the app."+locApp);
+  		 sharingIntent.putExtra(Intent.EXTRA_TEXT, "Click on this link to download the app.\n"+locApp);
   		 sharingIntent.putExtra(Intent.EXTRA_SUBJECT, Apptitle+" App(I want to share this app with you)");
   		 startActivity(Intent.createChooser(sharingIntent, "How do you want to share?"));
 	}
@@ -1427,177 +1420,8 @@ public class MenuPage extends Activity{
 	     startActivity(menuIntent);
 	     finish();
     }
-	
-	
-	public boolean onKeyDown(int keyCode, KeyEvent event) 
-	 {
-	   	 if (keyCode == KeyEvent.KEYCODE_BACK) {
-	   		ConfirmAlert();
-	   	    return true;
-	   	 }
-	   	return super.onKeyDown(keyCode, event);
-	 }
-	
-	///Display Confirmation dialog for app exit
-	private void ConfirmAlert()
-	{
-		AlertDialog.Builder AdBuilder = new AlertDialog.Builder(context);
-		AdBuilder.setMessage(Html.fromHtml("<font color='#1C1CF0'>Do you want to exit the app ?</font>"));
-    	  AdBuilder
-            .setPositiveButton("YES",new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog,int id) {
-                    	dialog.dismiss();
-                    	goback("Thankyou!","We hope you enjoyed using it !!! We wait for your next use.",0);
-                    }
-            })
-            .setNegativeButton("NO",new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog,int id) {
-                    	dialog.dismiss();
-                    }
-             });
- 
-    	AdBuilder.show();
-	}
-	
-	
-	///Display Confirmation dialog for Sync
-	private void ConfirmAlert_Sync()
-	{
-		AlertDialog.Builder AdBuilder = new AlertDialog.Builder(context);
-		AdBuilder.setMessage(Html.fromHtml("<font color='#E3256B'>Synchronization is required.<br/>Do you want to sync ?</font>"));
-    	  AdBuilder
-            .setPositiveButton("YES",new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog,int id) {
-                    	dialog.dismiss();
-                    	Synchronisation();//Go To Sync
-                    }
-            })
-            .setNegativeButton("NO",new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog,int id) {
-                    	dialog.dismiss();
-                    }
-             });
- 
-    	AdBuilder.show();
-	}
-	
-	@SuppressWarnings("deprecation")
-	private void goback(String head,String body,final int find){
-    	ad.setTitle( Html.fromHtml("<font color='#E3256B'>"+head+"</font>"));
-    	ad.setMessage(Html.fromHtml("<font color='#1C1CF0'>"+body+"</font>"));
-		ad.setButton("OK", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int which) {
-            	if(find==1){
-            		dialog.dismiss();
-            	}else{
-            		finish();
-            	}
-            	
-            }
-        });
-        ad.show();	
-    }
-	
-	
-	// This Function is used for Suggestion/complaint menu option
-	/*private void  InserttoInternet(){
-		 Cursor cursorT;
-		    InternetPresent =chkconn.isConnectingToInternet(context);
-			 if(InternetPresent==true){
-				    db = openOrCreateDatabase("MDA_Club", SQLiteDatabase.CREATE_IF_NECESSARY, null); 
-					//String sqlqury="select m_id,Text1,Add1,Text2 from "+Tab4Name+" where Rtype = 'T_SUG'";
-					String sqlqury="select m_id,Text1,Add1 from "+Tab4Name+" where Rtype='T_SUG'";
-					cursorT = db.rawQuery(sqlqury, null);
-					tempsize=cursorT.getCount();
-					if(tempsize!=0){
-			        CodeArr=new String[tempsize];
-			        arr1=new String[tempsize];
-			        arr2=new String[tempsize];
-			        //arr3=new String[tempsize];
-			 		 if (cursorT.moveToFirst()) {
-			 		  do {
-					     CodeArr[i]=cursorT.getString(0);
-					     arr1[i]=cursorT.getString(1);
-					     arr2[i]=cursorT.getString(2);
-					     //arr3[i]=cursorT.getString(3);
-					     i++;
-			 		     } while (cursorT.moveToNext());
-			 		 }
-					 cursorT.close();
-					 db.close();
-					 webInternet();
-				 }else{
-					 cursorT.close();
-					 db.close(); 
-				 }
-			 }else{
-				 countFortxt();
-			 }
-		}
-	
-	//recursive function(// This Function is used for Suggestion/complaint menu option)
-	private void webInternet(){
-		progressdial(); 
-        networkThread = new Thread()
-        {
-         public void run()
-         {
-          try
-          {
-       	  final String  mid=CodeArr[j].toString();
-       	  String str1=arr1[j].toString();
-       	  String str2=arr2[j].toString();
-       	  //String str3=arr3[j].toString();
-       	  Wepdata=webcall.clubSugg(ClientID, Str_IEMI, Logclubid, str1, str2, "");
-            runOnUiThread(new Runnable()
-            {
-          	  public void run()
-          	  {
-          		System.out.println(Wepdata);
-          		db = openOrCreateDatabase("MDA_Club", SQLiteDatabase.CREATE_IF_NECESSARY, null); 
-          		String sql="Delete from "+Tab4Name+" where M_id="+mid;
-          		System.out.println(sql);
-          		db.execSQL(sql);
-          		db.close();
-          		j=j+1;
-          		if(j<tempsize){
-          			webInternet();
-          		}
-          		countFortxt();
-              }
-            });
-            Progsdial.dismiss();
-            return;
-           }
-           catch (Exception localException)
-           {
-          	 System.out.println(localException.getMessage());
-           }
-         }
-       };
-       networkThread.start();		
-	 }
-	 
-	// This Function is used for Suggestion/complaint menu option
-	private void countFortxt(){
-		 db = openOrCreateDatabase("MDA_Club", SQLiteDatabase.CREATE_IF_NECESSARY, null); 
-	     sqlSearch = "select count(m_id) from "+Tab4Name+" where Rtype = 'T_SUG'" ;
-		 cursorT = db.rawQuery(sqlSearch, null);
-		 while(cursorT.moveToNext())
-		 {
-		   counting =cursorT.getInt(0);
-		 }
-		 cursorT.close();
-		 db.close();
-		 if(counting>0){
-			StrCount=String.valueOf(counting);
-			//Txtcount.setText(StrCount); 
-		 }else{
-			// Txtcount.setText(""); 
-		 }
-	 }*/
-	
-	
+
+
 	//call function for get values from table 2 in update profile when get internet connection
 	private void Sync_UpdateProfile(){
 	   InternetPresent =chkconn.isConnectingToInternet(context);
@@ -1787,8 +1611,7 @@ public class MenuPage extends Activity{
         };
         networkThread.start();
 	}
-	
-	
+
 	
 	///Chk Year selection setting of Committee,Council,Branch is enabled or not in a group
 	 private String Chk_YearSettingCCB()
@@ -1814,9 +1637,9 @@ public class MenuPage extends Activity{
 		
 		 if(HasCCB.equals("Y"))
 		 {
-			  if (sharedpreferences.contains(ClientID+"_CCBYear"))
+			  if (ShPref.contains(ClientID+"_CCBYear"))
 		      {
-				  CCBYear=sharedpreferences.getString(ClientID+"_CCBYear", "");
+				  CCBYear=ShPref.getString(ClientID+"_CCBYear", "");
 		      }
 			  
 			  if(CCBYear.length()==0)
@@ -1833,8 +1656,7 @@ public class MenuPage extends Activity{
 		 }
 		 return CCBYear;
 	 }
-	
-	
+
 	
 	//call function for initialise blank if null is there
 	private String ChkVal(String DVal)
@@ -2000,7 +1822,7 @@ public class MenuPage extends Activity{
 	 }
 
 
-	 ///// SET Push Notification Registered with FCM  Added on 15-05-2019 //////
+	 ////// SET Push Notification Registered with FCM  Added on 15-05-2019 //////
 	 private void Reg_PushNoti_FCM()
 	 {
 		 //Get Global Controller Class object (see application tag in AndroidManifest.xml)
@@ -2023,9 +1845,7 @@ public class MenuPage extends Activity{
 	 }
 	///////////////////////////////////////
 
-	 
 
-	   
 	////Check App Update Required Or Not
 	 private void Check_AppStore_Version()
 	 {
@@ -2087,6 +1907,76 @@ public class MenuPage extends Activity{
 	   };
 	   networkThread.start();
 	}
-	  
-	 
+
+
+	public boolean onKeyDown(int keyCode, KeyEvent event)
+	{
+		if (keyCode == KeyEvent.KEYCODE_BACK) {
+			ConfirmAlert();
+			return true;
+		}
+		return super.onKeyDown(keyCode, event);
+	}
+
+
+	///Display Confirmation dialog for app exit
+	private void ConfirmAlert()
+	{
+		AlertDialog.Builder AdBuilder = new AlertDialog.Builder(context);
+		AdBuilder.setMessage(Html.fromHtml("<font color='#1C1CF0'>Do you want to exit the app ?</font>"));
+		AdBuilder
+				.setPositiveButton("YES",new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog,int id) {
+						dialog.dismiss();
+						goback("Thankyou!","We hope you enjoyed using it !!! We wait for your next use.",0);
+					}
+				})
+				.setNegativeButton("NO",new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog,int id) {
+						dialog.dismiss();
+					}
+				});
+
+		AdBuilder.show();
+	}
+
+
+	///Display Confirmation dialog for Sync
+	private void ConfirmAlert_Sync()
+	{
+		AlertDialog.Builder AdBuilder = new AlertDialog.Builder(context);
+		AdBuilder.setMessage(Html.fromHtml("<font color='#E3256B'>Synchronization is required.<br/>" +
+                "Do you want to sync ?</font>"));
+		AdBuilder.setPositiveButton("YES",new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog,int id) {
+						dialog.dismiss();
+						Synchronisation();//Go To Sync
+					}
+				})
+		.setNegativeButton("NO",new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog,int id) {
+						dialog.dismiss();
+					}
+				});
+
+		AdBuilder.show();
+	}
+
+
+	@SuppressWarnings("deprecation")
+	private void goback(String head,String body,final int find){
+		ad.setTitle( Html.fromHtml("<font color='#E3256B'>"+head+"</font>"));
+		ad.setMessage(Html.fromHtml("<font color='#1C1CF0'>"+body+"</font>"));
+		ad.setButton("OK", new DialogInterface.OnClickListener() {
+			public void onClick(DialogInterface dialog, int which) {
+				if(find==1){
+					dialog.dismiss();
+				}else{
+					finish();
+				}
+
+			}
+		});
+		ad.show();
+	}
 }

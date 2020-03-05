@@ -95,13 +95,12 @@ public class SplashScreen1 extends Activity{
 		}
 	 
 	 private void DoTaskClickEvent()
-	    {
+	 {
 		 menuIntent= new Intent(context,MenuPage.class);
 		 menuIntent.putExtra("AppLogo", AppLogo);
 	     startActivity(menuIntent);
 	     finish();
-	    	
-	    }
+	 }
 	 
 	
 	 public boolean onKeyDown(int keyCode, KeyEvent event) 
