@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
+import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
 import android.telephony.TelephonyManager;
 import android.widget.Toast;
@@ -17,7 +18,11 @@ public class CommonClass {
     public String getIMEINumber(Context context) {
         String IMEINumber = "";
         TelephonyManager telephonyMgr = (TelephonyManager) context.getSystemService(TELEPHONY_SERVICE);
-        if(Build.VERSION.SDK_INT>=23) {
+
+        if(Build.VERSION.SDK_INT>=29){
+            IMEINumber = Settings.Secure.getString(context.getContentResolver(), Settings.Secure.ANDROID_ID);
+        }
+        else if(Build.VERSION.SDK_INT<29 && Build.VERSION.SDK_INT>=23) {
             if (ActivityCompat.checkSelfPermission(context, android.Manifest.permission.READ_PHONE_STATE) == PackageManager.PERMISSION_GRANTED) {
 
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
