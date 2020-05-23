@@ -2,98 +2,95 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1" >
+    android:background="@drawable/bg2" >
+
+    <TextView
+        android:id="@+id/txtHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="RUNNING APPS"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_heading_main"
+        android:layout_gravity="center"/>
 
     <RelativeLayout
-        android:id="@+id/relativeLayout1"
+        android:id="@+id/RL1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true">
+        android:layout_below="@+id/txtHead">
         
 		<TableLayout
             android:layout_width="match_parent"
-            android:id="@+id/TLassessee"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true" >
 
-                 <TableRow
-                     android:id="@+id/tableRow1"
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:layout_margin="1dp"
-                     android:background="@drawable/cust_layout" >
-                   
-                       <TextView
-                       android:id="@+id/txtMember"
-                       android:textSize="17dp"
-                       android:text="Member"
-                       android:layout_weight="1"  
-                       android:background="#99BADD"
-                       android:textColor="#000000"
-                       android:padding="16dip" 
-                       android:gravity="center"
-                       android:textStyle="bold"/>
-      
-                       <TextView
-                        android:id="@+id/txtSpouse" 
-                        android:text="Spouse"
-                        android:textSize="17dp"
-                        android:layout_weight="1" 
-                        android:background="#ACE1AF"
-                        android:textColor="#000000"
-                        android:padding="16dip" 
-                        android:gravity="center"
-                        android:textStyle="bold"/>
-                       
-                       <TextView
-                        android:id="@+id/txtGuest" 
-                        android:text="Guest"
-                        android:textSize="17dp"
-                        android:layout_weight="1" 
-                        android:background="#FF9966"
-                        android:textColor="#000000"
-                        android:padding="16dip" 
-                        android:gravity="center"
-                        android:textStyle="bold"/>
-                    
-                  </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtMember"
+                    android:textSize="17dp"
+                    android:text="MEMBER"
+                    android:layout_weight="1"
+                    android:background="@color/a6"
+                    android:textColor="#000000"
+                    android:padding="16dip"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txtSpouse"
+                    android:text="SPOUSE"
+                    android:textSize="17dp"
+                    android:layout_weight="1"
+                    android:background="@color/a4"
+                    android:textColor="#000000"
+                    android:padding="16dip"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txtGuest"
+                    android:text="GUEST"
+                    android:textSize="17dp"
+                    android:layout_weight="1"
+                    android:background="@color/a3"
+                    android:textColor="#000000"
+                    android:padding="16dip"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+            </TableRow>
                   
             </TableLayout>
 
     </RelativeLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <ListView
+        android:id="@+id/LV1"
+        android:layout_below="@+id/RL1"
+        android:layout_above="@+id/RL2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/LinearL1"
-        android:layout_below="@+id/relativeLayout1"
-        android:layout_marginBottom="3dp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginRight="3dp"
-        android:layout_marginTop="3dp"
-        android:orientation="vertical" >
-		
-          <ListView
-            android:id="@+id/LL1"
-            android:background="#90ffffff"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:divider="#000000"
-            android:dividerHeight="1dp"
-            android:textColor="#0000FF" />
-          
-    </LinearLayout>
+        android:layout_marginTop="5dp"
+        android:divider="#50000000"
+        android:dividerHeight="2dp" />
     
     <RelativeLayout
-        android:id="@+id/LinearL1"
+        android:id="@+id/RL2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="3dp"
-        android:background="#99BADD"
+        android:layout_margin="3dp"
+        android:background="@drawable/edittextstyle"
         android:orientation="vertical"
-        android:padding="5dp" >
+        android:padding="10dp" >
 
         <TextView
             android:id="@+id/txtTotalAndroid"

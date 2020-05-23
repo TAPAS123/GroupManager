@@ -1,65 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1"
+    android:background="@drawable/bg2"
     android:orientation="vertical" >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:id="@+id/llhd"
-        android:gravity="center"
-        android:layout_alignParentTop="true"
-        android:layout_height="wrap_content"
-        android:background="#80000000" >
+		<TextView
+			android:id="@+id/txtHead"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+			android:text="Head"
+			android:gravity="center_horizontal"
+			android:textAllCaps="true"
+			android:textColor="@color/black"
+			android:textSize="@dimen/text_heading_main" />
 
-        <TextView
-            android:id="@+id/tvnameofeventsadm"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_margin="5dp"
-            android:text=""
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="#FFFF00"
-            android:textSize="20dp"
-            android:textStyle="bold" />
-        
-    </LinearLayout>
 
-    
-
-      <LinearLayout
-          android:id="@+id/lllist"
+	<LinearLayout
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:layout_below="@+id/llhd"
           android:layout_alignParentBottom="true"
           android:layout_margin="5dp"
-          android:background="#80ffffff"
           android:orientation="vertical" >
         
         <TextView
-            android:id="@+id/tvvenuadm"
+            android:id="@+id/txtTitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text=""
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="#1560BD"
-            android:textSize="17dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_heading1"
             android:textStyle="bold" />
         
         <TextView
-            android:id="@+id/tvdateadm"
+            android:id="@+id/txtDate"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="3dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text=""
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="#1560BD"
-            android:textSize="15dp"/>
+            android:textColor="@color/colorPrimaryDark"
+			android:textSize="@dimen/text_heading1"/>
         
         <GridView
             android:id="@+id/gridView1"
@@ -74,38 +58,39 @@
 
     	</GridView>
 
-        
- 			<TextView
-            android:id="@+id/tvhadm"
-            android:layout_marginLeft="5dp"
-            android:layout_gravity="left"
-            android:layout_marginTop="3dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="#1560BD"
-            android:textSize="15dp"/>
- 			
- 			<RelativeLayout
-    			android:layout_width="match_parent"
-   			    android:layout_height="wrap_content">
- 					<Button
-                       android:id="@+id/btnattSubmit"
-                       android:visibility="gone"
-                       android:layout_marginRight="5dp"
-			           android:layout_alignParentRight="true"
-			           style="@style/ButtonText" 
-			           android:textSize="16dp" 
-			           android:background="@drawable/green_button" 
-                       android:layout_centerVertical="true"
-                       android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
-                       android:text="Submit" />
- 			</RelativeLayout>
- 			
+		<TextView
+			android:id="@+id/txtEvent"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="5dp"
+			android:text=""
+			android:textStyle="bold"
+			android:textColor="@color/colorPrimaryDark"
+			android:textSize="@dimen/text_heading1"/>
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<Button
+				android:id="@+id/btnattSubmit"
+				android:visibility="gone"
+				android:layout_marginRight="5dp"
+				android:layout_alignParentRight="true"
+				style="@style/ButtonText"
+				android:textSize="16dp"
+				android:background="@drawable/red_rounded_rectangle"
+				android:layout_centerVertical="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Submit" />
+
+		</RelativeLayout>
+
         <ListView
-            android:id="@+id/listVieweventadm"
+            android:id="@+id/LV1"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="5dp"
@@ -117,4 +102,4 @@
           
       </LinearLayout>
 
-</RelativeLayout>
+</LinearLayout>

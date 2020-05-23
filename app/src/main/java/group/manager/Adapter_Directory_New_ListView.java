@@ -76,7 +76,7 @@ public class Adapter_Directory_New_ListView extends ArrayAdapter<RowEnvt>{
 				Bitmap theImage = BitmapFactory.decodeStream(imageStream);
 				holder.img1.setImageBitmap(theImage);
 		     }else{
-		    	 holder.img1.setImageResource(R.drawable.person1);
+		    	 holder.img1.setImageResource(R.drawable.imgperson);
 			 }
 
 	        return convertView;

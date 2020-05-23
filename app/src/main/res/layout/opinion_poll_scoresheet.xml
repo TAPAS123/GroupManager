@@ -2,23 +2,33 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1"
+    android:background="@drawable/bg2"
     android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Opinion Poll Score Sheet"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_heading_main" />
     
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="2dp"
-        android:background="#40ffffff"
+        android:layout_margin="10dp"
         android:padding="6dp" >
         
         <ScrollView
-            android:id="@+id/scrollView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginLeft="1dp"
-            android:layout_marginRight="1dp" >
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp" >
             
         <LinearLayout
                 android:layout_width="match_parent"
@@ -39,34 +49,35 @@
            android:gravity="center"
            android:text="1"
            android:textColor="#004080"
-           android:textSize="20dp"
+           android:textSize="@dimen/text_heading1"
            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/txtQues"
             android:layout_toRightOf="@+id/txtSno"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="7dp"
             android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
             android:text="Question"
             android:textColor="#004080"
-            android:textSize="16dp" />
-        
-        
-          </RelativeLayout>
+            android:textSize="@dimen/text_heading2" />
+
+         </RelativeLayout>
         
        <LinearLayout
-           android:id="@+id/Lchart"
+           android:id="@+id/LLChart"
            android:layout_width="match_parent"
            android:layout_height="370dp"
            android:layout_marginBottom="2dp"
            android:layout_marginLeft="2dp"
            android:layout_marginRight="2dp"
            android:orientation="vertical"
-           android:padding="8dp" />
+           android:padding="10dp" />
          
     </LinearLayout>
+
         </ScrollView>
         
        </LinearLayout>

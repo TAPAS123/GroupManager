@@ -3,33 +3,35 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
-    <LinearLayout
-        android:id="@+id/LinearLayoutHeader"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:background="@drawable/newsletterheaderlist">
+        android:background="@drawable/border_red">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:layout_toLeftOf="@id/imgvwArrow"
+            android:text="2017"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_heading3"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/imgvwArrow"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:padding="15dp"/>
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:padding="15dp" />
 
-        <TextView
-
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:text="2017"
-            android:textStyle="bold"
-            android:layout_marginLeft="5dp"
-            android:gravity="center_vertical"
-            android:textSize="16dp"
-            android:textColor="#ffffff"
-            android:id="@+id/tvtext" />
-
-    </LinearLayout>
+    </RelativeLayout>
 
 </LinearLayout>

@@ -7,31 +7,42 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#80000000"
         android:orientation="vertical"
-        android:padding="10dp" >
+        android:padding="15dp" >
 
         <Button
             android:id="@+id/btnSendSMS"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/blue_button"
+            android:background="@drawable/red_rounded_rectangle"
+            android:textColor="@color/white"
+            android:padding="15dp"
+            android:layout_marginBottom="12dp"
+            android:textSize="@dimen/text_heading1"
+            android:textStyle="bold"
             android:text="Send SMS" />
         
         <Button
             android:id="@+id/btnBalEnq"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/blue_button"
+            android:layout_marginBottom="12dp"
+            android:padding="15dp"
+            android:background="@drawable/red_rounded_rectangle"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_heading1"
+            android:textStyle="bold"
             android:text="Balance Enquiry" />
         
         <Button
             android:id="@+id/btnPendSMS"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/blue_button"
+            android:padding="15dp"
+            android:background="@drawable/red_rounded_rectangle"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_heading1"
+            android:textStyle="bold"
             android:text="Pending SMS" />
 
     </LinearLayout>

@@ -2,37 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1"
-    android:orientation="vertical" >
-    
-     <RelativeLayout
-         android:layout_width="match_parent"
-         android:layout_height="50dp"
-         android:layout_marginBottom="8dp"
-         android:background="#80000000" >
-      
-         <TextView
-             android:id="@+id/tvCpeTitle"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_centerHorizontal="true"
-             android:layout_centerVertical="true"
-             android:layout_margin="5dp"
-             android:text="CPE Attendance (in Hours)"
-             android:textAppearance="?android:attr/textAppearanceMedium"
-             android:textColor="#FFFF00"
-             android:textSize="20dp"
-             android:textStyle="bold" />
-         
-      </RelativeLayout>
-    
-      <ListView
-          android:id="@+id/Lv"
-          android:layout_width="match_parent"
-          android:layout_height="0dp"
-          android:layout_weight="1"
-          android:divider="#00000000"
-          android:dividerHeight="1dp" />
-      
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"  >
+
+    <TextView
+        android:id="@+id/txtHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="CPE Attendance (in Hours)"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_heading_main"/>
+
+    <ListView
+        android:id="@+id/LV1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="6dp"
+        android:divider="#00000000"
+        android:dividerHeight="6dp" />
 
 </LinearLayout>

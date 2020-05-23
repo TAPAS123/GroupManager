@@ -1,17 +1,11 @@
 package group.manager;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Random;
 
-import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
-import android.os.Bundle;
+
+import group.manager.ModelClasses.RowItem_CPE_Program_1;
 
 
 public class Category {

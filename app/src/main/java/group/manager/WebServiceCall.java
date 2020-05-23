@@ -2243,252 +2243,279 @@ public class WebServiceCall {
 	   }
     }
 	 
-	 public String familymemUpdate(String tempclient,String tempm_id,String TempMemId,String TempName,String TempRela,String TempFath,String TempMoth,String TempCurrLoca,String TempMob1,String TempMob2,String TempEmail,
-			 String TempD,String TempM,String TempY,String TempEdu,String TempWorkProf,String TempGender,String TempShare,String TempDesig,String TempGotra,String TempBirth_Time,String TempBirth_Place,String TempNative,
-			 String TempHeight,String text6,String text7,String text8,String text9,String text10,String text11,String text12,String text13,String text14,byte[] M_Pic,String PicB)
-	 {
-	   SOAP_ACTION= "http://www.easy-sms.in/Club_Family";
-	   METHOD_NAME="Club_Family";
-       SoapObject request = new SoapObject(NAMESPACE, METHOD_NAME);
+	 public String familymemUpdate(String tempclient,String tempm_id,String TempMemId,String Name,String Relation,String Father,String Mother,String CurLocation,String Mob1,String Mob2,String Email,
+			 String DD,String MM,String YY,String Edu,String WorkProf,String Gender,String Share,String Desig,String Gotra,String Birth_Time,String Birth_Place,String Native,
+			 String Height,String text6,String text7,String text8,String text9,String text10,String text11,String text12,String text13,String text14, byte[] M_Pic,String PicB,String Age,String text15,String text16, String text17,String text18) {
+         SOAP_ACTION = "http://www.easy-sms.in/Club_Family";
+         METHOD_NAME = "Club_Family";
+         SoapObject request = new SoapObject(NAMESPACE, METHOD_NAME);
 
-       PropertyInfo PI;
-       PI =new PropertyInfo();
-       PI.setName("TempClient");
-       PI.setValue(tempclient);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("Tempcode");
-       PI.setValue("Club_1.7732");
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempM_ID");
-       PI.setValue(tempm_id);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempMemId");
-       PI.setValue(TempMemId);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempName");
-       PI.setValue(TempName);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempRela");
-       PI.setValue(TempRela);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempFath");
-       PI.setValue(TempFath);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempMoth");
-       PI.setValue(TempMoth);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempCurrLoca");
-       PI.setValue(TempCurrLoca);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempMob1");
-       PI.setValue(TempMob1);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempMob2");
-       PI.setValue(TempMob2);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempEmail");
-       PI.setValue(TempEmail);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempD");
-       PI.setValue(TempD);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempM");
-       PI.setValue(TempM);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempY");
-       PI.setValue(TempY);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempEdu");
-       PI.setValue(TempEdu);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempWorkProf");
-       PI.setValue(TempWorkProf);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempGender");
-       PI.setValue(TempGender);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempShare");
-       PI.setValue(TempShare);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempDesig");
-       PI.setValue(TempDesig);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempGotra");
-       PI.setValue(TempGotra);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempBirth_Time");
-       PI.setValue(TempBirth_Time);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempBirth_Place");
-       PI.setValue(TempBirth_Place);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempNative");
-       PI.setValue(TempNative);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("TempHeight");
-       PI.setValue(TempHeight);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("text6");
-       PI.setValue(text6);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("text7");
-       PI.setValue(text7);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("text8");
-       PI.setValue(text8);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("text9");
-       PI.setValue(text9);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("text10");
-       PI.setValue(text10);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("text11");
-       PI.setValue(text11);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("text12");
-       PI.setValue(text12);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("text13");
-       PI.setValue(text13);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       PI =new PropertyInfo();
-       PI.setName("text14");
-       PI.setValue(text14);
-       PI.setType(String.class);
-       request.addProperty(PI);
+         PropertyInfo PI;
+         PI = new PropertyInfo();
+         PI.setName("TempClient");
+         PI.setValue(tempclient);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("Tempcode");
+         PI.setValue("Club_1.7732");
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempM_ID");
+         PI.setValue(tempm_id);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempMemId");
+         PI.setValue(TempMemId);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempName");
+         PI.setValue(Name);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempRela");
+         PI.setValue(Relation);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempFath");
+         PI.setValue(Father);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempMoth");
+         PI.setValue(Mother);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempCurrLoca");
+         PI.setValue(CurLocation);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempMob1");
+         PI.setValue(Mob1);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempMob2");
+         PI.setValue(Mob2);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempEmail");
+         PI.setValue(Email);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempD");
+         PI.setValue(DD);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempM");
+         PI.setValue(MM);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempY");
+         PI.setValue(YY);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempEdu");
+         PI.setValue(Edu);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempWorkProf");
+         PI.setValue(WorkProf);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempGender");
+         PI.setValue(Gender);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempShare");
+         PI.setValue(Share);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempDesig");
+         PI.setValue(Desig);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempGotra");
+         PI.setValue(Gotra);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempBirth_Time");
+         PI.setValue(Birth_Time);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempBirth_Place");
+         PI.setValue(Birth_Place);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempNative");
+         PI.setValue(Native);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("TempHeight");
+         PI.setValue(Height);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("text6");
+         PI.setValue(text6);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("text7");
+         PI.setValue(text7);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("text8");
+         PI.setValue(text8);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("text9");
+         PI.setValue(text9);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("text10");
+         PI.setValue(text10);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("text11");
+         PI.setValue(text11);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("text12");
+         PI.setValue(text12);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("text13");
+         PI.setValue(text13);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("text14");
+         PI.setValue(text14);
+         PI.setType(String.class);
+         request.addProperty(PI);
        
        /*PI =new PropertyInfo();
        PI.setName("M_Pic");
        PI.setValue(M_Pic);
        PI.setType(Byte[].class);
        request.addProperty(PI);*/
-       request.addProperty("M_Pic",M_Pic); // Used For Byte Array
-       
-       PI =new PropertyInfo();
-       PI.setName("PicB");
-       PI.setValue(PicB);
-       PI.setType(String.class);
-       request.addProperty(PI);
-       
-       SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
-       
-       // Add These Code if we Pass byte Array as a Parameter in webservice
-       new MarshalBase64().register(envelope);   //serialization
-       envelope.encodingStyle = SoapEnvelope.ENC;
-       ////////////////////////////////////////////////////////////////
-       
-       envelope.dotNet = true;
-       envelope.setOutputSoapObject(request);
-       HttpTransportSE aHttpTransport = new HttpTransportSE(URL);
-       try { 
-       	   aHttpTransport.call(SOAP_ACTION, envelope);
-           SoapPrimitive response = (SoapPrimitive)envelope.getResponse();
-           return response.toString();
-       }
-       catch(Exception ex)
-       {
-    	   return "Error";
-       }
-	 }
+         request.addProperty("M_Pic", M_Pic); // Used For Byte Array
+
+         PI = new PropertyInfo();
+         PI.setName("PicB");
+         PI.setValue(PicB);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("text15");
+         PI.setValue(text15);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("text16");
+         PI.setValue(text16);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("text17");
+         PI.setValue(text17);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("text18");
+         PI.setValue(text18);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         PI = new PropertyInfo();
+         PI.setName("Tempage");
+         PI.setValue(Age);
+         PI.setType(String.class);
+         request.addProperty(PI);
+
+         SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
+
+         // Add These Code if we Pass byte Array as a Parameter in webservice
+         new MarshalBase64().register(envelope);   //serialization
+         envelope.encodingStyle = SoapEnvelope.ENC;
+         ////////////////////////////////////////////////////////////////
+
+         envelope.dotNet = true;
+         envelope.setOutputSoapObject(request);
+         HttpTransportSE aHttpTransport = new HttpTransportSE(URL);
+         try {
+             aHttpTransport.call(SOAP_ACTION, envelope);
+             SoapPrimitive response = (SoapPrimitive) envelope.getResponse();
+             return response.toString();
+         } catch (Exception ex) {
+             return "Error";
+         }
+     }
 	 	 
 	 public String clubeventconfirm(String club,String TempEventID,String TempUserID,String TempAns,String TempMS)
 	 {

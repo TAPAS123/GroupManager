@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<color name="colorPrimary">#ec3237</color>
+	<color name="colorPrimaryDark">#ec3237</color>
+	<color name="colorAccent">#FF4081</color>
+
     <color name="white">#FFFFFF</color>
 	<color name="black">#000000</color>
 	<color name="symptom_color_selected">#003366</color>
@@ -12,11 +16,14 @@
 	<color name="sky">#0099CC</color>
 	<color name="gray">#808080</color>
 	<color name="lightgray">#e7e7e7</color>
+	<color name="text_grey">#8d8d8d</color>
+	<color name="text_red">#ec3237</color>
 	<color name="lightgray02">#bfbfbf</color>
 	<color name="dark">#000015</color>
 	<color name="lightgreen">#336666</color>
 	<color name="orrange">#e33d1b</color>
 	<color name="darkorrange">#cc2303</color>
+	<color name="bg_red">#fdf0ea</color>
 	<color name="a1">#FC947E</color>
 	<color name="a2">#FCF27E</color>
 	<color name="a3">#BBFC7E</color>
@@ -30,4 +37,5 @@
 	<color name="a11">#B8FBAC</color>
 	<color name="a12">#7BBDD3</color>
 	<color name="a13">#A0B2DD</color>
+	<color name="dark_navy">#0B2161</color>
 </resources>

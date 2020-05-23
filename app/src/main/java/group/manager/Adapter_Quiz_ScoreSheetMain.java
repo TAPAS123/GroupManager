@@ -39,7 +39,7 @@ public class Adapter_Quiz_ScoreSheetMain extends ArrayAdapter<Row_Item_QuizScore
 
         if (convertView == null)
         {
-            convertView = mInflater.inflate(R.layout.quiz_scoresheet_listitem,parent,false);
+            convertView = mInflater.inflate(R.layout.listitem_quiz_scoresheet,parent,false);
             holder = new ViewHolder();
             holder.txtSno = (TextView) convertView.findViewById(R.id.txtSno);
             holder.txtQues = (TextView) convertView.findViewById(R.id.txtQues);

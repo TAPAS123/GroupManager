@@ -20,6 +20,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import group.manager.AdapterClasses.AdapterDebtorLedger;
+
 public class DebtorLedger extends Activity {
     Thread networkThread;
     String webserviceResponse="",ClientID="",Type="";

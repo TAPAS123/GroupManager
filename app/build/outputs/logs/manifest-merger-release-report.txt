@@ -1,165 +1,165 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-216:12
-INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-216:12
-INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-216:12
-INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-216:12
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\3f06e61e0c2bf38edb46d83b5bf852f6\AndroidManifest.xml:17:1-37:12
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:17:1-59:12
-MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:2:1-15:12
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\55191bcb370da21dcce20d2821ae48d5\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d427d0d359f284ad5079b4b24fadff32\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c3bc0112f1160a7f50b67a94f292e006\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\82738086340b5bc42ce7e784ca79decd\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\4f9f8ce8ba3d6adf558e9dea2c2d6ade\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\42993a2911f4130217505ce7284855c9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8deaa7819a1321b190922dc84766373b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\e1eccbc3a4ec3761964ba2cf649ba462\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\111c69a839d40aeb7ba71dfb087ebffd\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\5ec92089d65773ed9a9d25d4b7554e4e\AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\69db711689a8ea686f521391cb5269bd\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\10bbecebdf8a14992f87353d7bd9506d\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c35a19848746e8fd57ac4c96817a78e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\e26ca2460dc5f4e282d324c5236afdc5\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\901aaa50b583b45f9a2b1901146886cc\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\0a0729e8d7cc4aa14740eb77fb5de864\AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\023eb14a04a7051b13803f387b7c0f3f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\04d4c4382d9552ed117bc5dbc5cf3bfe\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-216:12
-INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-216:12
-INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-216:12
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-219:12
+INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-219:12
+INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-219:12
+INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-219:12
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\e5e492873f87c824fa30a137e8c47983\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\bfc74fde8f9915c72d3b40745bb73f0c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\f417d9a3e6093e25c615d687bed79df4\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\55ca283e1fb9bb524da20ef44b9540b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\accf274535d2f99bbe2389ada67843d7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\a1fb388e88703d8273407b6c9ec52f9c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\fc5500f9eb9c4c11e7361d0dc61f3087\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\18c8d1fe192f6537a2f34ddd22b147fa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7be0456c5cb4e31f69e4f199712a36bc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\2dde564804a27012ca06da18add4850c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\1adb357545cb84333bde0bc8439c8f9c\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ddbd868c97a764f40fa54bb0093d3627\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ff4bd12cdcbfa6a92c53ae29fc38880e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c13655412179d01aec175959a995fae4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\14f20e4a1859f82c47db95ba3be2796c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\3923af765b7743171c6ef1ec06f5eb6d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\766cf807a8738db2bd876aa87bff534b\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d9a1c093f583192fde5c1c683af3079d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\cd13e62109ca61d017d616a7e54cf339\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-219:12
+INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-219:12
+INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-219:12
 	package
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:3:5-28
 		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:5:5-31
 		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-219:12
+		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-219:12
 		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:11-69
-	android:versionCode
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:4:5-30
-		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.READ_CALENDAR
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:8:5-71
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:6:5-71
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:8:22-69
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:6:22-69
 uses-permission#android.permission.WRITE_CALENDAR
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:9:5-72
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:7:5-72
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:9:22-70
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:7:22-70
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:9:5-80
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:11:22-78
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:12:5-79
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:22:5-79
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:12:22-76
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:10:22-76
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:13:2-72
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:11:2-72
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:13:19-69
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:11:19-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:14:5-67
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:23:5-67
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:14:22-64
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.CALL_PHONE
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:15:2-66
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:13:2-66
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:15:19-63
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:13:19-63
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:16:2-77
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:14:2-77
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:16:19-75
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:14:19-75
 uses-permission#android.permission.CAMERA
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:17:2-61
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:15:2-61
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:17:19-59
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:15:19-59
 uses-permission#com.android.alarm.permission.SET_ALARM
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:16:2-74
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:16:19-72
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:17:2-75
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:17:19-73
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:18:2-74
 	android:name
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:18:19-72
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:19:2-75
-	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:19:19-73
-uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:20:2-74
-	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:20:19-72
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:24:5-71
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:22:5-71
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:24:22-68
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:22:22-68
 uses-permission#android.permission.WAKE_LOCK
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:27:5-68
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:24:5-68
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:27:22-65
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:25:22-65
 uses-permission#android.permission.VIBRATE
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:30:5-66
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:28:5-66
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:30:22-63
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:28:22-63
 application
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:44:5-214:19
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\3f06e61e0c2bf38edb46d83b5bf852f6\AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\3f06e61e0c2bf38edb46d83b5bf852f6\AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:34:5-57:19
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:34:5-57:19
-MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:7:5-13:19
-MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:7:5-13:19
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\55191bcb370da21dcce20d2821ae48d5\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\55191bcb370da21dcce20d2821ae48d5\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d427d0d359f284ad5079b4b24fadff32\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d427d0d359f284ad5079b4b24fadff32\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\82738086340b5bc42ce7e784ca79decd\AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\82738086340b5bc42ce7e784ca79decd\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\5ec92089d65773ed9a9d25d4b7554e4e\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\5ec92089d65773ed9a9d25d4b7554e4e\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\e26ca2460dc5f4e282d324c5236afdc5\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\e26ca2460dc5f4e282d324c5236afdc5\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\901aaa50b583b45f9a2b1901146886cc\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\901aaa50b583b45f9a2b1901146886cc\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\0a0729e8d7cc4aa14740eb77fb5de864\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\0a0729e8d7cc4aa14740eb77fb5de864\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\04d4c4382d9552ed117bc5dbc5cf3bfe\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\04d4c4382d9552ed117bc5dbc5cf3bfe\AndroidManifest.xml:22:5-20
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:42:5-217:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\e5e492873f87c824fa30a137e8c47983\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\e5e492873f87c824fa30a137e8c47983\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\bfc74fde8f9915c72d3b40745bb73f0c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\bfc74fde8f9915c72d3b40745bb73f0c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\f417d9a3e6093e25c615d687bed79df4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\f417d9a3e6093e25c615d687bed79df4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\accf274535d2f99bbe2389ada67843d7\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\accf274535d2f99bbe2389ada67843d7\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\1adb357545cb84333bde0bc8439c8f9c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\1adb357545cb84333bde0bc8439c8f9c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\14f20e4a1859f82c47db95ba3be2796c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\14f20e4a1859f82c47db95ba3be2796c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\3923af765b7743171c6ef1ec06f5eb6d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\3923af765b7743171c6ef1ec06f5eb6d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\766cf807a8738db2bd876aa87bff534b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\766cf807a8738db2bd876aa87bff534b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\cd13e62109ca61d017d616a7e54cf339\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\cd13e62109ca61d017d616a7e54cf339\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:48:9-41
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:46:9-41
 	android:icon
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:47:9-45
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:45:9-45
 	android:allowBackup
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:45:9-35
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:43:9-35
 	android:theme
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:49:9-40
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:47:9-40
 	android:usesCleartextTraffic
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:50:3-38
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:48:3-38
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:46:9-35
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:44:9-34
 activity#group.manager.MainActivity
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:51:9-58:20
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:50:9-57:20
 	android:label
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:53:13-45
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:52:13-45
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:52:13-41
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:51:13-40
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:54:13-57:29
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:53:13-56:29
 action#android.intent.action.MAIN
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:55:17-69
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:54:17-69
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:55:25-66
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:54:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:56:17-77
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:55:17-77
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:56:27-74
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:55:27-74
 activity#group.manager.SplashScreen
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:59:9-86
 	android:screenOrientation
@@ -750,120 +750,136 @@ ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:156:39-75
 	android:name
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:156:13-38
+activity#group.manager.DGCalendar
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:157:3-77
+	android:screenOrientation
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:157:39-75
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:157:13-38
+activity#group.manager.MenuPage1
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:158:3-76
+	android:screenOrientation
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:158:38-74
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:158:13-37
 service#group.manager.MyFirebaseMessagingService
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:172:3-177:13
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:174:3-179:13
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:173:4-46
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:175:4-45
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:174:4-176:20
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:176:4-178:20
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:175:5-65
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:177:5-65
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:175:13-63
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:177:13-63
 service#group.manager.MyFirebaseInstanceIDService
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:179:3-184:13
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:181:3-186:13
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:180:4-47
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:182:4-46
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:181:4-183:20
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:183:4-185:20
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:182:5-67
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:184:5-67
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:182:13-65
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:184:13-65
 service#group.manager.Service_Call_New
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:187:9-61
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:189:9-60
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:187:18-50
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:189:18-49
+service#group.manager.Service_Call_Sync_Tab4
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:190:3-60
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:190:12-49
 receiver#group.manager.BroadCastRec_Grp
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:189:11-196:16
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:192:11-199:16
 	android:enabled
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:189:54-76
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:192:53-75
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:189:21-53
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:192:21-52
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:190:10-192:26
-	android:priority
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:190:25-51
-action#android.intent.action.BOOT_COMPLETED
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:191:13-75
-	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:191:21-72
-intent-filter#action:name:android.intent.action.PHONE_STATE
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:193:10-195:26
 	android:priority
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:193:25-51
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:194:13-75
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:194:21-72
+intent-filter#action:name:android.intent.action.PHONE_STATE
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:196:10-198:26
+	android:priority
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:196:25-51
 action#android.intent.action.PHONE_STATE
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:194:13-72
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:197:13-72
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:194:21-69
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:197:21-69
 receiver#group.manager.AlarmReceiver
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:198:8-202:16
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:201:8-205:16
 	android:enabled
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:198:48-70
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:201:47-69
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:198:18-47
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:201:18-46
 provider#android.support.v4.content.FileProvider
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:204:3-212:14
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:207:3-215:14
 	android:grantUriPermissions
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:208:4-38
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:211:4-38
 	android:authorities
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:206:4-48
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:209:4-48
 	android:exported
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:207:4-28
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:210:4-28
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:205:4-58
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:208:4-58
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:209:4-211:45
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:212:4-214:45
 	android:resource
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:211:5-43
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:214:5-43
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:210:5-55
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:213:5-55
 uses-sdk
 INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\3f06e61e0c2bf38edb46d83b5bf852f6\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\3f06e61e0c2bf38edb46d83b5bf852f6\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\55191bcb370da21dcce20d2821ae48d5\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\55191bcb370da21dcce20d2821ae48d5\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d427d0d359f284ad5079b4b24fadff32\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d427d0d359f284ad5079b4b24fadff32\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c3bc0112f1160a7f50b67a94f292e006\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c3bc0112f1160a7f50b67a94f292e006\AndroidManifest.xml:20:5-44
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\82738086340b5bc42ce7e784ca79decd\AndroidManifest.xml:7:5-43
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\82738086340b5bc42ce7e784ca79decd\AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\4f9f8ce8ba3d6adf558e9dea2c2d6ade\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\4f9f8ce8ba3d6adf558e9dea2c2d6ade\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\42993a2911f4130217505ce7284855c9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\42993a2911f4130217505ce7284855c9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8deaa7819a1321b190922dc84766373b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8deaa7819a1321b190922dc84766373b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\e1eccbc3a4ec3761964ba2cf649ba462\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\e1eccbc3a4ec3761964ba2cf649ba462\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\111c69a839d40aeb7ba71dfb087ebffd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\111c69a839d40aeb7ba71dfb087ebffd\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\5ec92089d65773ed9a9d25d4b7554e4e\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\5ec92089d65773ed9a9d25d4b7554e4e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\69db711689a8ea686f521391cb5269bd\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\69db711689a8ea686f521391cb5269bd\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\10bbecebdf8a14992f87353d7bd9506d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\10bbecebdf8a14992f87353d7bd9506d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c35a19848746e8fd57ac4c96817a78e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c35a19848746e8fd57ac4c96817a78e\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\e26ca2460dc5f4e282d324c5236afdc5\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\e26ca2460dc5f4e282d324c5236afdc5\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\901aaa50b583b45f9a2b1901146886cc\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\901aaa50b583b45f9a2b1901146886cc\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\0a0729e8d7cc4aa14740eb77fb5de864\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\0a0729e8d7cc4aa14740eb77fb5de864\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\023eb14a04a7051b13803f387b7c0f3f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\023eb14a04a7051b13803f387b7c0f3f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\04d4c4382d9552ed117bc5dbc5cf3bfe\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\04d4c4382d9552ed117bc5dbc5cf3bfe\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\e5e492873f87c824fa30a137e8c47983\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\e5e492873f87c824fa30a137e8c47983\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\bfc74fde8f9915c72d3b40745bb73f0c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\bfc74fde8f9915c72d3b40745bb73f0c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\f417d9a3e6093e25c615d687bed79df4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\f417d9a3e6093e25c615d687bed79df4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\55ca283e1fb9bb524da20ef44b9540b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\55ca283e1fb9bb524da20ef44b9540b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\accf274535d2f99bbe2389ada67843d7\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\accf274535d2f99bbe2389ada67843d7\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\a1fb388e88703d8273407b6c9ec52f9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\a1fb388e88703d8273407b6c9ec52f9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\fc5500f9eb9c4c11e7361d0dc61f3087\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\fc5500f9eb9c4c11e7361d0dc61f3087\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\18c8d1fe192f6537a2f34ddd22b147fa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\18c8d1fe192f6537a2f34ddd22b147fa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7be0456c5cb4e31f69e4f199712a36bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7be0456c5cb4e31f69e4f199712a36bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\2dde564804a27012ca06da18add4850c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\2dde564804a27012ca06da18add4850c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\1adb357545cb84333bde0bc8439c8f9c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\1adb357545cb84333bde0bc8439c8f9c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ddbd868c97a764f40fa54bb0093d3627\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ddbd868c97a764f40fa54bb0093d3627\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ff4bd12cdcbfa6a92c53ae29fc38880e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ff4bd12cdcbfa6a92c53ae29fc38880e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c13655412179d01aec175959a995fae4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c13655412179d01aec175959a995fae4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\14f20e4a1859f82c47db95ba3be2796c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\14f20e4a1859f82c47db95ba3be2796c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\3923af765b7743171c6ef1ec06f5eb6d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\3923af765b7743171c6ef1ec06f5eb6d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\766cf807a8738db2bd876aa87bff534b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\766cf807a8738db2bd876aa87bff534b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d9a1c093f583192fde5c1c683af3079d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d9a1c093f583192fde5c1c683af3079d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\cd13e62109ca61d017d616a7e54cf339\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\cd13e62109ca61d017d616a7e54cf339\AndroidManifest.xml:20:5-44
 INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -875,78 +891,78 @@ INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManife
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\3f06e61e0c2bf38edb46d83b5bf852f6\AndroidManifest.xml:28:9-34:19
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\e5e492873f87c824fa30a137e8c47983\AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\3f06e61e0c2bf38edb46d83b5bf852f6\AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\e5e492873f87c824fa30a137e8c47983\AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\3f06e61e0c2bf38edb46d83b5bf852f6\AndroidManifest.xml:29:13-82
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\e5e492873f87c824fa30a137e8c47983\AndroidManifest.xml:29:13-82
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:26:5-82
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:26:22-79
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:26:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:28:5-30:47
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:28:5-30:47
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:30:9-44
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:30:9-44
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:29:9-63
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:29:9-63
 permission#group.manager.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:28:5-30:47
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:28:5-30:47
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:30:9-44
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:30:9-44
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:29:9-63
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:29:9-63
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:32:5-79
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:32:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:32:22-76
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:32:22-76
 uses-permission#group.manager.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:32:5-79
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:32:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:32:22-76
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:32:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:35:9-44:20
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:35:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:37:13-36
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:37:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:38:13-73
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:38:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:36:13-78
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:36:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:39:13-43:29
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:39:13-43:29
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:group.manager
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:39:13-43:29
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:39:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:40:17-81
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:40:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:40:25-78
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:40:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:42:17-61
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:42:17-61
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:42:27-58
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:42:27-58
 category#group.manager
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:42:17-61
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:42:17-61
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:42:27-58
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:42:27-58
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:50:9-56:19
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:50:9-56:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:52:13-36
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:51:13-77
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:51:13-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:8:9-12:39
+ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:8:9-12:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:10:13-72
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:11:13-37
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:11:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:12:13-36
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:12:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:9:13-77
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:9:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d427d0d359f284ad5079b4b24fadff32\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\f417d9a3e6093e25c615d687bed79df4\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d427d0d359f284ad5079b4b24fadff32\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\f417d9a3e6093e25c615d687bed79df4\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d427d0d359f284ad5079b4b24fadff32\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\f417d9a3e6093e25c615d687bed79df4\AndroidManifest.xml:24:13-58

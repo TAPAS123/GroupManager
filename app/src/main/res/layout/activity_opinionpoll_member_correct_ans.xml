@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="mda.groupmanager.OpinionPollMemberCorrectAns"
-    android:id="@+id/activity_opinionpoll_member_correct_ans"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/mainbg">
+    android:background="@drawable/bg2">
 
     <TextView
-        android:id="@+id/tvtitle"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:text="Head"
-        android:textSize="18dp"
-        android:gravity="center_vertical|center"
-        android:textStyle="bold"/>
-
-    <ListView
-        android:id="@+id/lvmembercorrectAns"
+        android:id="@+id/txtTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
-        android:dividerHeight="1dp" >
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="Opinion Poll Score Sheet"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_heading_main" />
+
+    <ListView
+        android:id="@+id/LV1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_marginBottom="10dp"
+        android:dividerHeight="2dp" >
 
     </ListView>
 

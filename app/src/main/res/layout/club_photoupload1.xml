@@ -1,75 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1" >
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg2"
+    android:orientation="vertical" >
 
-    <RelativeLayout
-        android:id="@+id/linearLayout2"
+    <TextView
+        android:id="@+id/txtHead"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:background="#80000000" >
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Title"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_heading_main"/>
 
-        <RelativeLayout
-            android:id="@+id/rrlay"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true" >
+    <ListView
+        android:id="@+id/LV1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="6dp"
+        android:divider="#00000000"
+        android:dividerHeight="6dp" />
 
-            <TextView
-                android:id="@+id/txthead"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:padding="5dp"
-                android:text="T"
-                android:textColor="#FFFF00"
-                android:textSize="20dp"
-                android:textStyle="bold" />
-        </RelativeLayout>
-    </RelativeLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout1"
+    <ImageView
+        android:id="@+id/imgUploadPics"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/linearLayoutBootom"
-        android:layout_below="@+id/linearLayout2"
-        android:layout_marginBottom="10dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginTop="7dp"
-        android:orientation="vertical" >
+        android:layout_height="45dp"
+        android:layout_margin="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/upload_pics" />
 
-        <ListView
-            android:id="@+id/LV1"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:divider="#00000000"
-            android:dividerHeight="6dp" />
-    </LinearLayout>
-
-    <RelativeLayout
-        android:id="@+id/linearLayoutBootom"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="3dp"
-        android:layout_marginTop="3dp" >
-        
-        <ImageView
-            android:id="@+id/imgvwUploadPics"
-            android:layout_width="wrap_content"
-            android:layout_height="45dp"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="5dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/upload_pics" />
-        
-    </RelativeLayout>
-
-    
-
-</RelativeLayout>
+</LinearLayout>

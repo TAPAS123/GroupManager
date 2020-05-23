@@ -3,31 +3,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" 
-    android:background="@drawable/bg1">
-    
-     <TextView
+    android:background="@drawable/bg2">
+
+    <TextView
         android:id="@+id/txtHead"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="15dp"
-        android:layout_marginTop="8dp"
-        android:gravity="center"
+        android:layout_gravity="center"
         android:text="Song"
-        android:textSize="20dp"
-        android:textStyle="bold" />
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_heading_main" />
 
-     <RelativeLayout
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content" >
-
-         <ImageView
-             android:id="@+id/imgDownload"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_centerInParent="true"
-             android:layout_marginRight="10dp"
-             android:src="@drawable/download" />
-
-     </RelativeLayout>
+    <ImageView
+        android:id="@+id/imgDownload"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/download" />
 
 </LinearLayout>

@@ -1,139 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent"
-     android:background="@drawable/bg1">
-     
-	  <RelativeLayout 
-	    android:layout_alignParentTop="true" 
-	    android:layout_height="40dp"
-	    android:layout_marginBottom="10dp"   
-	    android:id="@+id/linearLayout2" 
-	    android:background="#80000000"
-	    android:layout_width="match_parent">   	    
+	android:layout_width="wrap_content"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:focusableInTouchMode="true"
+	android:background="@drawable/bg2">
 
-	    <TextView
-	        android:id="@+id/txtevnthead"
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:layout_centerHorizontal="true"
-	        android:layout_centerVertical="true"
-	        android:layout_marginLeft="10dp"
-	        android:text="Suggestion / Feedback"
-	        android:textAppearance="?android:attr/textAppearanceMedium"
-	        android:textColor="#FFFF00"
-	        android:textSize="20sp"
-	        android:textStyle="bold" />
- 
-	    </RelativeLayout>
-	    
-	    <RelativeLayout 
-	    android:layout_alignParentBottom="true"
-	    android:layout_height="wrap_content"
-	    android:layout_marginBottom="10dp"
-	    android:layout_marginLeft="10dp"    
-	    android:id="@+id/RRBOTTOM" 
-	    android:layout_width="match_parent">
+	<RelativeLayout android:id="@+id/RL1"
+		android:layout_alignParentTop="true"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent">
 
-	        <ImageView
-	            android:id="@+id/imageViewSubmitSUG"
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content"
-	            android:layout_centerHorizontal="true"
-	            android:layout_centerVertical="true"
-	            android:src="@drawable/submit" />
- 
-	    </RelativeLayout>
+		<ImageView
+			android:layout_width="match_parent"
+			android:layout_height="140dp"
+			android:src="@drawable/feedback_suggestions"
+			android:id="@+id/imageView"
+			android:scaleType="fitXY" />
 
-         
-          
+	</RelativeLayout>
 
-           <ScrollView
-               android:id="@+id/scrollView1"
-			   android:layout_above="@+id/RRBOTTOM" 
-			   android:layout_marginBottom="10dp"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:layout_below="@+id/linearLayout2" >
+	<ScrollView
+		android:id="@+id/scrollView1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@+id/RLBottom"
+		android:layout_below="@+id/RL1"
+		android:layout_margin="10dp">
 
-               <LinearLayout
-                   android:layout_width="match_parent"
-                   android:layout_height="match_parent"
-                   android:orientation="vertical" >
-                   
-                    <LinearLayout
-               android:layout_width="match_parent"
-               android:layout_marginLeft="10dp"
-	    	   android:layout_marginRight="10dp"
-	    	   android:layout_marginBottom="10dp"
-               android:background="#66cdaa7d"
-               android:layout_height="wrap_content"
-               android:orientation="vertical" 
-               android:id="@+id/linearLayout1">
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginBottom="10dp"
+			android:orientation="vertical">
 
-               <TextView
-                   android:layout_margin="10dp"
-                   android:textColor="#FF033E"
-                   android:textStyle="bold"
-                   android:id="@+id/textView1"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="Title"
-                   android:textAppearance="?android:attr/textAppearanceMedium" />
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:textColor="#764C4C"
+				android:text="Title"
+				android:textSize="@dimen/text_heading1"/>
 
-               <EditText
-                   android:id="@+id/edtitleSug"
-                   android:layout_marginLeft="10dp"
-                   android:layout_marginRight="10dp"
-                   android:inputType="text"
-                   android:maxLength="100"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content" >
+			<EditText
+				android:id="@+id/edTitle"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:layout_marginBottom="10dp"
+				android:inputType="text"
+				android:maxLength="100"
+				android:layout_width="match_parent"
+				android:layout_height="40dp"
+				android:padding="8dp"
+				android:background="@drawable/photobackground"/>
 
-                   <requestFocus />
-               </EditText>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:textColor="#764C4C"
+				android:text="Description"
+				android:textSize="@dimen/text_heading1"/>
 
-               <TextView
-                   android:id="@+id/textView2"
-                    android:layout_margin="10dp"
-                   android:textColor="#FF033E"
-                   android:textStyle="bold"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="Description"
-                   android:textAppearance="?android:attr/textAppearanceMedium" />
+			<EditText
+				android:id="@+id/edDesc"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:gravity="top"
+				android:inputType="textMultiLine"
+				android:maxLength="300"
+				android:layout_marginBottom="10dp"
+				android:layout_width="match_parent"
+				android:layout_height="160dp"
+				android:padding="8dp"
+				android:background="@drawable/photobackground" />
 
-               <EditText
-                   android:id="@+id/edDescSug"
-                    android:layout_marginLeft="10dp"
-                   android:layout_marginRight="10dp"
-                   android:inputType="textMultiLine"
-                   android:layout_marginBottom="10dp"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content" />
+		</LinearLayout>
 
-             <!-- <TextView
-                   android:id="@+id/textView3"
-                    android:layout_margin="10dp"
-                   android:textColor="#FF033E"
-                   android:textStyle="bold"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="Email id"
-                   android:textAppearance="?android:attr/textAppearanceMedium" />
-               
-               <EditText
-                   android:id="@+id/edEmailSug"
-                    android:layout_marginLeft="10dp"
-                   android:layout_marginRight="10dp"
-                   android:inputType="textEmailAddress"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content" />  --> 
-               
-           </LinearLayout>
-                   
-               </LinearLayout>
-           </ScrollView>
+	</ScrollView>
+
+	<RelativeLayout
+		android:id="@+id/RLBottom"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:layout_width="match_parent"
+		android:layout_alignParentBottom="true">
+
+		<Button
+			android:id="@+id/btnSubmit"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:background="@color/colorPrimary"
+			android:textColor="#ffffff"
+			android:textSize="16dp"
+			android:text="SUBMIT" />
+
+	</RelativeLayout>
 
 </RelativeLayout>
+
 

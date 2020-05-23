@@ -4,24 +4,7 @@
             "outputFile": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-de\\values-de.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-12.0.1.aar\\3f06e61e0c2bf38edb46d83b5bf852f6\\res\\values-de\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "103",
-                        "endOffsets": "308"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "309",
-                        "endColumns": "107",
-                        "endOffsets": "412"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.1.aar\\d427d0d359f284ad5079b4b24fadff32\\res\\values-de\\values.xml",
+                    "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.1.aar\\f417d9a3e6093e25c615d687bed79df4\\res\\values-de\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\values-de\\values-de.xml",
+                    "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-12.0.1.aar\\e5e492873f87c824fa30a137e8c47983\\res\\values-de\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "103",
+                        "endOffsets": "308"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "309",
+                        "endColumns": "107",
+                        "endOffsets": "412"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\2dde564804a27012ca06da18add4850c\\res\\values-de\\values-de.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

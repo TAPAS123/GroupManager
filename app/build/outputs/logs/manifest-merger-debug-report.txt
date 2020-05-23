@@ -1,155 +1,195 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-216:12
-INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-216:12
-INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-216:12
-INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-216:12
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\3f06e61e0c2bf38edb46d83b5bf852f6\AndroidManifest.xml:17:1-37:12
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:17:1-59:12
-MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:2:1-15:12
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\55191bcb370da21dcce20d2821ae48d5\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d427d0d359f284ad5079b4b24fadff32\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c3bc0112f1160a7f50b67a94f292e006\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\82738086340b5bc42ce7e784ca79decd\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\4f9f8ce8ba3d6adf558e9dea2c2d6ade\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\42993a2911f4130217505ce7284855c9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8deaa7819a1321b190922dc84766373b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\e1eccbc3a4ec3761964ba2cf649ba462\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\111c69a839d40aeb7ba71dfb087ebffd\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\5ec92089d65773ed9a9d25d4b7554e4e\AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\69db711689a8ea686f521391cb5269bd\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\10bbecebdf8a14992f87353d7bd9506d\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c35a19848746e8fd57ac4c96817a78e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\e26ca2460dc5f4e282d324c5236afdc5\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\901aaa50b583b45f9a2b1901146886cc\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\0a0729e8d7cc4aa14740eb77fb5de864\AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\023eb14a04a7051b13803f387b7c0f3f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\04d4c4382d9552ed117bc5dbc5cf3bfe\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-216:12
-INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-216:12
-INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-216:12
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-221:12
+INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-221:12
+INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-221:12
+INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-221:12
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\e5e492873f87c824fa30a137e8c47983\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\bfc74fde8f9915c72d3b40745bb73f0c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\f417d9a3e6093e25c615d687bed79df4\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\55ca283e1fb9bb524da20ef44b9540b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\5c814e6056203b76c9efad7585224b9b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\ba8bf1b8881eea6cf2abcc23263c9e11\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1e00df08c5e833f40c05818713dc128d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\accf274535d2f99bbe2389ada67843d7\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\circleimageview-3.0.0.aar\164e56b745f35f9f1589dd3ab52d1aae\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\6d50a7422d70cc5317a04959c53222ba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\f3ab9fed4775aade352f85f2754bba04\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\b9e649a0ac103558b0613987f3e5e39e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\cdecddd5c498aa77fce66d40b383864d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\735d1c09aac724e7bf52dce83f2b3c53\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\3f3a13762737f2ca1ea5f6b038171bcd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\58819e337419bf1153d0022e342e4f4a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\d7af8b8f38b01b8ab31c41fedc00c53b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\4b0852bd20cc3d0b90198e3aaa461c38\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\edb5ca805127d5f055fd7bc0aa02b07f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\7a81f2af677699f71f38d1f6a4e9ac1b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\29aa71a53e92d60db0578645c5546445\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\5ca68219ad5b0d4e702247fbabfbfd6e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\9a82eb867cf4f8905bdb209ccddf2db6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\210dd01519e50a738f54008ead1616ed\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\a1fb388e88703d8273407b6c9ec52f9c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b119456c4752cfb158e47704b0b9d8fb\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\332240895400f2f3e3842521b66ace5a\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\785fdbfbade24fe7bf0a3fec7e96b534\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\ee56efd2028a137b1e7b46ad6803f6c8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\089b416c84a3207edc957cbc60d518bc\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\30e0e958405b66846d02a5a04c2632ad\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\8d1e7196559230d98c5d054536475b08\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\778ef095425d7656900adc3d8b318169\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\8a260f16f3ac7263400b8b809eb71388\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\e5c9228cd591e57c90bfd781d8d1cd07\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a16329e4340869a96d3e755bf15c1680\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4dcef31a6137ac11691f365ecf5b6fe2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\24ea2789eecf43f2a46fc6ea5a8e4c67\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\1adb357545cb84333bde0bc8439c8f9c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\14f20e4a1859f82c47db95ba3be2796c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\3923af765b7743171c6ef1ec06f5eb6d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\766cf807a8738db2bd876aa87bff534b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\cd13e62109ca61d017d616a7e54cf339\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-221:12
+INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-221:12
+INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-221:12
 	package
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:3:5-28
 		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:5:5-31
 		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-221:12
+		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:1-221:12
 		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:2:11-69
-	android:versionCode
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:4:5-30
-		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.READ_CALENDAR
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:8:5-71
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:6:5-71
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:8:22-69
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:6:22-69
 uses-permission#android.permission.WRITE_CALENDAR
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:9:5-72
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:7:5-72
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:9:22-70
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:7:22-70
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:9:5-80
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:11:22-78
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:12:5-79
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:22:5-79
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:12:22-76
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:10:22-76
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:13:2-72
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:11:2-72
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:13:19-69
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:11:19-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:14:5-67
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:23:5-67
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:14:22-64
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.CALL_PHONE
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:15:2-66
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:13:2-66
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:15:19-63
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:13:19-63
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:16:2-77
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:14:2-77
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:16:19-75
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:14:19-75
 uses-permission#android.permission.CAMERA
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:17:2-61
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:15:2-61
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:17:19-59
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:15:19-59
 uses-permission#com.android.alarm.permission.SET_ALARM
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:18:2-74
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:16:2-74
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:18:19-72
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:16:19-72
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:19:2-75
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:17:2-75
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:19:19-73
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:17:19-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:18:2-78
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:18:19-75
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:20:2-74
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:19:2-74
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:20:19-72
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:19:19-72
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:24:5-71
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:23:5-71
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:24:22-68
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:23:22-68
 uses-permission#android.permission.WAKE_LOCK
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:27:5-68
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:24:5-68
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:26:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:27:22-65
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:26:22-65
 uses-permission#android.permission.VIBRATE
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:30:5-66
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:29:5-66
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:30:22-63
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:29:22-63
 application
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:44:5-214:19
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\3f06e61e0c2bf38edb46d83b5bf852f6\AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\3f06e61e0c2bf38edb46d83b5bf852f6\AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:34:5-57:19
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:34:5-57:19
-MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:7:5-13:19
-MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:7:5-13:19
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\55191bcb370da21dcce20d2821ae48d5\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\55191bcb370da21dcce20d2821ae48d5\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d427d0d359f284ad5079b4b24fadff32\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d427d0d359f284ad5079b4b24fadff32\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\82738086340b5bc42ce7e784ca79decd\AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\82738086340b5bc42ce7e784ca79decd\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\5ec92089d65773ed9a9d25d4b7554e4e\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\5ec92089d65773ed9a9d25d4b7554e4e\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\e26ca2460dc5f4e282d324c5236afdc5\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\e26ca2460dc5f4e282d324c5236afdc5\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\901aaa50b583b45f9a2b1901146886cc\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\901aaa50b583b45f9a2b1901146886cc\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\0a0729e8d7cc4aa14740eb77fb5de864\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\0a0729e8d7cc4aa14740eb77fb5de864\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\04d4c4382d9552ed117bc5dbc5cf3bfe\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\04d4c4382d9552ed117bc5dbc5cf3bfe\AndroidManifest.xml:22:5-20
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:43:5-219:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\e5e492873f87c824fa30a137e8c47983\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\e5e492873f87c824fa30a137e8c47983\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\bfc74fde8f9915c72d3b40745bb73f0c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\bfc74fde8f9915c72d3b40745bb73f0c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\f417d9a3e6093e25c615d687bed79df4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\f417d9a3e6093e25c615d687bed79df4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\5c814e6056203b76c9efad7585224b9b\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\5c814e6056203b76c9efad7585224b9b\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1e00df08c5e833f40c05818713dc128d\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1e00df08c5e833f40c05818713dc128d\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\accf274535d2f99bbe2389ada67843d7\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\accf274535d2f99bbe2389ada67843d7\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\circleimageview-3.0.0.aar\164e56b745f35f9f1589dd3ab52d1aae\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\circleimageview-3.0.0.aar\164e56b745f35f9f1589dd3ab52d1aae\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b119456c4752cfb158e47704b0b9d8fb\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b119456c4752cfb158e47704b0b9d8fb\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\332240895400f2f3e3842521b66ace5a\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\332240895400f2f3e3842521b66ace5a\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\1adb357545cb84333bde0bc8439c8f9c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\1adb357545cb84333bde0bc8439c8f9c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\14f20e4a1859f82c47db95ba3be2796c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\14f20e4a1859f82c47db95ba3be2796c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\3923af765b7743171c6ef1ec06f5eb6d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\3923af765b7743171c6ef1ec06f5eb6d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\766cf807a8738db2bd876aa87bff534b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\766cf807a8738db2bd876aa87bff534b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\cd13e62109ca61d017d616a7e54cf339\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\cd13e62109ca61d017d616a7e54cf339\AndroidManifest.xml:22:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b119456c4752cfb158e47704b0b9d8fb\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:48:9-41
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:47:9-41
 	android:icon
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:47:9-45
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:46:9-45
 	android:allowBackup
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:45:9-35
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:44:9-35
 	android:theme
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:49:9-40
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:48:9-40
 	android:usesCleartextTraffic
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:50:3-38
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:49:3-38
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:46:9-35
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:45:9-34
 activity#group.manager.MainActivity
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:51:9-58:20
 	android:label
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:53:13-45
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:52:13-41
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:52:13-40
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:54:13-57:29
 action#android.intent.action.MAIN
@@ -161,709 +201,783 @@ ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.
 	android:name
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:56:27-74
 activity#group.manager.SplashScreen
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:59:9-86
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:60:9-86
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:59:48-84
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:60:48-84
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:59:19-46
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:60:19-46
 activity#group.manager.SplashScreen1
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:60:9-87
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:61:9-87
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:60:49-85
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:61:49-85
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:60:19-47
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:61:19-47
 activity#group.manager.Login
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:61:9-79
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:62:9-79
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:61:41-77
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:62:41-77
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:61:19-39
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:62:19-39
 activity#group.manager.MenuPage
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:62:9-81
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:63:9-81
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:62:43-79
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:63:43-79
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:62:19-42
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:63:19-42
 activity#group.manager.SwipeScreen
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:63:9-84
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:64:9-84
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:63:46-82
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:64:46-82
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:63:19-45
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:64:19-45
 activity#group.manager.ClubSync
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:64:9-81
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:65:9-81
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:64:43-79
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:65:43-79
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:64:19-42
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:65:19-42
 activity#group.manager.SearchDisplay
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:65:9-86
-	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:65:48-84
-	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:65:19-47
-activity#group.manager.GoverningBody
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:66:9-86
 	android:screenOrientation
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:66:48-84
 	android:name
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:66:19-47
+activity#group.manager.GoverningBody
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:67:9-86
+	android:screenOrientation
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:67:48-84
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:67:19-47
 activity#group.manager.AffiliationAPP
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:67:3-81
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:68:3-81
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:67:43-79
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:68:43-79
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:67:13-42
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:68:13-42
 activity#group.manager.ShowAffiliation
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:68:3-82
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:69:3-82
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:68:44-80
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:69:44-80
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:68:13-43
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:69:13-43
 activity#group.manager.Sug_Comp
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:69:3-75
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:70:3-75
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:69:37-73
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:70:37-73
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:69:13-36
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:70:13-36
 activity#group.manager.ListSuggestion
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:70:3-81
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:71:3-81
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:70:43-79
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:71:43-79
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:70:13-42
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:71:13-42
 activity#group.manager.UpdateProfile
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:71:3-80
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:72:3-142
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:71:42-78
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:72:104-140
+	android:configChanges
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:72:42-103
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:71:13-41
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:72:13-41
 activity#group.manager.EventCalendar
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:72:9-86
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:73:9-86
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:72:48-84
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:73:48-84
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:72:19-47
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:73:19-47
 activity#group.manager.Guest_Registration
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:73:9-91
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:74:9-91
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:73:53-89
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:74:53-89
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:73:19-52
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:74:19-52
 activity#group.manager.CPE_Login
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:74:9-82
-	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:74:44-80
-	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:74:19-43
-activity#group.manager.CPE_Show1
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:75:9-82
 	android:screenOrientation
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:75:44-80
 	android:name
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:75:19-43
-activity#group.manager.CPE_Show2
+activity#group.manager.CPE_Show1
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:76:9-82
 	android:screenOrientation
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:76:44-80
 	android:name
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:76:19-43
-activity#group.manager.CPE_Show3
+activity#group.manager.CPE_Show2
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:77:9-82
 	android:screenOrientation
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:77:44-80
 	android:name
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:77:19-43
+activity#group.manager.CPE_Show3
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:78:9-82
+	android:screenOrientation
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:78:44-80
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:78:19-43
 activity#group.manager.App_Settings
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:78:9-85
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:79:9-85
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:78:47-83
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:79:47-83
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:78:19-46
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:79:19-46
 activity#group.manager.PastPresi_Secretary
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:79:9-92
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:80:9-92
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:79:54-90
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:80:54-90
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:79:19-53
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:80:19-53
 activity#group.manager.ShowPastPresSec
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:80:9-88
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:81:9-88
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:80:50-86
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:81:50-86
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:80:19-49
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:81:19-49
 activity#group.manager.CPE_Program_1
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:81:9-86
-	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:81:48-84
-	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:81:19-47
-activity#group.manager.CPE_Program_2
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:82:9-86
 	android:screenOrientation
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:82:48-84
 	android:name
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:82:19-47
+activity#group.manager.CPE_Program_2
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:83:9-86
+	android:screenOrientation
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:83:48-84
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:83:19-47
 activity#group.manager.ShowBirthadayNotification
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:83:9-98
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:84:9-98
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:83:60-96
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:84:60-96
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:83:19-59
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:84:19-59
 activity#group.manager.MessageDesk
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:84:9-84
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:85:9-84
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:84:46-82
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:85:46-82
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:84:19-45
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:85:19-45
 activity#group.manager.FullAdvertisement
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:85:9-90
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:86:9-90
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:85:52-88
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:86:52-88
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:85:19-51
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:86:19-51
 activity#group.manager.Add_News
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:86:9-81
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:87:9-81
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:86:43-79
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:87:43-79
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:86:19-42
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:87:19-42
 activity#group.manager.ShowBloodGroup
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:87:9-87
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:88:9-87
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:87:49-85
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:88:49-85
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:87:19-48
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:88:19-48
 activity#group.manager.FamilyDetailvalue
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:88:9-90
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:89:9-90
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:88:52-88
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:89:52-88
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:88:19-51
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:89:19-51
 activity#group.manager.UpdateMemberProfile
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:89:9-92
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:90:9-154
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:89:54-90
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:90:116-152
+	android:configChanges
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:90:54-115
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:89:19-53
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:90:19-53
 activity#group.manager.EventDetailValue
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:90:9-89
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:91:9-89
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:90:51-87
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:91:51-87
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:90:19-50
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:91:19-50
 activity#group.manager.ShowAnniversary
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:91:3-82
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:92:3-82
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:91:44-80
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:92:44-80
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:91:13-43
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:92:13-43
 activity#group.manager.ImportantContact
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:92:3-83
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:93:3-83
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:92:45-81
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:93:45-81
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:92:13-44
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:93:13-44
 activity#group.manager.UlilitiesList
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:93:3-80
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:94:3-80
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:93:42-78
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:94:42-78
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:93:13-41
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:94:13-41
 activity#group.manager.SwipeScreenContact
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:94:3-85
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:95:3-85
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:94:47-83
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:95:47-83
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:94:13-46
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:95:13-46
 activity#group.manager.SearchDisplayContact
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:95:3-87
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:96:3-87
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:95:49-85
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:96:49-85
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:95:13-48
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:96:13-48
 activity#group.manager.AdminEventList
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:96:3-81
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:97:3-81
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:96:43-79
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:97:43-79
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:96:13-42
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:97:13-42
 activity#group.manager.Registration
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:97:3-79
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:98:3-79
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:97:41-77
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:98:41-77
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:97:13-40
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:98:13-40
 activity#group.manager.Advisory
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:98:3-75
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:99:3-75
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:98:37-73
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:99:37-73
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:98:13-36
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:99:13-36
 activity#group.manager.Committee
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:99:3-76
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:100:3-76
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:99:38-74
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:100:38-74
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:99:13-37
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:100:13-37
 activity#group.manager.Directory_SingleRecord
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:100:3-89
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:101:3-89
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:100:51-87
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:101:51-87
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:100:13-50
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:101:13-50
 activity#group.manager.Running_Apps_Check
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:101:3-85
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:102:3-85
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:101:47-83
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:102:47-83
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:101:13-46
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:102:13-46
 activity#group.manager.News_EventReadUnread
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:102:3-87
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:103:3-87
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:102:49-85
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:103:49-85
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:102:13-48
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:103:13-48
 activity#group.manager.GroupManagement
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:103:3-82
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:104:3-82
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:103:44-80
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:104:44-80
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:103:13-43
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:104:13-43
 activity#group.manager.Create_Group
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:104:3-79
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:105:3-79
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:104:41-77
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:105:41-77
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:104:13-40
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:105:13-40
 activity#group.manager.SMS_Balance
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:105:3-78
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:106:3-78
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:105:40-76
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:106:40-76
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:105:13-39
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:106:13-39
 activity#group.manager.Send_SMS
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:106:3-75
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:107:3-75
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:106:37-73
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:107:37-73
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:106:13-36
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:107:13-36
 activity#group.manager.SMS_Pending
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:107:3-78
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:108:3-78
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:107:40-76
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:108:40-76
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:107:13-39
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:108:13-39
 activity#group.manager.Gallery
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:108:3-74
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:109:3-74
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:108:36-72
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:109:36-72
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:108:13-35
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:109:13-35
 activity#group.manager.Information
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:109:3-78
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:110:3-78
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:109:40-76
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:110:40-76
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:109:13-39
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:110:13-39
 activity#group.manager.Wedding1
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:110:3-75
-	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:110:37-73
-	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:110:13-36
-activity#group.manager.Wedding2
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:111:3-75
 	android:screenOrientation
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:111:37-73
 	android:name
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:111:13-36
-activity#group.manager.Wedding3
+activity#group.manager.Wedding2
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:112:3-75
 	android:screenOrientation
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:112:37-73
 	android:name
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:112:13-36
+activity#group.manager.Wedding3
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:113:3-75
+	android:screenOrientation
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:113:37-73
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:113:13-36
 activity#group.manager.WeddingFilterDetails
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:113:3-87
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:114:3-87
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:113:49-85
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:114:49-85
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:113:13-48
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:114:13-48
 activity#group.manager.Resend_Notification
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:114:3-86
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:115:3-86
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:114:48-84
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:115:48-84
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:114:13-47
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:115:13-47
 activity#group.manager.Global_Search
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:115:3-80
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:116:3-80
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:115:42-78
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:116:42-78
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:115:13-41
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:116:13-41
 activity#group.manager.NewsMain
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:116:3-75
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:117:3-75
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:116:37-73
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:117:37-73
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:116:13-36
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:117:13-36
 activity#group.manager.NewsMain2
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:117:3-76
-	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:117:38-74
-	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:117:13-37
-activity#group.manager.Add_Event
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:118:3-76
 	android:screenOrientation
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:118:38-74
 	android:name
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:118:13-37
+activity#group.manager.Add_Event
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:119:3-76
+	android:screenOrientation
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:119:38-74
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:119:13-37
 activity#group.manager.OpinionPoll_MainScreen
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:119:3-89
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:120:3-89
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:119:51-87
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:120:51-87
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:119:13-50
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:120:13-50
 activity#group.manager.OpinionPoll_QuestionAnswer
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:120:3-93
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:121:3-93
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:120:55-91
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:121:55-91
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:120:13-54
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:121:13-54
 activity#group.manager.Quiz_ScoreSheet
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:121:3-82
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:122:3-82
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:121:44-80
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:122:44-80
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:121:13-43
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:122:13-43
 activity#group.manager.OpinionPoll_MemberList
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:122:3-89
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:123:3-89
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:122:51-87
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:123:51-87
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:122:13-50
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:123:13-50
 activity#group.manager.Quiz_Summary
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:123:3-79
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:124:3-79
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:123:41-77
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:124:41-77
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:123:13-40
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:124:13-40
 activity#group.manager.OpinionPoll_ScoreSheet
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:124:3-89
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:125:3-89
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:124:51-87
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:125:51-87
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:124:13-50
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:125:13-50
 activity#group.manager.LME_Rates
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:125:3-76
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:126:3-76
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:125:38-74
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:126:38-74
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:125:13-37
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:126:13-37
 activity#group.manager.Newsletter
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:126:3-77
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:127:3-77
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:126:39-75
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:127:39-75
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:126:13-38
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:127:13-38
 activity#group.manager.BookingCawnporClub
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:127:3-85
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:128:3-85
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:127:47-83
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:128:47-83
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:127:13-46
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:128:13-46
 activity#group.manager.BookingsubCate
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:128:3-81
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:129:3-81
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:128:43-79
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:129:43-79
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:128:13-42
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:129:13-42
 activity#group.manager.Timeslot
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:129:3-75
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:130:3-75
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:129:37-73
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:130:37-73
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:129:13-36
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:130:13-36
 activity#group.manager.CalendarviewPg
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:130:3-81
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:131:3-81
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:130:43-79
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:131:43-79
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:130:13-42
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:131:13-42
 activity#group.manager.ShowBookHistory
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:131:3-82
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:132:3-82
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:131:44-80
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:132:44-80
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:131:13-43
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:132:13-43
 activity#group.manager.ReportMain
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:132:3-77
-	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:132:39-75
-	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:132:13-38
-activity#group.manager.ReportNext
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:133:3-77
 	android:screenOrientation
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:133:39-75
 	android:name
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:133:13-38
+activity#group.manager.ReportNext
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:134:3-77
+	android:screenOrientation
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:134:39-75
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:134:13-38
 activity#group.manager.Exchange_Rates
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:134:3-81
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:135:3-81
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:134:43-79
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:135:43-79
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:134:13-42
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:135:13-42
 activity#group.manager.Judgement
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:135:3-76
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:136:3-76
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:135:38-74
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:136:38-74
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:135:13-37
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:136:13-37
 activity#group.manager.JudgementRating
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:136:3-82
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:137:3-82
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:136:44-80
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:137:44-80
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:136:13-43
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:137:13-43
 activity#group.manager.ChangePassword
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:137:3-81
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:138:3-81
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:137:43-79
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:138:43-79
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:137:13-42
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:138:13-42
 activity#group.manager.JudgementReport
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:138:3-82
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:139:3-82
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:138:44-80
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:139:44-80
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:138:13-43
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:139:13-43
 activity#group.manager.JudgementReport2
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:139:3-83
-	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:139:45-81
-	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:139:13-44
-activity#group.manager.JudgementReport3
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:140:3-83
 	android:screenOrientation
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:140:45-81
 	android:name
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:140:13-44
+activity#group.manager.JudgementReport3
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:141:3-83
+	android:screenOrientation
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:141:45-81
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:141:13-44
 activity#group.manager.Voting
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:141:3-73
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:142:3-73
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:141:35-71
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:142:35-71
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:141:13-34
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:142:13-34
 activity#group.manager.VotingReport
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:142:3-79
-	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:142:41-77
-	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:142:13-40
-activity#group.manager.DebtorLedger
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:143:3-79
 	android:screenOrientation
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:143:41-77
 	android:name
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:143:13-40
-activity#group.manager.MCX_Rates
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:144:3-76
+activity#group.manager.DebtorLedger
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:144:3-79
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:144:38-74
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:144:41-77
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:144:13-37
-activity#group.manager.ContactUs
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:144:13-40
+activity#group.manager.MCX_Rates
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:145:3-76
 	android:screenOrientation
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:145:38-74
 	android:name
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:145:13-37
+activity#group.manager.ContactUs
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:146:3-76
+	android:screenOrientation
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:146:38-74
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:146:13-37
 activity#group.manager.AboutUs
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:146:3-74
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:147:3-74
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:146:36-72
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:147:36-72
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:146:13-35
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:147:13-35
 activity#group.manager.District_Song
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:147:3-80
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:148:3-80
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:147:42-78
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:148:42-78
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:147:13-41
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:148:13-41
 activity#group.manager.Directory_New_ListView
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:148:3-89
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:149:3-89
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:148:51-87
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:149:51-87
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:148:13-50
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:149:13-50
 activity#group.manager.Directory_New_ListView_Search
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:149:3-96
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:150:3-96
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:149:58-94
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:150:58-94
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:149:13-57
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:150:13-57
 activity#group.manager.Suggesstion_with_photo
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:150:3-151
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:151:3-151
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:150:113-149
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:151:113-149
 	android:configChanges
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:150:51-112
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:151:51-112
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:150:13-50
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:151:13-50
 activity#group.manager.Add_Poll_Location
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:151:3-84
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:152:3-84
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:151:46-82
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:152:46-82
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:151:13-45
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:152:13-45
 activity#group.manager.MultiRow
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:152:3-75
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:153:3-75
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:152:37-73
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:153:37-73
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:152:13-36
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:153:13-36
 activity#group.manager.Club_PhotoUpload1
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:153:3-84
-	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:153:46-82
-	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:153:13-45
-activity#group.manager.Club_PhotoUpload2
 ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:154:3-84
 	android:screenOrientation
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:154:46-82
 	android:name
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:154:13-45
+activity#group.manager.Club_PhotoUpload2
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:155:3-84
+	android:screenOrientation
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:155:46-82
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:155:13-45
 activity#group.manager.Club_PhotoUpload_Display
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:155:3-91
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:156:3-91
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:155:53-89
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:156:53-89
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:155:13-52
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:156:13-52
 activity#group.manager.FamilyTree
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:156:3-77
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:157:3-77
 	android:screenOrientation
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:156:39-75
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:157:39-75
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:156:13-38
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:157:13-38
+activity#group.manager.DGCalendar
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:158:3-77
+	android:screenOrientation
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:158:39-75
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:158:13-38
+activity#group.manager.MenuPage1
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:159:3-76
+	android:screenOrientation
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:159:38-74
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:159:13-37
+activity#group.manager.Events
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:160:3-73
+	android:screenOrientation
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:160:35-71
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:160:13-34
 service#group.manager.MyFirebaseMessagingService
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:172:3-177:13
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:176:3-181:13
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:173:4-46
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:177:4-45
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:174:4-176:20
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:178:4-180:20
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:175:5-65
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:179:5-65
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:175:13-63
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:179:13-63
 service#group.manager.MyFirebaseInstanceIDService
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:179:3-184:13
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:183:3-188:13
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:180:4-47
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:184:4-46
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:181:4-183:20
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:185:4-187:20
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:182:5-67
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:186:5-67
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:182:13-65
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:186:13-65
 service#group.manager.Service_Call_New
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:187:9-61
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:191:9-60
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:187:18-50
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:191:18-49
+service#group.manager.Service_Call_Sync_Tab4
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:192:3-60
+	android:name
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:192:12-49
 receiver#group.manager.BroadCastRec_Grp
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:189:11-196:16
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:194:3-201:16
 	android:enabled
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:189:54-76
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:194:45-67
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:189:21-53
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:194:13-44
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:190:10-192:26
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:195:10-197:26
 	android:priority
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:190:25-51
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:195:25-51
 action#android.intent.action.BOOT_COMPLETED
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:191:13-75
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:196:13-75
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:191:21-72
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:196:21-72
 intent-filter#action:name:android.intent.action.PHONE_STATE
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:193:10-195:26
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:198:10-200:26
 	android:priority
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:193:25-51
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:198:25-51
 action#android.intent.action.PHONE_STATE
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:194:13-72
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:199:13-72
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:194:21-69
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:199:21-69
 receiver#group.manager.AlarmReceiver
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:198:8-202:16
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:203:9-207:16
 	android:enabled
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:198:48-70
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:203:48-70
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:198:18-47
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:203:19-47
 provider#android.support.v4.content.FileProvider
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:204:3-212:14
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:209:3-217:14
 	android:grantUriPermissions
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:208:4-38
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:213:4-38
 	android:authorities
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:206:4-48
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:211:4-48
 	android:exported
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:207:4-28
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:212:4-28
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:205:4-58
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:210:4-58
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:209:4-211:45
+ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:214:4-216:45
 	android:resource
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:211:5-43
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:216:5-43
 	android:name
-		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:210:5-55
+		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml:215:5-55
 uses-sdk
 INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\3f06e61e0c2bf38edb46d83b5bf852f6\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\3f06e61e0c2bf38edb46d83b5bf852f6\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\55191bcb370da21dcce20d2821ae48d5\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\55191bcb370da21dcce20d2821ae48d5\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d427d0d359f284ad5079b4b24fadff32\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d427d0d359f284ad5079b4b24fadff32\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c3bc0112f1160a7f50b67a94f292e006\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c3bc0112f1160a7f50b67a94f292e006\AndroidManifest.xml:20:5-44
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\82738086340b5bc42ce7e784ca79decd\AndroidManifest.xml:7:5-43
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\82738086340b5bc42ce7e784ca79decd\AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\4f9f8ce8ba3d6adf558e9dea2c2d6ade\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\4f9f8ce8ba3d6adf558e9dea2c2d6ade\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\42993a2911f4130217505ce7284855c9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\42993a2911f4130217505ce7284855c9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8deaa7819a1321b190922dc84766373b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8deaa7819a1321b190922dc84766373b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\e1eccbc3a4ec3761964ba2cf649ba462\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\e1eccbc3a4ec3761964ba2cf649ba462\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\111c69a839d40aeb7ba71dfb087ebffd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\111c69a839d40aeb7ba71dfb087ebffd\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\5ec92089d65773ed9a9d25d4b7554e4e\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\5ec92089d65773ed9a9d25d4b7554e4e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\69db711689a8ea686f521391cb5269bd\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\69db711689a8ea686f521391cb5269bd\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\10bbecebdf8a14992f87353d7bd9506d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\10bbecebdf8a14992f87353d7bd9506d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c35a19848746e8fd57ac4c96817a78e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c35a19848746e8fd57ac4c96817a78e\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\e26ca2460dc5f4e282d324c5236afdc5\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\e26ca2460dc5f4e282d324c5236afdc5\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\901aaa50b583b45f9a2b1901146886cc\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\901aaa50b583b45f9a2b1901146886cc\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\0a0729e8d7cc4aa14740eb77fb5de864\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\0a0729e8d7cc4aa14740eb77fb5de864\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\023eb14a04a7051b13803f387b7c0f3f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\023eb14a04a7051b13803f387b7c0f3f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\04d4c4382d9552ed117bc5dbc5cf3bfe\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\04d4c4382d9552ed117bc5dbc5cf3bfe\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\e5e492873f87c824fa30a137e8c47983\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\e5e492873f87c824fa30a137e8c47983\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\bfc74fde8f9915c72d3b40745bb73f0c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\bfc74fde8f9915c72d3b40745bb73f0c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\f417d9a3e6093e25c615d687bed79df4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\f417d9a3e6093e25c615d687bed79df4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\55ca283e1fb9bb524da20ef44b9540b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\55ca283e1fb9bb524da20ef44b9540b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\5c814e6056203b76c9efad7585224b9b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\5c814e6056203b76c9efad7585224b9b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\ba8bf1b8881eea6cf2abcc23263c9e11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\ba8bf1b8881eea6cf2abcc23263c9e11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1e00df08c5e833f40c05818713dc128d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\1e00df08c5e833f40c05818713dc128d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\accf274535d2f99bbe2389ada67843d7\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\accf274535d2f99bbe2389ada67843d7\AndroidManifest.xml:7:5-43
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\circleimageview-3.0.0.aar\164e56b745f35f9f1589dd3ab52d1aae\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\circleimageview-3.0.0.aar\164e56b745f35f9f1589dd3ab52d1aae\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\6d50a7422d70cc5317a04959c53222ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\6d50a7422d70cc5317a04959c53222ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\f3ab9fed4775aade352f85f2754bba04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\f3ab9fed4775aade352f85f2754bba04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\b9e649a0ac103558b0613987f3e5e39e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\b9e649a0ac103558b0613987f3e5e39e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\cdecddd5c498aa77fce66d40b383864d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\cdecddd5c498aa77fce66d40b383864d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\735d1c09aac724e7bf52dce83f2b3c53\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\735d1c09aac724e7bf52dce83f2b3c53\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\3f3a13762737f2ca1ea5f6b038171bcd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\3f3a13762737f2ca1ea5f6b038171bcd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\58819e337419bf1153d0022e342e4f4a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\58819e337419bf1153d0022e342e4f4a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\d7af8b8f38b01b8ab31c41fedc00c53b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\d7af8b8f38b01b8ab31c41fedc00c53b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\4b0852bd20cc3d0b90198e3aaa461c38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\4b0852bd20cc3d0b90198e3aaa461c38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\edb5ca805127d5f055fd7bc0aa02b07f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\edb5ca805127d5f055fd7bc0aa02b07f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\7a81f2af677699f71f38d1f6a4e9ac1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\7a81f2af677699f71f38d1f6a4e9ac1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\29aa71a53e92d60db0578645c5546445\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\29aa71a53e92d60db0578645c5546445\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\5ca68219ad5b0d4e702247fbabfbfd6e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\5ca68219ad5b0d4e702247fbabfbfd6e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\9a82eb867cf4f8905bdb209ccddf2db6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\9a82eb867cf4f8905bdb209ccddf2db6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\210dd01519e50a738f54008ead1616ed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\210dd01519e50a738f54008ead1616ed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\a1fb388e88703d8273407b6c9ec52f9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\a1fb388e88703d8273407b6c9ec52f9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b119456c4752cfb158e47704b0b9d8fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b119456c4752cfb158e47704b0b9d8fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\332240895400f2f3e3842521b66ace5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\332240895400f2f3e3842521b66ace5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\785fdbfbade24fe7bf0a3fec7e96b534\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\785fdbfbade24fe7bf0a3fec7e96b534\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\ee56efd2028a137b1e7b46ad6803f6c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\ee56efd2028a137b1e7b46ad6803f6c8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\089b416c84a3207edc957cbc60d518bc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\089b416c84a3207edc957cbc60d518bc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\30e0e958405b66846d02a5a04c2632ad\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\30e0e958405b66846d02a5a04c2632ad\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\8d1e7196559230d98c5d054536475b08\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\8d1e7196559230d98c5d054536475b08\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\778ef095425d7656900adc3d8b318169\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\778ef095425d7656900adc3d8b318169\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\8a260f16f3ac7263400b8b809eb71388\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\8a260f16f3ac7263400b8b809eb71388\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\e5c9228cd591e57c90bfd781d8d1cd07\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\e5c9228cd591e57c90bfd781d8d1cd07\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a16329e4340869a96d3e755bf15c1680\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a16329e4340869a96d3e755bf15c1680\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4dcef31a6137ac11691f365ecf5b6fe2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4dcef31a6137ac11691f365ecf5b6fe2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\24ea2789eecf43f2a46fc6ea5a8e4c67\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\24ea2789eecf43f2a46fc6ea5a8e4c67\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\1adb357545cb84333bde0bc8439c8f9c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-12.0.1.aar\1adb357545cb84333bde0bc8439c8f9c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\14f20e4a1859f82c47db95ba3be2796c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\14f20e4a1859f82c47db95ba3be2796c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\3923af765b7743171c6ef1ec06f5eb6d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\3923af765b7743171c6ef1ec06f5eb6d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\766cf807a8738db2bd876aa87bff534b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\766cf807a8738db2bd876aa87bff534b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\cd13e62109ca61d017d616a7e54cf339\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\cd13e62109ca61d017d616a7e54cf339\AndroidManifest.xml:20:5-44
 INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -875,78 +989,78 @@ INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManife
 		ADDED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Android_Studio_Pro_2018\GroupManager\app\src\main\AndroidManifest.xml
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\3f06e61e0c2bf38edb46d83b5bf852f6\AndroidManifest.xml:28:9-34:19
+ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\e5e492873f87c824fa30a137e8c47983\AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\3f06e61e0c2bf38edb46d83b5bf852f6\AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\e5e492873f87c824fa30a137e8c47983\AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\3f06e61e0c2bf38edb46d83b5bf852f6\AndroidManifest.xml:29:13-82
+		ADDED from [com.google.firebase:firebase-messaging:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-messaging-12.0.1.aar\e5e492873f87c824fa30a137e8c47983\AndroidManifest.xml:29:13-82
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:26:5-82
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:26:22-79
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:26:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:28:5-30:47
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:28:5-30:47
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:30:9-44
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:30:9-44
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:29:9-63
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:29:9-63
 permission#group.manager.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:28:5-30:47
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:28:5-30:47
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:30:9-44
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:30:9-44
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:29:9-63
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:29:9-63
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:32:5-79
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:32:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:32:22-76
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:32:22-76
 uses-permission#group.manager.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:32:5-79
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:32:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:32:22-76
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:32:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:35:9-44:20
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:35:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:37:13-36
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:37:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:38:13-73
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:38:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:36:13-78
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:36:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:39:13-43:29
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:39:13-43:29
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:group.manager
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:39:13-43:29
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:39:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:40:17-81
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:40:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:40:25-78
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:40:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:42:17-61
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:42:17-61
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:42:27-58
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:42:27-58
 category#group.manager
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:42:17-61
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:42:17-61
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:42:27-58
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:42:27-58
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:50:9-56:19
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:50:9-56:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:52:13-36
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\59e990519df8ef3c43debb0aa698f749\AndroidManifest.xml:51:13-77
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\d3651cc7a78728122f5a79aaaa6b44aa\AndroidManifest.xml:51:13-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:8:9-12:39
+ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:8:9-12:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:10:13-72
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:11:13-37
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:11:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:12:13-36
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:12:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\5322088787b4772814351b39eebbb38c\AndroidManifest.xml:9:13-77
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\d15fa879e03aadbc41797c08c56e50b6\AndroidManifest.xml:9:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d427d0d359f284ad5079b4b24fadff32\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\f417d9a3e6093e25c615d687bed79df4\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d427d0d359f284ad5079b4b24fadff32\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\f417d9a3e6093e25c615d687bed79df4\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\d427d0d359f284ad5079b4b24fadff32\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Tapas\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\f417d9a3e6093e25c615d687bed79df4\AndroidManifest.xml:24:13-58

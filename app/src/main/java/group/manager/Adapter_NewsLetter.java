@@ -71,12 +71,11 @@ public class Adapter_NewsLetter extends BaseExpandableListAdapter {
             LayoutInflater infalInflater = (LayoutInflater) this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = infalInflater.inflate(R.layout.newsletterheaderlist, null);
         }
-        LinearLayout layoutheader = (LinearLayout) convertView.findViewById(R.id.LinearLayoutHeader);
 
         ImageView imgvwArrow = (ImageView) convertView.findViewById(R.id.imgvwArrow);
-        TextView tvtext = (TextView) convertView.findViewById(R.id.tvtext);
+        TextView txt1 = (TextView) convertView.findViewById(R.id.txt1);
 
-        tvtext.setText(rowItem.EvtName);
+        txt1.setText(rowItem.EvtName);
         if(isExpanded)
         {
           //  tvtext.setTextColor(Color.parseColor("#ff0000"));
@@ -100,9 +99,9 @@ public class Adapter_NewsLetter extends BaseExpandableListAdapter {
             LayoutInflater infalInflater = (LayoutInflater) this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = infalInflater.inflate(R.layout.newsletterchildlist, null);
         }
-        TextView tvmonth = (TextView) convertView.findViewById(R.id.tvtextchild);
+        TextView txt1 = (TextView) convertView.findViewById(R.id.txt1);
 
-        tvmonth.setText(rowItem.EvtName);
+        txt1.setText(rowItem.EvtName);
 
         return convertView;
     }

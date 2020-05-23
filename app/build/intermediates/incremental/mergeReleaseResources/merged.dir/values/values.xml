@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
     <attr format="reference" name="coordinatorLayoutStyle"/>
+    <color name="a1">#FC947E</color>
+    <color name="a10">#DBA4F9</color>
+    <color name="a11">#B8FBAC</color>
+    <color name="a12">#7BBDD3</color>
+    <color name="a13">#A0B2DD</color>
+    <color name="a2">#FCF27E</color>
+    <color name="a3">#BBFC7E</color>
+    <color name="a4">#7ED2FC</color>
+    <color name="a5">#FA95FC</color>
+    <color name="a6">#FC95A8</color>
+    <color name="a7">#FCCF95</color>
+    <color name="a8">#6CF8FA</color>
+    <color name="a9">#D8FA6C</color>
     <color name="black">#000000</color>
     <color name="blue">#0000FF</color>
     <color name="dark">#000015</color>
@@ -180,14 +193,10 @@
     <string name="str_spr_countries">Countries</string>
     <string name="str_spr_states">States</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+        
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
     </style>
     <style name="ButtonText">
     <item name="android:layout_width">fill_parent</item>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2">
+
+    <TextView
+        android:id="@+id/txtHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="EVENTS"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_heading_main"
+        android:layout_gravity="center"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/bg_red"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_forth_coming_event"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txt_forth_coming_event"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:text="FORTH COMING\n EVENTS"
+                android:gravity="center"
+                android:textSize="@dimen/text_heading3"
+                android:textColor="@color/text_red"/>
+            
+            <LinearLayout
+                android:id="@+id/ll_forth_coming_event_red_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom"
+                android:background="@color/text_red"
+                android:orientation="horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_past_event"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txt_past_event"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:text="PAST\n EVENTS"
+                android:gravity="center"
+                android:textSize="@dimen/text_heading3"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:id="@+id/ll_past_event_red_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom"
+                android:background="@color/text_red"
+                android:orientation="horizontal"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/LV1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#00000000"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:dividerHeight="1dp" />
+
+
+</LinearLayout>

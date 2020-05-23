@@ -2,17 +2,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#ffffff"
-    android:orientation="vertical" >
+    android:background="#fdf0ea"
+    android:layout_margin="3dp">
 
     <RelativeLayout
         android:id="@+id/relativeLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="3dp"
-        android:layout_marginRight="3dp"
-        android:layout_marginTop="3dp" >
+        android:layout_margin="5dp" >
 
         <TextView
             android:id="@+id/txtname"
@@ -21,8 +19,8 @@
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:text="TextView"
-            android:textColor="#000080"
-            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_heading2"
             android:textStyle="bold" />
         
         <TextView
@@ -31,8 +29,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:text="Ver"
-            android:textColor="#000000"
-            android:textSize="16dp" />
+            android:textColor="@color/dark_navy"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
 
     </RelativeLayout>
 
@@ -41,9 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/relativeLayout2"
-        android:layout_marginBottom="3dp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginRight="3dp" >
+        android:layout_margin="5dp" >
 
         <TextView
             android:id="@+id/txtmobile"
@@ -52,14 +49,13 @@
             android:layout_alignParentTop="true"
             android:layout_centerVertical="true"
             android:text="mob"
-            android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000"
-            android:textSize="17dp" />
+            android:textSize="16dp" />
 
         <ImageView
             android:id="@+id/imgType"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
             android:layout_alignParentTop="false"
             android:layout_centerInParent="true"
             android:src="@drawable/androidicon" />
@@ -78,18 +74,11 @@
         
         <ImageView
             android:id="@+id/imgAllow"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
             android:layout_alignParentRight="true"
             android:src="@drawable/close" />
         
     </RelativeLayout>
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="fill_parent"
-        android:layout_height="2dp"
-        android:layout_below="@+id/rrmobcity"
-        android:background="#FF000000" />
 
 </RelativeLayout>

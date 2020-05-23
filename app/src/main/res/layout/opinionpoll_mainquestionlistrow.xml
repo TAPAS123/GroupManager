@@ -7,46 +7,40 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp">
+        android:layout_margin="6dp">
 
         <ImageView
             android:id="@+id/img1"
-            android:layout_width="55dp"
-            android:layout_height="60dp"
-            android:layout_alignParentBottom="false"
+            android:layout_width="53dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="5dp"
+            android:padding="3dp"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
-            android:padding="4dp"
             android:src="@drawable/calender" />
 
         <TextView
-            android:id="@+id/tvTitle"
+            android:id="@+id/txt1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="3dp"
-            android:layout_marginRight="4dp"
-            android:layout_marginTop="5dp"
             android:layout_toRightOf="@+id/img1"
             android:gravity="center_vertical"
+            android:layout_margin="2dp"
             android:text="T1"
-            android:textColor="#000000"
-            android:textSize="18dp"
-            android:textStyle="bold" />
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_heading1" />
         
         <TextView
-            android:id="@+id/tvDate"
+            android:id="@+id/txt2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/tvTitle"
-            android:layout_marginLeft="3dp"
-            android:layout_marginRight="4dp"
-            android:layout_marginTop="2dp"
+            android:layout_below="@+id/txt1"
             android:layout_toRightOf="@+id/img1"
             android:gravity="center_vertical"
             android:text="Date"
-            android:textColor="#04810B"
-            android:textSize="17dp" />
+            android:layout_margin="2dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_heading2" />
 
     </RelativeLayout>
 

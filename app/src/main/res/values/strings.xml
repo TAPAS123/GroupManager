@@ -35,20 +35,23 @@
 <string name="str_spr_countries">Countries</string>
 <string name="str_spr_states">States</string>
 <string name="str_spr_cities">Cities</string>
-<string name="str_spr_bloodgrp">Blood Group</string>
-<string name="hello_world">Hello world!</string>
+
+    <string name="str_spr_bloodgrp">Blood Group</string>
+    <string name="str_education">Education</string>
+    <string name="str_workwith">Working With</string>
+
 <string name="action_home">action_home</string>
 <string name="runtime_permissions_txt">Please enable ALL permissions from app settings.</string>
   
-  <style name="MyTheme" parent="@android:style/Theme.Dialog">
+  <style name="MyTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
       <item name="android:textSize">18sp</item>
-    <item name="android:textColorPrimary">#1974D2</item>
+      <item name="android:textColorPrimary">@color/colorAccent</item>
   </style>
   
    <style name="ButtonText">
     <item name="android:layout_width">fill_parent</item>
     <item name="android:layout_height">wrap_content</item>
-    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:textColor">@color/white</item>
     <item name="android:gravity">center</item>
     <item name="android:layout_margin">3dp</item>
     <item name="android:textSize">20dp</item>

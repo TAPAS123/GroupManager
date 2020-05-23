@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/mainbg">
+    android:background="@drawable/bg2">
 
     <TextView
-        android:id="@+id/tvtitle"
+        android:id="@+id/txtHead"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
-        android:gravity="center_vertical|center"
-        android:text=""
-        android:textSize="18dp"
+        android:gravity="center"
+        android:text="Title"
+        android:textSize="@dimen/text_heading_main"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
         android:textColor="#000000"
         android:textStyle="bold"/>
 
@@ -23,39 +24,17 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:gravity="center_vertical"
-        android:background="@drawable/judgement_headerbg"
-        android:layout_marginRight="10dp">
-
-        <!--<TextView-->
-        <!--android:layout_width="0dp"-->
-        <!--android:layout_weight="0.4"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Sno."-->
-        <!--android:paddingBottom="8dp"-->
-        <!--android:paddingTop="8dp"-->
-        <!--android:gravity="center|center_vertical"-->
-        <!--android:textSize="18dp"-->
-        <!--android:textColor="#0a457c"-->
-        <!--android:textStyle="bold"-->
-        <!--android:id="@+id/tvSno" />-->
-
-        <!--<View-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:layout_width="1dp"-->
-        <!--android:background="#9e9e9e"-->
-        <!--android:id="@+id/view1"-->
-        <!--/>-->
+        android:background="@drawable/judgement_headerbg">
 
         <TextView
             android:layout_width="0dp"
             android:layout_weight="1.5"
             android:layout_height="wrap_content"
             android:text="Criteria"
-            android:textSize="18dp"
-            android:paddingBottom="8dp"
-            android:paddingTop="8dp"
-            android:paddingLeft="8dp"
+            android:textSize="@dimen/text_heading1"
+            android:padding="8dp"
             android:gravity="left|center_vertical"
             android:textColor="#0a457c"
             android:textStyle="bold"/>
@@ -63,38 +42,26 @@
         <View
             android:layout_height="match_parent"
             android:layout_width="1dp"
-            android:background="#9e9e9e"
-            android:id="@+id/view2"
-            />
+            android:background="#9e9e9e"/>
 
         <TextView
             android:layout_width="0dp"
             android:layout_weight="0.4"
             android:layout_height="wrap_content"
             android:text="Marks"
-            android:paddingBottom="8dp"
-            android:paddingTop="8dp"
+            android:padding="8dp"
             android:gravity="center|center_vertical"
-            android:textSize="18dp"
+            android:textSize="@dimen/text_heading1"
             android:textColor="#0a457c"
-            android:textStyle="bold"
-            android:id="@+id/textView" />
+            android:textStyle="bold" />
 
     </LinearLayout>
 
-    <RelativeLayout
+    <ListView
+        android:id="@+id/LV1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <ListView
-            android:id="@+id/listview"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_height="wrap_content">
-
-        </ListView>
-
-    </RelativeLayout>
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp" />
 
 </LinearLayout>

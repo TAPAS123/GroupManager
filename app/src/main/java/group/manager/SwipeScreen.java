@@ -1554,7 +1554,7 @@ public class SwipeScreen extends Activity implements SimpleGestureListener,OnCli
 	
 	public void ActionCall(){
 	    actionBar = getActionBar();
-	    setTitle("Clubmanager");
+	    setTitle("Group Manager");
         // add the custom view to the action bar
         actionBar.setCustomView(R.layout.search_layout);
        

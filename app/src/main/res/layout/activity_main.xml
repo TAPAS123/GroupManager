@@ -2,13 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1" >
+    android:background="@drawable/bg2" >
     
     <ListView
         android:id="@+id/lV"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="3dp"
+        android:layout_margin="4dp"
         android:divider="#000000"
         android:dividerHeight="0dp"
         android:padding="5dp" />

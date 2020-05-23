@@ -2,8 +2,20 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1"
+    android:background="@drawable/bg2"
     android:orientation="vertical" >
+
+	<TextView
+		android:id="@+id/txtHead"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="12dp"
+		android:gravity="center_horizontal"
+		android:text="BLOOD GROUP"
+		android:textAllCaps="true"
+		android:textColor="@color/black"
+		android:textSize="@dimen/text_heading_main" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -11,20 +23,21 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/btnSearchblood"
-            style="@style/ButtonText"
+            android:id="@+id/btnSearch"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
-            android:layout_width="80dp"
+            android:layout_width="90dp"
+			android:layout_margin="5dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/green_button"
-            android:text="Search"
+            android:background="@drawable/red_rounded_rectangle"
+            android:text="SEARCH"
+			android:textColor="@color/white"
             android:textSize="16dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_toLeftOf="@+id/btnSearchblood"
-            android:layout_height="wrap_content"
+			android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/btnSearch"
             android:layout_alignParentLeft="true"
             android:layout_marginRight="5dp"
             android:layout_alignParentTop="true"
@@ -35,15 +48,14 @@
                 android:layout_height="wrap_content" >
 
                 <TextView
-                    android:id="@+id/textView1"
                     android:layout_marginLeft="5dp"
-                    android:textStyle="bold" 
-                    android:textColor="#000000"  
+                    android:textStyle="bold"
                     android:layout_gravity="center_vertical"
                     android:layout_width="70dp"
                     android:layout_height="wrap_content"
                     android:text="Group"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
+					android:textColor="#764C4C"
+					android:textSize="@dimen/text_heading1"/>
 
                 <Spinner
                     android:id="@+id/spinnerblood"
@@ -52,50 +64,49 @@
                     android:layout_weight="1" />
                 
             </LinearLayout>
-            
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:id="@+id/splaycity"
-                android:visibility="gone"
-                android:layout_height="wrap_content"> 
-                
-                <TextView
-                    android:id="@+id/textViewc"
-                    android:layout_marginLeft="5dp"
-                    android:textStyle="bold" 
-                    android:textColor="#000000"  
-                    android:layout_gravity="center_vertical"
-                    android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:text="City"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
 
-                <Spinner
-                    android:id="@+id/spinnercity"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
-                
-            </LinearLayout>
+			<LinearLayout
+				android:id="@+id/LLCity"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:visibility="gone">
+
+				<TextView
+					android:layout_width="70dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical"
+					android:layout_marginLeft="5dp"
+					android:text="City"
+					android:textColor="#764C4C"
+					android:textSize="@dimen/text_heading1"
+					android:textStyle="bold" />
+
+				<Spinner
+					android:id="@+id/spinnercity"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1" />
+
+			</LinearLayout>
             
         </LinearLayout>
+
     </RelativeLayout>
   		
      <LinearLayout 
-		  android:id="@+id/linearLayoutsgl" 
+		  android:id="@+id/LLSingle"
+		  android:layout_height="match_parent"
+		  android:layout_width="match_parent"
 		  android:layout_margin="3dp"
 		  android:visibility="gone"
-		  android:layout_height="match_parent" 
-		  android:orientation="vertical"
-		  android:layout_width="match_parent" >
+		  android:orientation="vertical" >
 
          <RelativeLayout
-             android:layout_width="match_parent"
-             android:id="@+id/linearLayoutsingledata" 
+			 android:layout_width="match_parent"
              android:layout_height="match_parent" >
              
              <TextView
-	            android:id="@+id/textViewbloodGrname"
+	            android:id="@+id/txt1"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:text=""
@@ -103,25 +114,24 @@
 	            android:layout_centerHorizontal="true"
 	            android:layout_centerVertical="true"
 	            android:textSize="18dp" 
-	            android:textStyle="bold" 
-	            android:textAppearance="?android:attr/textAppearanceMedium" />
-             
+	            android:textStyle="bold"  />
 
              <Button
-                 android:id="@+id/buttonSMSBloodsend"
-                 android:layout_width="120dp"
-                 android:layout_height="wrap_content"
+                 android:id="@+id/btnSMSSingle"
+                 android:layout_width="match_parent"
+                 android:layout_height="45dp"
                  android:layout_alignParentBottom="true"
                  android:layout_centerHorizontal="true"
-                 style="@style/ButtonText"
                  android:visibility="gone"
-				 android:textSize="16dp" 
-				 android:background="@drawable/green_button" 
-                 android:text="Send Message"  />
+				 android:textSize="16dp"
+				 android:textColor="#ffffff"
+				 android:background="@color/colorPrimary"
+                 android:text="SEND SMS"  />
+
 
              <ListView
-                 android:id="@+id/listViewbloodgr"
-                 android:layout_above="@+id/buttonSMSBloodsend"
+                 android:id="@+id/LV1"
+                 android:layout_above="@+id/btnSMSSingle"
                  android:layout_width="match_parent"
                  android:layout_height="wrap_content"
                  android:layout_alignParentLeft="true"
@@ -132,41 +142,39 @@
          
      </LinearLayout>
 
-     <LinearLayout 
-		  android:id="@+id/linearLayoutBlood" 
-		  android:layout_margin="5dp"
-		 android:visibility="gone"
-		  android:orientation="vertical"
-		  android:layout_height="wrap_content" 
-		  android:layout_width="match_parent" >
-         
-          <RelativeLayout
-             android:layout_width="match_parent"
-             android:layout_height="match_parent" >
-          
-	           <Button
-		         android:id="@+id/buttonSMS"
-		         android:layout_width="120dp"
-                 android:layout_height="wrap_content"
-                 android:layout_alignParentBottom="true"
-                 android:layout_centerHorizontal="true"
-                 style="@style/ButtonText"
-				 android:textSize="16dp" 
-				 android:background="@drawable/green_button" 
-		         android:text="Send sms" />
-	          
-	          <ExpandableListView
-		        android:id="@+id/exp_list"
-		        android:layout_alignParentTop="true"
-		        android:layout_marginBottom="5dp"
-		        android:layout_above="@+id/buttonSMS"
-		        android:layout_width="match_parent"
-		        android:layout_height="wrap_content"/>
-	          
-	       </RelativeLayout>
-    	
-     </LinearLayout>
+	<LinearLayout
+		android:id="@+id/LLBlood"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:orientation="vertical"
+		android:visibility="gone">
 
-     
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<ExpandableListView android:id="@+id/exp_list"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_above="@+id/btnSMS"
+				android:layout_alignParentTop="true"
+				android:layout_marginBottom="5dp" />
+
+			<Button
+				android:id="@+id/btnSMS"
+				android:layout_width="match_parent"
+				android:layout_height="45dp"
+				android:background="@color/colorPrimary"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true"
+				android:text="SEND SMS"
+				android:textAllCaps="true"
+				android:textColor="#ffffff"
+				android:textSize="16dp" />
+
+		</RelativeLayout>
+
+	</LinearLayout>
 
 </LinearLayout>

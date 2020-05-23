@@ -180,6 +180,7 @@ public class Directory_SingleRecord extends Activity{
 			  		 dialog.setContentView(R.layout.additional_data);
 			  		 dialog.setCancelable(false);
 			  		 dialog.show();
+
 			  		 ListView LV=(ListView)dialog.findViewById(R.id.Lv1);
 			  		 Button btnBack=(Button)dialog.findViewById(R.id.btnBack);
                      // Set ListAdapter

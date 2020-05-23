@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 import android.app.Activity;
 import android.content.Context;
-import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -51,10 +50,10 @@ public class Adapter_News_Group extends BaseAdapter {
 		Product p = getProduct(position);
 		LayoutInflater mInflater = (LayoutInflater) context.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
 		if (convertView == null) {
-			convertView = mInflater.inflate(R.layout.select_group, null);
+			convertView = mInflater.inflate(R.layout.list_item_group, null);
 			holder = new ViewHolder();
-		    holder.txtGrpName = (TextView) convertView.findViewById(R.id.txtname);
-		    holder.chk1 = (CheckBox) convertView.findViewById(R.id.cbBox);
+		    holder.txtGrpName = (TextView) convertView.findViewById(R.id.txt1);
+		    holder.chk1 = (CheckBox) convertView.findViewById(R.id.chk1);
 		    convertView.setTag(holder);
 	    } else{
 	      holder = (ViewHolder) convertView.getTag();

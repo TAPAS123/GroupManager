@@ -149,16 +149,16 @@
                      
                  </LinearLayout>
              </ScrollView>
-             
-            <EditText 
-            android:layout_marginTop="3dp"
-            android:layout_height="match_parent" 
-            android:id="@+id/etremarkShowdialogs" 
-            android:background="@drawable/edittextstyle" 
-		    android:textSize="18dp"
-		    android:textColor="#000000"
-		    android:visibility="gone"
-            android:layout_width="match_parent"/>
+
+         <EditText
+             android:id="@+id/etremarkShowdialogs"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginTop="3dp"
+             android:background="@drawable/edittextstyle"
+             android:textColor="#000000"
+             android:textSize="18dp"
+             android:visibility="gone" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -273,20 +273,20 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentTop="true"
-                    android:text="Select All" /> --> 
+                    android:text="Select All" /> -->
 
                 <TextView
                     android:id="@+id/textViewNoDisplay"
-                    android:layout_marginTop="100dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="No Record"
-                    android:textSize="18dp"
-                    android:visibility="gone"
-                    android:textStyle="bold"
                     android:layout_centerHorizontal="true"
+                    android:layout_marginTop="100dp"
+                    android:text="No Record"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="#000000"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
                       
             </RelativeLayout>
         

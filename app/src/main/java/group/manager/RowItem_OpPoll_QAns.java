@@ -6,7 +6,7 @@ package group.manager;
 
 public class RowItem_OpPoll_QAns {
 	
-    public String Sno,Ansopt,Remark,CorrectAns;
+    public String Sno,Ansopt,CorrectAns;
     int CorrectAnsSno;
     boolean flag;
     

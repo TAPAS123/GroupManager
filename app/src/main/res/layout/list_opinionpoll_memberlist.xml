@@ -6,11 +6,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="45dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
         android:layout_marginTop="3dp"
+        android:padding="6dp"
         android:gravity="center_vertical" >
 
         <TextView
@@ -22,7 +21,7 @@
             android:padding="3dp"
             android:text="txt1"
             android:textColor="#0a457c"
-            android:textSize="18dp" />
+            android:textSize="@dimen/text_heading2" />
         
          <TextView
              android:id="@+id/txt2"
@@ -33,7 +32,7 @@
              android:padding="3dp"
              android:text="txt2"
              android:textColor="#0a457c"
-             android:textSize="18dp" />
+             android:textSize="@dimen/text_heading2" />
 
     </LinearLayout>
 

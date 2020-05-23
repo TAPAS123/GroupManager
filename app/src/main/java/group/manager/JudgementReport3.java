@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Typeface;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
@@ -20,99 +21,102 @@ import android.widget.ListView;
 import android.widget.TextView;
 import java.util.ArrayList;
 
+import group.manager.AdapterClasses.AdapterJudgementRpt;
+
 public class JudgementReport3 extends Activity {
+
+    ListView LV1;
+    TextView txtHead;
     Thread networkThread;
-    WebServiceCall opwb;
-    ProgressDialog ringProgressDialog;
-    String  webserviceResponse = "";
-    String ptp_ID, Judge_ID,Judge_name;
+    ProgressDialog Progsdial;
+    String WebResult = "", ptp_ID, Judge_ID, Judge_name, ClubName, ClientId, LogId, MTitle, Title;
+    int OP1_ID = 0;
+    byte[] AppLogo;
     Context context = this;
-    ListView listview;
     ArrayList<JudgementRptModel> arraylist;
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
-    TextView tvtitle;
-    int OP1_ID=0;
-    String ClubName,ClientId,LogId,MTitle,Title; 
-    byte[] AppLogo;
-
+    private boolean InternetPresent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_judgement_report3);
 
-        Intent menuIntent = getIntent(); 
-        OP1_ID = menuIntent.getIntExtra("Mid",0);
-        MTitle=menuIntent.getStringExtra("MTitle");
-        LogId =  menuIntent.getStringExtra("Clt_LogID");
-		ClubName =  menuIntent.getStringExtra("Clt_ClubName");
-		ClientId =  menuIntent.getStringExtra("UserClubName");
-		AppLogo =  menuIntent.getByteArrayExtra("AppLogo");
-		
-		Set_App_Logo_Title(); // Set App Logo and Title
-        
+        txtHead = (TextView) findViewById(R.id.txtHead);
+        LV1 = (ListView) findViewById(R.id.LV1);
+
+        Intent menuIntent = getIntent();
+        OP1_ID = menuIntent.getIntExtra("Mid", 0);
+        MTitle = menuIntent.getStringExtra("MTitle");
+        LogId = menuIntent.getStringExtra("Clt_LogID");
+        ClubName = menuIntent.getStringExtra("Clt_ClubName");
+        ClientId = menuIntent.getStringExtra("UserClubName");
+        AppLogo = menuIntent.getByteArrayExtra("AppLogo");
+
+        GetSh_Pref();//Get Shared Preference Data
+
+        Set_App_Logo_Title(); // Set App Logo and Title
+
+        txtHead.setText(Judge_name);
+        Typeface face = Typeface.createFromAsset(getAssets(), "calibri.ttf");
+        txtHead.setTypeface(face);
+
+        Chkconnection chkconn = new Chkconnection();//Intialise Chkconnection Object
+        InternetPresent = chkconn.isConnectingToInternet(context);
+        if (InternetPresent == true) {
+            WebCall();
+        } else {
+            AlertDisplay("Internet Connection", "No Internet Connection !");
+        }
+    }
+
+
+    private void GetSh_Pref() {
         sharedPreferences = getSharedPreferences("MyPref", Context.MODE_PRIVATE);
-        getshareprefval();
+        if (sharedPreferences.contains("ptp_ID")) {
+            ptp_ID = sharedPreferences.getString("ptp_ID", "");
+        }
+        if (sharedPreferences.contains("Judge_ID")) {
+            Judge_ID = sharedPreferences.getString("Judge_ID", "");
+        }
+        if (sharedPreferences.contains("JudgeName")) {
+            Judge_name = sharedPreferences.getString("JudgeName", "");
+        }
+    }
 
-        listview = (ListView)findViewById(R.id.listview);
-        tvtitle = (TextView)findViewById(R.id.tvtitle);
-        tvtitle.setText(Judge_name);
 
-        arraylist = new ArrayList<JudgementRptModel>();
-        opwb = new WebServiceCall();
+    private void WebCall() {
         Show_ProgressDialog();
         networkThread = new Thread() {
             public void run() {
-                if (isInternetOn()) {
-                    webserviceResponse = opwb.Club_JudgeRpt_DescrCRITERIA_Mem(ClientId, OP1_ID, Integer.valueOf(ptp_ID),Integer.valueOf(Judge_ID));
-                    runOnUiThread(new Runnable()
-                    {
-                        public void run() {
-                            if (!webserviceResponse.contains("^")) {
-                            	 AlertDisplay("",""+webserviceResponse);
-                            } else {
-                                 fill_list();
-                            }
-                        }
+                WebServiceCall webcall = new WebServiceCall();
+                WebResult = webcall.Club_JudgeRpt_DescrCRITERIA_Mem(ClientId, OP1_ID, Integer.valueOf(ptp_ID), Integer.valueOf(Judge_ID));
 
-                    });
-                } else {
-                	AlertDisplay("Internet Connection","No Internet Connection !");
-                }
-                ringProgressDialog.dismiss();
+                runOnUiThread(new Runnable() {
+                    public void run() {
+                        if (!WebResult.contains("^")) {
+                            AlertDisplay("", "" + WebResult);
+                        } else {
+                            fill_list();
+                        }
+                    }
+
+                });
+
+                Progsdial.dismiss();
             }
         };
         networkThread.start();
-
     }
 
-
-    private void getshareprefval()
-    {
-        if(sharedPreferences.contains("ptp_ID"))
-        {
-            ptp_ID =sharedPreferences.getString("ptp_ID", "");
-        }
-        if(sharedPreferences.contains("Judge_ID"))
-        {
-            Judge_ID =sharedPreferences.getString("Judge_ID", "");
-        }
-        if(sharedPreferences.contains("JudgeName"))
-        {
-            Judge_name =sharedPreferences.getString("JudgeName", "");
-        }
-    }
-
-
-    public void fill_list()
-    {
-        String criteria="",ID="",marks="";;
-        int Sno=0;
-        webserviceResponse = webserviceResponse + "#";
-        if(webserviceResponse.contains("#"))
-        {
-            String[] temp = webserviceResponse.split("#");
+    public void fill_list() {
+        arraylist = new ArrayList<JudgementRptModel>();
+        String criteria = "", ID = "", marks = "";
+        int Sno = 0;
+        WebResult = WebResult + "#";
+        if (WebResult.contains("#")) {
+            String[] temp = WebResult.split("#");
             for (int i = 0; i < temp.length; i++) {
                 if (temp[i].contains("^")) {
                     String[] temp1 = temp[i].split("\\^");
@@ -123,93 +127,62 @@ public class JudgementReport3 extends Activity {
                     arraylist.add(new JudgementRptModel(Sno, criteria, marks, ID));
                 }
             }
-            listview.setAdapter(new AdapterJudgementRpt(context, R.layout.rowitem_judgement, arraylist));
+            LV1.setAdapter(new AdapterJudgementRpt(context, R.layout.rowitem_judgement, arraylist));
         }
     }
-    
-    
-    private boolean isInternetOn()
-    {
 
-        ConnectivityManager connec = (ConnectivityManager) getSystemService(getBaseContext().CONNECTIVITY_SERVICE);
+    private void Show_ProgressDialog() {
+        Progsdial = new ProgressDialog(context);
+        Progsdial.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        Progsdial.setMessage("Please Wait...");
+        Progsdial.setIndeterminate(true);
+        Progsdial.setCancelable(false);
+        Progsdial.getWindow().setGravity(Gravity.DISPLAY_CLIP_VERTICAL);
+        Progsdial.show();
+    }
 
-        // Check for network connections
-        if (connec.getNetworkInfo(0).getState() == android.net.NetworkInfo.State.CONNECTED ||
-                connec.getNetworkInfo(0).getState() == android.net.NetworkInfo.State.CONNECTING ||
-                connec.getNetworkInfo(1).getState() == android.net.NetworkInfo.State.CONNECTING ||
-                connec.getNetworkInfo(1).getState() == android.net.NetworkInfo.State.CONNECTED)
-        {
-            return true;
+
+    private void Set_App_Logo_Title() {
+        setTitle(ClubName); // Set Title
+        // Set App LOGO
+        if (AppLogo == null) {
+            getActionBar().setIcon(R.drawable.ic_launcher);
+        } else {
+            Bitmap bitmap = BitmapFactory.decodeByteArray(AppLogo, 0, AppLogo.length);
+            BitmapDrawable icon = new BitmapDrawable(getResources(), bitmap);
+            getActionBar().setIcon(icon);
         }
-        else if (connec.getNetworkInfo(0).getState() == android.net.NetworkInfo.State.DISCONNECTED ||
-                connec.getNetworkInfo(1).getState() == android.net.NetworkInfo.State.DISCONNECTED)
-        {
-            return false;
-        }
-        return false;
     }
 
-    private void Show_ProgressDialog()
-    {
-        ringProgressDialog = new ProgressDialog(context);
-        ringProgressDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        ringProgressDialog.setMessage("Please Wait...");
-        ringProgressDialog.setIndeterminate(true);
-        ringProgressDialog.setCancelable(false);
-        ringProgressDialog.getWindow().setGravity(Gravity.DISPLAY_CLIP_VERTICAL);
-        ringProgressDialog.show();
+    private void AlertDisplay(String head, String body) {
+        AlertDialog ad = new AlertDialog.Builder(this).create();
+        ad.setTitle(Html.fromHtml("<font color='#E3256B'>" + head + "</font>"));
+        ad.setMessage(Html.fromHtml("<font color='#1C1CF0'>" + body + "</font>"));
+        ad.setButton("OK", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                GoBack();
+            }
+        });
+        ad.show();
     }
-   
-   
-    private void Set_App_Logo_Title()
-	 {
-		 setTitle(ClubName); // Set Title
-		 // Set App LOGO
-		 if(AppLogo==null)
-		 {
-			 getActionBar().setIcon(R.drawable.ic_launcher);
-		 }
-		 else
-		 {
-			Bitmap bitmap = BitmapFactory.decodeByteArray(AppLogo,0, AppLogo.length);
-			BitmapDrawable icon = new BitmapDrawable(getResources(),bitmap);
-			getActionBar().setIcon(icon);
-		 }
-	 }
-    
-    
-    private void AlertDisplay(String head,String body)
-    {
-		AlertDialog ad=new AlertDialog.Builder(this).create();
-		ad.setTitle( Html.fromHtml("<font color='#E3256B'>"+head+"</font>"));
-       	ad.setMessage(Html.fromHtml("<font color='#1C1CF0'>"+body+"</font>"));
-		ad.setButton("OK", new DialogInterface.OnClickListener() {
-           public void onClick(DialogInterface dialog, int which) {
-        	   back();
-           }
-       });
-       ad.show();	
-    }
-    
-    public boolean onKeyDown(int keyCode, KeyEvent event)
-    {
+
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-            back();
+            GoBack();
             return true;
         }
         return super.onKeyDown(keyCode, event);
     }
 
-    public void back() {
-        Intent intent = new Intent(context,JudgementReport2.class);
+    public void GoBack() {
+        Intent intent = new Intent(context, JudgementReport2.class);
         intent.putExtra("Mid", OP1_ID);
-	   	 intent.putExtra("MTitle",MTitle);
-	   	 intent.putExtra("Clt_LogID",LogId);
-	   	 intent.putExtra("Clt_ClubName",ClubName);
-        intent.putExtra("UserClubName",ClientId);
+        intent.putExtra("MTitle", MTitle);
+        intent.putExtra("Clt_LogID", LogId);
+        intent.putExtra("Clt_ClubName", ClubName);
+        intent.putExtra("UserClubName", ClientId);
         intent.putExtra("AppLogo", AppLogo);
         startActivity(intent);
         finish();
     }
-
 }

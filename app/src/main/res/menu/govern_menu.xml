@@ -10,7 +10,6 @@
     
    <menu>
     <item android:id="@+id/changyear"
-          android:icon="@drawable/yearchg"
           android:title="Change Year"
           android:showAsAction="always"/>"
    </menu>

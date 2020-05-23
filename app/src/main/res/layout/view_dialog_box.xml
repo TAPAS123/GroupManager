@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="7dp"
-            android:background="#CEF9FE"
+            android:background="#70fdf0ea"
             android:orientation="vertical"
             android:padding="7dp" >
 
@@ -31,8 +31,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="SEARCH"
-                android:textColor="#004080"
-                android:textSize="18dp"
+                android:textColor="#7C1C05"
+                android:textSize="@dimen/text_heading1"
                 android:textStyle="bold" />
             
         </LinearLayout>
@@ -202,14 +202,16 @@
            android:layout_gravity="center"
            android:orientation="vertical" >
 
-            <Button
-                android:id="@+id/btnSearch"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="#004080"
-                android:text="Search"
-                android:textColor="#ffffff" />
+           <Button
+               android:id="@+id/btnSearch"
+               android:layout_width="match_parent"
+               android:layout_height="45dp"
+               android:background="@color/colorPrimary"
+               android:text="Search"
+               android:textAllCaps="true"
+               android:textColor="#ffffff"
+               android:layout_marginTop="10dp"
+               android:textSize="16dp" />
             
         </LinearLayout>
         
@@ -228,7 +230,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="5dp"
-            android:background="#CEF9FE"
+            android:background="#70fdf0ea"
             android:orientation="vertical"
             android:padding="7dp" >
 
@@ -237,8 +239,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="FILTER"
-                android:textColor="#004080"
-                android:textSize="18dp"
+                android:textColor="#7C1C05"
+                android:textSize="@dimen/text_heading1"
                 android:textStyle="bold" />
             
         </LinearLayout>
@@ -267,11 +269,13 @@
             <Button
                 android:id="@+id/btnSaveFilter"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="#004080"
+                android:layout_height="45dp"
+                android:background="@color/colorPrimary"
                 android:text="Apply Filter"
-                android:textColor="#ffffff" />
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp" />
             
         </LinearLayout>
     

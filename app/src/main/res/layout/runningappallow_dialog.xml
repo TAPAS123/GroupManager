@@ -18,23 +18,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Name"
-            android:textSize="18dp" />
+            android:textSize="18dp"
+            android:layout_marginBottom="5dp"/>
         
         <TextView
             android:id="@+id/TVMob"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Mob"
-            android:textSize="16dp" />
+            android:textSize="16dp"
+            android:layout_marginBottom="5dp"/>
         
         <TextView
             android:id="@+id/TVIemi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Iemi"
-            android:textSize="16dp" />
-        
-        
+            android:textSize="16dp"
+            android:layout_marginBottom="5dp"/>
+
+
     </LinearLayout>
 
     <LinearLayout
@@ -46,23 +49,25 @@
 
         <Button
             android:id="@+id/btnAllow"
-            android:layout_width="140dp"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:layout_marginRight="12dp"
-            android:background="#B4C6EE"
+            android:background="@drawable/red_rounded_rectangle"
+            android:textColor="@color/white"
             android:drawableLeft="@drawable/allow"
-            android:padding="5dp"
-            android:text="Activate" />
+            android:padding="16dp"
+            android:text="ACTIVATE" />
 
         <Button
             android:id="@+id/btnDelete1"
-            android:layout_width="125dp"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
-            android:background="#B4C6EE"
-            android:padding="3dp"
-            android:text="Delete" />
+            android:background="@drawable/red_rounded_rectangle"
+            android:textColor="@color/white"
+            android:padding="16dp"
+            android:text="DELETE" />
 
     </LinearLayout>
     
@@ -70,17 +75,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="3dp"
         android:orientation="horizontal" >
         
         <Button
             android:id="@+id/btnCancel1"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
-            android:background="#B4C6EE"
-            android:padding="7dp"
-            android:text="Cancel"
+            android:background="@drawable/red_rounded_rectangle"
+            android:textColor="@color/white"
+            android:padding="16dp"
+            android:text="CANCEL"
             android:typeface="sans" />
         
     </LinearLayout>

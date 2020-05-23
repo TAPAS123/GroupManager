@@ -15,6 +15,7 @@
 	<uses-permission android:name="android.permission.CAMERA"/>
 	<uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/><!-- ADDED on 25-10-2017  -->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /><!-- ADDED on 04-04-2020  -->
 	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/><!-- ADDED on 09-01-2018  -->
 	<!--<uses-permission android:name="android.permission.READ_CALL_LOG"/>--><!-- ADDED on 09-03-2019 for Read Incoming Number only for Android Pie(sdk 28) -->
 
@@ -68,7 +69,7 @@
 		<activity android:name="ShowAffiliation" android:screenOrientation="portrait"/> 
 		<activity android:name="Sug_Comp" android:screenOrientation="portrait"/> 
 		<activity android:name="ListSuggestion" android:screenOrientation="portrait"/> 
-		<activity android:name="UpdateProfile" android:screenOrientation="portrait"/> 
+		<activity android:name="UpdateProfile" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
         <activity android:name="EventCalendar" android:screenOrientation="portrait"/> 
         <activity android:name="Guest_Registration" android:screenOrientation="portrait"/> 
         <activity android:name="CPE_Login" android:screenOrientation="portrait"/> 
@@ -86,7 +87,7 @@
         <activity android:name="Add_News" android:screenOrientation="portrait"/>
         <activity android:name="ShowBloodGroup" android:screenOrientation="portrait"/>
         <activity android:name="FamilyDetailvalue" android:screenOrientation="portrait"/>
-        <activity android:name="UpdateMemberProfile" android:screenOrientation="portrait"/>
+        <activity android:name="UpdateMemberProfile" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
         <activity android:name="EventDetailValue" android:screenOrientation="portrait"/>
 		<activity android:name="ShowAnniversary" android:screenOrientation="portrait"/>
 		<activity android:name="ImportantContact" android:screenOrientation="portrait"/>
@@ -156,6 +157,7 @@
 		<activity android:name="FamilyTree" android:screenOrientation="portrait"/><!-- ADDED ON 05-09-2018 -->
 		<activity android:name="DGCalendar" android:screenOrientation="portrait"/><!-- ADDED ON 21-02-2020 -->
 		<activity android:name="MenuPage1" android:screenOrientation="portrait"/><!-- ADDED ON 25-02-2020 -->
+		<activity android:name="Events" android:screenOrientation="portrait"/><!-- ADDED ON 26-03-2020 -->
 		
         <!-- GCM BROADCAST RECEIVER For PUSH NOTIFICATION-->
 		<!--<receiver
@@ -189,7 +191,7 @@
         <service android:name="Service_Call_New"></service>
 		<service android:name="Service_Call_Sync_Tab4"></service><!--Added on 22-02-2020-->
           
-          <receiver android:name="BroadCastRec_Grp" android:enabled="true"   >
+		<receiver android:name="BroadCastRec_Grp" android:enabled="true"   >
 		       <intent-filter android:priority="1000000">
 		          <action android:name="android.intent.action.BOOT_COMPLETED" />
 		       </intent-filter>
@@ -198,7 +200,7 @@
 		       </intent-filter>
 		  </receiver>
         
-       <receiver android:name="AlarmReceiver" android:enabled="true" >
+        <receiver android:name="AlarmReceiver" android:enabled="true" >
 		    <!--  <intent-filter>
 		      <action android:name="android.intent.action.BOOT_COMPLETED" />
 		   </intent-filter>-->

@@ -1,120 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent"
-     android:background="@drawable/bg1"
-     android:descendantFocusability="beforeDescendants"
-     android:focusableInTouchMode="true">
-     
-	  <RelativeLayout 
-	    android:layout_alignParentTop="true" 
-	    android:layout_height="40dp"
-	    android:layout_marginBottom="10dp"   
-	    android:id="@+id/linearLayout2" 
-	    android:background="#80000000"
-	    android:layout_width="match_parent">   	    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bg2"
+	android:focusableInTouchMode="true"
+	android:orientation="vertical"
+	android:descendantFocusability="beforeDescendants">
+
+	<TextView
+		android:id="@+id/txtHead"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="12dp"
+		android:layout_marginLeft="12dp"
+		android:layout_marginRight="12dp"
+		android:gravity="center"
+		android:text="Title"
+		android:textAllCaps="true"
+		android:textColor="@color/black"
+		android:textSize="@dimen/text_heading_main" />
+
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_margin="10dp"
+		android:layout_weight="1">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:orientation="vertical">
 
 	    <TextView
-	        android:id="@+id/txthead"
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:layout_centerHorizontal="true"
-	        android:layout_centerVertical="true"
-	        android:layout_marginLeft="10dp"
-	        android:text="t1"
-	        android:textColor="#FFFF00"
-	        android:textSize="20dp"
-	        android:textStyle="bold" />
- 
-	    </RelativeLayout>
-	    
-	    <RelativeLayout 
-	    android:layout_alignParentBottom="true"
-	    android:layout_height="wrap_content"
-	    android:layout_marginBottom="10dp"
-	    android:layout_marginLeft="10dp"    
-	    android:id="@+id/RRBOTTOM" 
-	    android:layout_width="match_parent">
+			android:id="@+id/txtAuthClubName"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="10dp"
+					android:text="CName"
+					android:textColor="@color/colorPrimaryDark"
+					android:textSize="@dimen/text_heading1"
+					android:textStyle="bold" />
 
-	        <ImageView
-	            android:id="@+id/imageViewSubmit"
-	            android:layout_width="wrap_content"
-	            android:layout_height="wrap_content"
-	            android:layout_centerHorizontal="true"
-	            android:layout_centerVertical="true"
-	            android:src="@drawable/submit" />
- 
-	    </RelativeLayout>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:text="Title"
+			android:textColor="@color/colorPrimaryDark"
+			android:textSize="@dimen/text_heading1"
+			android:textStyle="bold" />
 
 
-           <ScrollView
-               android:id="@+id/scrollView1"
-			   android:layout_above="@+id/RRBOTTOM" 
-			   android:layout_marginBottom="10dp"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:layout_below="@+id/linearLayout2" >
+		<EditText
+			android:id="@+id/edTitle"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginBottom="10dp"
+			android:padding="8dp"
+			android:inputType="text"
+			android:maxLength="100"
+			android:background="@drawable/photobackground"/>
 
-               <LinearLayout
-                   android:layout_width="match_parent"
-                   android:layout_height="match_parent"
-                   android:orientation="vertical" >
-                   
-                    <LinearLayout
-               android:layout_width="match_parent"
-               android:layout_marginLeft="10dp"
-	    	   android:layout_marginRight="10dp"
-	    	   android:layout_marginBottom="10dp"
-               android:background="#66cdaa7d"
-               android:layout_height="wrap_content"
-               android:orientation="vertical" 
-               android:id="@+id/linearLayout1">
-               
-               <TextView android:id="@+id/txtAuthClubName"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:layout_margin="10dp"
-                   android:text="CName"
-                   android:textColor="#FF033E"
-                   android:textSize="20dp"
-                   android:textStyle="bold" />
+		<ImageView
+			android:id="@+id/imgAddPic"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:layout_gravity="center"
+			android:layout_margin="20dp"
+			android:scaleType="fitXY"
+			android:src="@drawable/user_add" />
 
-               <TextView
-                   android:id="@+id/textView1"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:layout_margin="10dp"
-                   android:text="Title"
-                   android:textColor="#FF033E"
-                   android:textSize="18dp"
-                   android:textStyle="bold" />
+	  </LinearLayout>
 
-               <EditText
-                   android:id="@+id/edtitle"
-                   android:layout_marginLeft="10dp"
-                   android:layout_marginRight="10dp"
-                   android:inputType="text"
-                   android:maxLength="100"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content" >
+	</ScrollView>
 
-               </EditText>
-               
-               <ImageView
-                   android:id="@+id/imgAddPic"
-                   android:layout_width="100dp"
-                   android:layout_height="110dp"
-                   android:layout_gravity="center"
-                   android:layout_margin="20dp"
-                   android:scaleType="fitXY"
-                   android:src="@drawable/user_add" />
+	<Button
+		android:id="@+id/btnSubmit"
+		android:layout_width="match_parent"
+		android:layout_height="45dp"
+		android:background="@color/colorPrimary"
+		android:textColor="#ffffff"
+		android:textSize="16dp"
+		android:text="SUBMIT" />
 
-             
-               
-           </LinearLayout>
-                   
-               </LinearLayout>
-           </ScrollView>
-
-</RelativeLayout>
+</LinearLayout>
 

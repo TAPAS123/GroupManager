@@ -4,41 +4,7 @@
             "outputFile": "D:\\Android_Studio_Pro_2018\\GroupManager\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-12.0.1.aar\\3f06e61e0c2bf38edb46d83b5bf852f6\\res\\values-zh-rTW\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "209",
-                        "endColumns": "96",
-                        "endOffsets": "305"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "267",
-                        "endColumns": "100",
-                        "endOffsets": "363"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\111c69a839d40aeb7ba71dfb087ebffd\\res\\values-zh-rTW\\values-zh-rTW.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "368",
-                        "endColumns": "100",
-                        "endOffsets": "464"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.1.aar\\d427d0d359f284ad5079b4b24fadff32\\res\\values-zh-rTW\\values.xml",
+                    "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.1.aar\\f417d9a3e6093e25c615d687bed79df4\\res\\values-zh-rTW\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -47,11 +13,62 @@
                         "endOffsets": "412"
                     },
                     "to": {
+                        "startLines": "29",
+                        "startColumns": "4",
+                        "startOffsets": "2675",
+                        "endColumns": "161",
+                        "endOffsets": "2832"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\ba8bf1b8881eea6cf2abcc23263c9e11\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,293,393,475,572,680,756,832,924,1018,1116,1212,1308,1402,1498,1590,1682,1774,1852,1948,2044,2139,2236,2331,2431,2581,2675",
+                        "endColumns": "94,92,99,81,96,107,75,75,91,93,97,95,95,93,95,91,91,91,77,95,95,94,96,94,99,149,93,77",
+                        "endOffsets": "195,288,388,470,567,675,751,827,919,1013,1111,1207,1303,1397,1493,1585,1677,1769,1847,1943,2039,2134,2231,2326,2426,2576,2670,2748"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,31",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,293,393,475,572,680,756,832,924,1018,1116,1212,1308,1402,1498,1590,1682,1774,1852,1948,2044,2139,2236,2331,2431,2581,2938",
+                        "endColumns": "94,92,99,81,96,107,75,75,91,93,97,95,95,93,95,91,91,91,77,95,95,94,96,94,99,149,93,77",
+                        "endOffsets": "195,288,388,470,567,675,751,827,919,1013,1111,1207,1303,1397,1493,1585,1677,1769,1847,1943,2039,2134,2231,2326,2426,2576,2670,3011"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\b119456c4752cfb158e47704b0b9d8fb\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "105",
-                        "endColumns": "161",
-                        "endOffsets": "262"
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "32",
+                        "startColumns": "4",
+                        "startOffsets": "3016",
+                        "endColumns": "100",
+                        "endOffsets": "3112"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Tapas\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-12.0.1.aar\\e5e492873f87c824fa30a137e8c47983\\res\\values-zh-rTW\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "209",
+                        "endColumns": "96",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "30",
+                        "startColumns": "4",
+                        "startOffsets": "2837",
+                        "endColumns": "100",
+                        "endOffsets": "2933"
                     }
                 }
             ]

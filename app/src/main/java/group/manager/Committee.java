@@ -20,6 +20,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Typeface;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -29,7 +30,6 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
@@ -37,7 +37,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.AdapterView.OnItemClickListener;
 
-import org.w3c.dom.Text;
+import group.manager.AdapterClasses.Adapter_Committee;
+import group.manager.AdapterClasses.Adapter_NewsMain;
 
 public class Committee extends Activity {
 
@@ -64,7 +65,7 @@ public class Committee extends Activity {
         setContentView(R.layout.committee_list);
 
         Lv = (ListView) findViewById(R.id.LV1);
-        txtHead = (TextView) findViewById(R.id.txthead);
+        txtHead = (TextView) findViewById(R.id.txtHead);
         btnClubInfo = (Button) findViewById(R.id.btnClubInfo);/// Added on 08-02-2019
 
         menuIntent = getIntent();
@@ -91,6 +92,9 @@ public class Committee extends Activity {
         Set_App_Logo_Title(); // Set App Logo and Title
 
         txtHead.setText(MTitle);// Set Head Title
+        Typeface face=Typeface.createFromAsset(getAssets(), "calibri.ttf");
+        txtHead.setTypeface(face);
+        btnClubInfo.setTypeface(face);
 
         Fill_ListView(ItemName);//Fill List View
 
@@ -326,15 +330,6 @@ public class Committee extends Activity {
                 finish();
             }
         }
-    }
-
-
-    private String ChkVal(String Val) {
-        if (Val == null)
-            Val = "";
-        else
-            Val = Val.trim();
-        return Val;
     }
 
 
@@ -879,7 +874,6 @@ public class Committee extends Activity {
         Progsdial.setIndeterminate(true);
         Progsdial.setCancelable(false);
         Progsdial.getWindow().setGravity(Gravity.DISPLAY_CLIP_VERTICAL);
-        Progsdial.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
         Progsdial.show();
     }
 
@@ -891,7 +885,6 @@ public class Committee extends Activity {
         intent.putExtra("ClientID",Str_user);
         startService(intent);
     }
-
 
 
     private void AlertDisplay(String head,String body){
@@ -906,6 +899,11 @@ public class Committee extends Activity {
         ad.show();
     }
 
+    private String ChkVal(String Val) {
+        if (Val == null)
+            Val = "";
+        return Val.trim();
+    }
 
     private void Set_App_Logo_Title() {
         setTitle(ClubName); // Set Title
@@ -922,13 +920,13 @@ public class Committee extends Activity {
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-            backs();
+            GoBack();
             return true;
         }
         return super.onKeyDown(keyCode, event);
     }
 
-    public void backs() {
+    public void GoBack() {
 		/*Intent MainBtnIntent=null;
 		if(PNo==1 || HasSingleData || PgName.equals("ICAI_PP") || PgName.equals("ICAI_QRY")){
 			MainBtnIntent= new Intent(context,MenuPage.class);
@@ -937,5 +935,4 @@ public class Committee extends Activity {
 		}*/
         finish();
     }
-
 }

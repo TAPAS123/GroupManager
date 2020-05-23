@@ -3,9 +3,9 @@ package group.manager;
 import android.graphics.Bitmap;
 
 public class Product {
-	  String name,city,mob,val,memno,MSIds;
-	  boolean box,view;
-	  Bitmap imageId1;
+	 String name,city,mob,val,memno,MSIds;
+	 boolean box,view;
+	 Bitmap imageId1;
 	  int GroupId;
 	  
 	  Product(String name1,String city1,String mob1,boolean _box,Bitmap imageId,boolean _view) {
@@ -47,6 +47,10 @@ public class Product {
 		  name = GroupName;
 		  this.MSIds = MSIds;
 	  }
+
+	public String getName() {
+		return name;
+	}
 }
 	  
 	  

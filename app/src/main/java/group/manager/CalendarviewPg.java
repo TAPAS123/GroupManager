@@ -716,7 +716,6 @@ public class CalendarviewPg extends Activity{
      	Progsdial.setIndeterminate(true);
      	Progsdial.setCancelable(false);
      	Progsdial.getWindow().setGravity(Gravity.DISPLAY_CLIP_VERTICAL);
-     	Progsdial.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
      	Progsdial.show();
      } 
 	 

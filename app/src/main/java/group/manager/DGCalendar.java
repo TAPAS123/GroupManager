@@ -2,7 +2,6 @@ package group.manager;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -28,7 +27,6 @@ import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Button;
-import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.ImageView;
@@ -36,7 +34,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -46,6 +43,8 @@ import java.util.GregorianCalendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
+
+import group.manager.AdapterClasses.Adapter_NewsMain;
 
 public class DGCalendar extends Activity {
     String Str_user,Logcl,logid,ClubName,Str_IEMI,DGProgDates="",UserType="",Table2Name,Table4Name,WebResult="";
@@ -410,7 +409,6 @@ public class DGCalendar extends Activity {
         Progsdial.setIndeterminate(true);
         Progsdial.setCancelable(false);
         Progsdial.getWindow().setGravity(Gravity.DISPLAY_CLIP_VERTICAL);
-        Progsdial.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
         Progsdial.show();
     }
 

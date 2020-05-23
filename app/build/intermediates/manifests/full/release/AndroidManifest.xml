@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="group.manager"
-    android:versionCode="239"
-    android:versionName="3.40" >
+    android:versionCode="244"
+    android:versionName="3.45" >
 
     <uses-sdk
         android:minSdkVersion="16"
-        android:targetSdkVersion="27" />
+        android:targetSdkVersion="28" />
 
     <!-- Calendar Read Write Permission -->
     <uses-permission android:name="android.permission.READ_CALENDAR" />
@@ -363,6 +363,12 @@
         <activity
             android:name="group.manager.FamilyTree"
             android:screenOrientation="portrait" /> <!-- ADDED ON 05-09-2018 -->
+        <activity
+            android:name="group.manager.DGCalendar"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 21-02-2020 -->
+        <activity
+            android:name="group.manager.MenuPage1"
+            android:screenOrientation="portrait" /> <!-- ADDED ON 25-02-2020 -->
 
 
         <!-- GCM BROADCAST RECEIVER For PUSH NOTIFICATION -->
@@ -395,6 +401,7 @@
 
         <!-- Service For Group Manager Pogrammes -->
         <service android:name="group.manager.Service_Call_New" />
+        <service android:name="group.manager.Service_Call_Sync_Tab4" /> <!-- Added on 22-02-2020 -->
 
         <receiver
             android:name="group.manager.BroadCastRec_Grp"

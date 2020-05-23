@@ -1,117 +1,181 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/bg1"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin" >
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bg2"
+	android:descendantFocusability="beforeDescendants"
+	android:focusableInTouchMode="true" >
 
-           <ScrollView
-               android:id="@+id/scrollView1"
-               android:layout_centerHorizontal="true"
-        	   android:layout_centerVertical="true"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:background="#ffffff"
-        	   android:layout_margin="10dp">
+	<ScrollView
+		android:id="@+id/scrollView1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true">
 
-               <LinearLayout
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"
-                   android:orientation="vertical" >
-                   
-                    <RelativeLayout
-		            android:layout_width="match_parent"
-		            android:id="@+id/rr1"
-		             android:background="@drawable/headerbg"
-		            android:layout_height="50dp">
-		
-		            <ImageView
-		                android:id="@+id/imageView1"
-		                android:layout_width="wrap_content"
-		                android:layout_height="wrap_content"
-		                android:src="@drawable/ic_launcher" />
-		
-		            <TextView
-		                android:id="@+id/textView1"
-		                android:layout_width="wrap_content"
-		                android:layout_height="wrap_content"
-		                android:layout_alignParentBottom="true"
-		                android:layout_alignParentRight="true"
-		                android:layout_marginRight="5dp"
-		                android:textSize="21dp"
-		                android:text="Guest Registration"
-		                android:textAppearance="?android:attr/textAppearanceMedium"
-		                android:textColor="#062A78" />
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
 
-		             </RelativeLayout>
-		                   
-		              <EditText
-		                  android:id="@+id/etClubId"
-		                  android:layout_width="match_parent"
-		                  android:layout_height="wrap_content"
-		                  android:layout_marginBottom="5dp"
-		                  android:layout_marginLeft="5dp"
-		                  android:layout_marginRight="5dp"
-		                  android:layout_marginTop="10dp"
-		                  android:background="@drawable/edittextstyle"
-		                  android:hint="Group Code"
-		                  android:inputType="text"
-		                  android:padding="6dp"
-		                  android:textColor="#000000" >
+			<RelativeLayout
+				android:id="@+id/toprelative"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center">
 
-		              </EditText>
-		              
-		              
-		              <EditText
-		                android:id="@+id/etGuestName"
-		                android:layout_marginLeft="5dp"
-		                android:layout_marginRight="5dp"
-		                android:layout_marginBottom="5dp"
-		                android:layout_marginTop="10dp"
-		                android:padding="6dp"
-		                android:inputType="text"
-		                android:hint="Guest Name"
-		                android:textColor="#000000"
-		                android:background="@drawable/edittextstyle"
-		                android:layout_width="match_parent"
-		                android:layout_height="wrap_content">
-		              </EditText>
-		              
-		
-		              <EditText
-		               android:id="@+id/etMob"
-		               android:layout_margin="5dp"
-		               android:maxLength="10"
-		               android:hint="Mobile"
-		               android:background="@drawable/edittextstyle"
-		               android:padding="6dp"
-		               android:inputType="number"
-		               android:layout_width="match_parent"
-		               android:layout_height="wrap_content"/>
-		
-		              <EditText
-		                  android:id="@+id/etEmail"
-		                  android:layout_width="match_parent"
-		                  android:layout_height="wrap_content"
-		                  android:layout_margin="5dp"
-		                  android:background="@drawable/edittextstyle"
-		                  android:hint="Email"
-		                  android:inputType="textEmailAddress"
-		                  android:padding="6dp" />
-		
-		              <ImageView
-		                  android:id="@+id/iV_Submit"
-		                  android:layout_width="wrap_content"
-		                  android:layout_height="wrap_content"
-		                  android:layout_gravity="center_horizontal"
-		                  android:layout_marginBottom="6dp"
-		                  android:layout_marginTop="5dp"
-		                  android:src="@drawable/submit" />
-                   
-               </LinearLayout>
-           </ScrollView>
+				<ImageView
+					android:layout_width="170dp"
+					android:layout_height="170dp"
+					android:layout_marginBottom="8dp"
+					android:layout_marginTop="40dp"
+					android:src="@drawable/ic_launcher" />
+			</RelativeLayout>
+
+			<LinearLayout
+				android:layout_below="@+id/toprelative"
+				android:layout_marginRight="20dp"
+				android:layout_marginLeft="20dp"
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="40dp"
+				android:layout_alignParentBottom="false"
+				android:layout_centerInParent="true">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:orientation="horizontal">
+
+					<ImageView
+						android:layout_width="40dp"
+						android:layout_height="45dp"
+						android:padding="8dp"
+						android:src="@drawable/group_login"/>
+
+					<EditText
+						android:id="@+id/etGroupCode"
+						android:layout_width="match_parent"
+						android:layout_height="45dp"
+						android:background="@null"
+						android:hint="Group Name"
+						android:singleLine="true"
+						android:textSize="16dp" />
+
+					<View
+						android:layout_width="match_parent"
+						android:layout_height="1dp"
+						android:background="@color/black"></View>
+				</LinearLayout>
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="1dp"
+					android:background="@color/black"></View>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:orientation="horizontal">
+
+					<ImageView
+						android:layout_width="40dp"
+						android:layout_height="38dp"
+						android:src="@drawable/user_login"
+						android:padding="8dp"/>
+
+					<EditText
+						android:id="@+id/etName"
+						android:layout_width="match_parent"
+						android:layout_height="45dp"
+						android:layout_weight="1"
+						android:background="@null"
+						android:hint="Name"
+						android:singleLine="true"
+						android:textSize="16dp" />
+
+				</LinearLayout>
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="1dp"
+					android:background="@color/black"></View>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:orientation="horizontal">
+
+					<ImageView
+						android:layout_width="40dp"
+						android:layout_height="38dp"
+						android:src="@drawable/phone"
+						android:padding="8dp"/>
+
+					<EditText
+						android:id="@+id/etMob"
+						android:layout_width="match_parent"
+						android:layout_height="45dp"
+						android:layout_weight="1"
+						android:background="@null"
+						android:hint="Mobile"
+						android:singleLine="true"
+						android:textSize="16dp" />
+
+				</LinearLayout>
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="1dp"
+					android:background="@color/black"></View>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:orientation="horizontal">
+
+					<ImageView
+						android:layout_width="40dp"
+						android:layout_height="38dp"
+						android:src="@drawable/email1"
+						android:padding="8dp"/>
+
+
+					<EditText
+						android:id="@+id/etEmail"
+						android:layout_width="match_parent"
+						android:layout_height="45dp"
+						android:background="@null"
+						android:hint="Email"
+						android:singleLine="true"
+						android:textSize="16dp" />
+
+				</LinearLayout>
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="1dp"
+					android:background="@color/black">
+
+				</View>
+
+
+				<Button
+					android:id="@+id/btnSubmit"
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:layout_gravity="center_horizontal"
+					android:layout_marginTop="25dp"
+					android:background="@drawable/border_red"
+					android:text="SUBMIT"
+					android:textAllCaps="true"
+					android:textColor="@color/white"
+					android:textSize="18dp" />
+
+
+			</LinearLayout>
+		</RelativeLayout>
+	</ScrollView>
 
 </RelativeLayout>

@@ -2,35 +2,29 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1"
+    android:gravity="center_horizontal"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/bg2"
     android:orientation="vertical" >
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/txtHead"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#80000000"
-        android:orientation="vertical" >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="5dp"
-            android:text="Add Event Directors"
-            android:textColor="#FFFF00"
-            android:textSize="19dp"
-            android:textStyle="bold" />
-        
-    </LinearLayout>
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:text="Add Event Directors"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_heading_main" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:background="#80ffffff"
         android:orientation="vertical" >
 
-       <LinearLayout
+        <LinearLayout
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:layout_marginLeft="3dp"
@@ -41,16 +35,16 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="top"
+                android:layout_gravity="center_vertical"
                 android:layout_marginRight="6dp"
                 android:text="Name of Director"
-                android:textSize="17dp"
-                android:textStyle="bold" />
+                android:textColor="#764C4C"
+                android:textSize="@dimen/text_heading2" />
 
             <EditText
                 android:id="@+id/EDDirectorName"
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/photobackground"
                 android:gravity="top"
@@ -69,16 +63,16 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="top"
+                android:layout_gravity="center_vertical"
                 android:layout_marginRight="6dp"
                 android:text="Designation"
-                android:textSize="17dp"
-                android:textStyle="bold" />
+                android:textColor="#764C4C"
+                android:textSize="@dimen/text_heading2" />
 
             <EditText
                 android:id="@+id/EDDesig"
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/photobackground"
                 android:gravity="top"
@@ -97,24 +91,23 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="top"
+                android:layout_gravity="center_vertical"
                 android:layout_marginRight="6dp"
-                android:text="Email-ID"
-                android:textSize="17dp"
-                android:textStyle="bold" />
+                android:text="Email"
+                android:textColor="#764C4C"
+                android:textSize="@dimen/text_heading2" />
 
             <EditText
                 android:id="@+id/EDEmail"
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/photobackground"
                 android:gravity="top"
                 android:maxLength="60" />
 
         </LinearLayout>
-        
-        
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -126,16 +119,16 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="top"
+                android:layout_gravity="center_vertical"
                 android:layout_marginRight="6dp"
-                android:text="Mobile No."
-                android:textSize="17dp"
-                android:textStyle="bold" />
+                android:text="Mobile"
+                android:textColor="#764C4C"
+                android:textSize="@dimen/text_heading2" />
 
             <EditText
                 android:id="@+id/EDMob"
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/photobackground"
                 android:gravity="top"
@@ -147,33 +140,33 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="12dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
             android:orientation="horizontal" >
             
              <Button
                  android:id="@+id/btnAdd"
-                 android:layout_width="110dp"
+                 android:layout_width="130dp"
                  android:layout_height="wrap_content"
                  android:layout_gravity="center_horizontal"
-                 android:background="@drawable/blue_back"
+                 android:background="@drawable/red_rounded_rectangle"
                  android:padding="5dp"
-                 android:text="Add"
+                 android:text="ADD"
                  android:textColor="#ffffff"
-                 android:textSize="18dp"
+                 android:textSize="16dp"
                  android:textStyle="bold" />
              
              <Button
                  android:id="@+id/btnBack"
-                 android:layout_width="110dp"
+                 android:layout_width="130dp"
                  android:layout_height="wrap_content"
                  android:layout_gravity="center_horizontal"
-                 android:layout_marginLeft="20dp"
-                 android:background="@drawable/blue_back"
+                 android:layout_marginLeft="15dp"
+                 android:background="@drawable/red_rounded_rectangle"
                  android:padding="5dp"
-                 android:text="Back"
+                 android:text="BACK"
                  android:textColor="#ffffff"
-                 android:textSize="18dp"
+                 android:textSize="16dp"
                  android:textStyle="bold" />
 
         </LinearLayout>
@@ -191,17 +184,12 @@
              android:layout_width="match_parent"
              android:layout_height="match_parent"
              android:layout_weight="1"
-             android:divider="#00000000"
+             android:divider="#50000000"
              android:dividerHeight="1dp" >
          </ListView>
          
         </LinearLayout>
-       
-       
 
     </LinearLayout>
-    
-    
-    
 
 </LinearLayout>

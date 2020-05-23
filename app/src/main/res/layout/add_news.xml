@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/bg2"
+    android:orientation="vertical" >
+
+    <RelativeLayout android:id="@+id/RL1"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent">
+
+    <TextView
+            android:id="@+id/txtHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="12dp"
+            android:text="ADD NEWS"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_heading_main" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/RLBottom"
+        android:layout_below="@+id/RL1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:text="Date"
+                android:textColor="#764C4C"
+                android:textSize="@dimen/text_heading1" />
+
+            <TextView
+                android:id="@+id/EdDate"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/photobackground"
+                android:hint="dd-mm-yyyy"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="3dp"
+           android:layout_marginRight="3dp"
+           android:layout_marginTop="15dp"
+           android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginRight="6dp"
+                android:text="Title"
+                android:textColor="#764C4C"
+                android:textSize="@dimen/text_heading1" />
+
+            <EditText
+                android:id="@+id/EDTitle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/photobackground"
+                android:gravity="top"
+                android:inputType="text|textMultiLine"
+                android:maxLength="90" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginRight="6dp"
+                android:text="Description"
+                android:textColor="#764C4C"
+                android:textSize="@dimen/text_heading1" />
+
+            <EditText
+                android:id="@+id/EDDesc"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:background="@drawable/photobackground"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:maxLength="1000" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnGroup"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/red_rounded_rectangle"
+                android:textColor="@color/white"
+                android:padding="4dp"
+                android:text="Select Group" />
+            
+            <Button
+                android:id="@+id/btnSelectMember"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/red_rounded_rectangle"
+                android:textColor="@color/white"
+                android:padding="4dp"
+                android:text="Select Member" />
+
+        </LinearLayout>
+        
+        
+        <LinearLayout android:id="@+id/LLSMS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:orientation="vertical">"
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginRight="6dp"
+                android:text="Send SMS also"
+                android:textColor="#764C4C"
+                android:textSize="@dimen/text_heading1"
+                android:textStyle="bold" />
+            
+                <RadioGroup
+                    android:id="@+id/rdGrpSendSMS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="2dp" >
+
+                    <RadioButton
+                        android:id="@+id/rdbtnSMSAll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="All Selected"
+                        android:textSize="16dp" />
+
+                    <RadioButton
+                        android:id="@+id/rdbtnSMSWithOutApp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Only to those who don't have this App"
+                        android:textSize="16dp" />
+
+                </RadioGroup>
+                
+         </LinearLayout>
+       
+       
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+    <RelativeLayout android:id="@+id/RLBottom"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnPendingNews"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="6dp"
+            android:background="@color/colorPrimary"
+            android:text="PENDING NEWS"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/btnPendingNews"
+            android:background="@color/colorPrimary"
+            android:text="SUBMIT"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
